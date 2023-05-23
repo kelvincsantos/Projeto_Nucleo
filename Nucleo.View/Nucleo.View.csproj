@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Views\logo.png" />
+    <None Remove="Views\nucleo.jpeg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Base\Nucleo.Base.csproj" />
+    <ProjectReference Include="..\Nucleo.Data\Nucleo.Data.csproj" />
+    <ProjectReference Include="..\Nucleo.Operacoes\Nucleo.Operacoes.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Views\logo.png" />
+    <Resource Include="Views\nucleo.jpeg" />
+  </ItemGroup>
+
+</Project>
