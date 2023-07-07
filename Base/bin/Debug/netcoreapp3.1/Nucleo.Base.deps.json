@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "Nucleo.Base/1.0.0": {
+        "dependencies": {
+          "Nucleo.Data": "1.0.0"
+        },
+        "runtime": {
+          "Nucleo.Base.dll": {}
+        }
+      },
+      "Nucleo.Data/1.0.0": {
+        "runtime": {
+          "Nucleo.Data.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Nucleo.Base/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Nucleo.Data/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
