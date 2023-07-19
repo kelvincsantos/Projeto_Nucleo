@@ -7,7 +7,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None Remove="Views\logo.png" />
     <None Remove="Views\nucleo.jpeg" />
   </ItemGroup>
 
@@ -18,8 +17,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Resource Include="Views\logo.png" />
-    <Resource Include="Views\nucleo.jpeg" />
+    <Resource Include="Imagens\nucleo.jpeg" />
   </ItemGroup>
 
 </Project>

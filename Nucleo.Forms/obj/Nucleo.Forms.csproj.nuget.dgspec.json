@@ -1,0 +1,318 @@
+{
+  "format": 1,
+  "restore": {
+    "E:\\GIT\\Projeto_Nucleo\\Nucleo.Forms\\Nucleo.Forms.csproj": {}
+  },
+  "projects": {
+    "E:\\GIT\\Projeto_Nucleo\\Base\\Nucleo.Base.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\GIT\\Projeto_Nucleo\\Base\\Nucleo.Base.csproj",
+        "projectName": "Nucleo.Base",
+        "projectPath": "E:\\GIT\\Projeto_Nucleo\\Base\\Nucleo.Base.csproj",
+        "packagesPath": "C:\\Users\\FAMILIA\\.nuget\\packages\\",
+        "outputPath": "E:\\GIT\\Projeto_Nucleo\\Base\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\FAMILIA\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "E:\\GIT\\Projeto_Nucleo\\Nucleo.Data\\Nucleo.Data.csproj": {
+                "projectPath": "E:\\GIT\\Projeto_Nucleo\\Nucleo.Data\\Nucleo.Data.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.Win32.Registry": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.416\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\GIT\\Projeto_Nucleo\\Nucleo.Data\\Nucleo.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\GIT\\Projeto_Nucleo\\Nucleo.Data\\Nucleo.Data.csproj",
+        "projectName": "Nucleo.Data",
+        "projectPath": "E:\\GIT\\Projeto_Nucleo\\Nucleo.Data\\Nucleo.Data.csproj",
+        "packagesPath": "C:\\Users\\FAMILIA\\.nuget\\packages\\",
+        "outputPath": "E:\\GIT\\Projeto_Nucleo\\Nucleo.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\FAMILIA\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.416\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\GIT\\Projeto_Nucleo\\Nucleo.Forms\\Nucleo.Forms.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\GIT\\Projeto_Nucleo\\Nucleo.Forms\\Nucleo.Forms.csproj",
+        "projectName": "Nucleo.Forms",
+        "projectPath": "E:\\GIT\\Projeto_Nucleo\\Nucleo.Forms\\Nucleo.Forms.csproj",
+        "packagesPath": "C:\\Users\\FAMILIA\\.nuget\\packages\\",
+        "outputPath": "E:\\GIT\\Projeto_Nucleo\\Nucleo.Forms\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\FAMILIA\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "E:\\GIT\\Projeto_Nucleo\\Nucleo.View\\Nucleo.View.csproj": {
+                "projectPath": "E:\\GIT\\Projeto_Nucleo\\Nucleo.View\\Nucleo.View.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WindowsForms": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.416\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\GIT\\Projeto_Nucleo\\Nucleo.Operacoes\\Nucleo.Operacoes.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\GIT\\Projeto_Nucleo\\Nucleo.Operacoes\\Nucleo.Operacoes.csproj",
+        "projectName": "Nucleo.Operacoes",
+        "projectPath": "E:\\GIT\\Projeto_Nucleo\\Nucleo.Operacoes\\Nucleo.Operacoes.csproj",
+        "packagesPath": "C:\\Users\\FAMILIA\\.nuget\\packages\\",
+        "outputPath": "E:\\GIT\\Projeto_Nucleo\\Nucleo.Operacoes\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\FAMILIA\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "E:\\GIT\\Projeto_Nucleo\\Nucleo.Data\\Nucleo.Data.csproj": {
+                "projectPath": "E:\\GIT\\Projeto_Nucleo\\Nucleo.Data\\Nucleo.Data.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.Win32.Registry": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.416\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\GIT\\Projeto_Nucleo\\Nucleo.View\\Nucleo.View.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\GIT\\Projeto_Nucleo\\Nucleo.View\\Nucleo.View.csproj",
+        "projectName": "Nucleo.View",
+        "projectPath": "E:\\GIT\\Projeto_Nucleo\\Nucleo.View\\Nucleo.View.csproj",
+        "packagesPath": "C:\\Users\\FAMILIA\\.nuget\\packages\\",
+        "outputPath": "E:\\GIT\\Projeto_Nucleo\\Nucleo.View\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\FAMILIA\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "E:\\GIT\\Projeto_Nucleo\\Base\\Nucleo.Base.csproj": {
+                "projectPath": "E:\\GIT\\Projeto_Nucleo\\Base\\Nucleo.Base.csproj"
+              },
+              "E:\\GIT\\Projeto_Nucleo\\Nucleo.Data\\Nucleo.Data.csproj": {
+                "projectPath": "E:\\GIT\\Projeto_Nucleo\\Nucleo.Data\\Nucleo.Data.csproj"
+              },
+              "E:\\GIT\\Projeto_Nucleo\\Nucleo.Operacoes\\Nucleo.Operacoes.csproj": {
+                "projectPath": "E:\\GIT\\Projeto_Nucleo\\Nucleo.Operacoes\\Nucleo.Operacoes.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.416\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

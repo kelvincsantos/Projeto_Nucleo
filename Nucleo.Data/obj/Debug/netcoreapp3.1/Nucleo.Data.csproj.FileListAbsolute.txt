@@ -8,3 +8,13 @@ G:\GIT\Projeto_Nucleo\Nucleo.Data\obj\Debug\netcoreapp3.1\Nucleo.Data.AssemblyIn
 G:\GIT\Projeto_Nucleo\Nucleo.Data\obj\Debug\netcoreapp3.1\Nucleo.Data.csproj.CoreCompileInputs.cache
 G:\GIT\Projeto_Nucleo\Nucleo.Data\obj\Debug\netcoreapp3.1\Nucleo.Data.dll
 G:\GIT\Projeto_Nucleo\Nucleo.Data\obj\Debug\netcoreapp3.1\Nucleo.Data.pdb
+E:\GIT\Projeto_Nucleo\Nucleo.Data\bin\Debug\netcoreapp3.1\Nucleo.Data.deps.json
+E:\GIT\Projeto_Nucleo\Nucleo.Data\bin\Debug\netcoreapp3.1\Nucleo.Data.dll
+E:\GIT\Projeto_Nucleo\Nucleo.Data\bin\Debug\netcoreapp3.1\Nucleo.Data.pdb
+E:\GIT\Projeto_Nucleo\Nucleo.Data\obj\Debug\netcoreapp3.1\Nucleo.Data.csproj.AssemblyReference.cache
+E:\GIT\Projeto_Nucleo\Nucleo.Data\obj\Debug\netcoreapp3.1\Nucleo.Data.GeneratedMSBuildEditorConfig.editorconfig
+E:\GIT\Projeto_Nucleo\Nucleo.Data\obj\Debug\netcoreapp3.1\Nucleo.Data.AssemblyInfoInputs.cache
+E:\GIT\Projeto_Nucleo\Nucleo.Data\obj\Debug\netcoreapp3.1\Nucleo.Data.AssemblyInfo.cs
+E:\GIT\Projeto_Nucleo\Nucleo.Data\obj\Debug\netcoreapp3.1\Nucleo.Data.csproj.CoreCompileInputs.cache
+E:\GIT\Projeto_Nucleo\Nucleo.Data\obj\Debug\netcoreapp3.1\Nucleo.Data.dll
+E:\GIT\Projeto_Nucleo\Nucleo.Data\obj\Debug\netcoreapp3.1\Nucleo.Data.pdb

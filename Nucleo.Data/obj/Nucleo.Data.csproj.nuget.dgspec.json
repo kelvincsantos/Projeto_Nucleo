@@ -1,31 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "G:\\GIT\\Projeto_Nucleo\\Nucleo.Data\\Nucleo.Data.csproj": {}
+    "E:\\GIT\\Projeto_Nucleo\\Nucleo.Data\\Nucleo.Data.csproj": {}
   },
   "projects": {
-    "G:\\GIT\\Projeto_Nucleo\\Nucleo.Data\\Nucleo.Data.csproj": {
+    "E:\\GIT\\Projeto_Nucleo\\Nucleo.Data\\Nucleo.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "G:\\GIT\\Projeto_Nucleo\\Nucleo.Data\\Nucleo.Data.csproj",
+        "projectUniqueName": "E:\\GIT\\Projeto_Nucleo\\Nucleo.Data\\Nucleo.Data.csproj",
         "projectName": "Nucleo.Data",
-        "projectPath": "G:\\GIT\\Projeto_Nucleo\\Nucleo.Data\\Nucleo.Data.csproj",
-        "packagesPath": "C:\\Users\\Kelvin Carvalho Sant\\.nuget\\packages\\",
-        "outputPath": "G:\\GIT\\Projeto_Nucleo\\Nucleo.Data\\obj\\",
+        "projectPath": "E:\\GIT\\Projeto_Nucleo\\Nucleo.Data\\Nucleo.Data.csproj",
+        "packagesPath": "C:\\Users\\FAMILIA\\.nuget\\packages\\",
+        "outputPath": "E:\\GIT\\Projeto_Nucleo\\Nucleo.Data\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Kelvin Carvalho Sant\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\FAMILIA\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -58,7 +54,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.409\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.416\\RuntimeIdentifierGraph.json"
         }
       }
     }
