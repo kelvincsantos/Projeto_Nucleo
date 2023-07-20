@@ -1,13 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "iGCKtWXN+ojlGydBRUELPlechMT3NL8ORcvOROXeVp+9Q9WKwQ01c8mOnwFTvTg6n6sunBgEKm7fH/Nlz2q+qw==",
+  "dgSpecHash": "dxpL0OwhdHMtBJfPg7/Ivf0lZpbIFso4Us8FT2pWz3FOYQqlDmM+7lMf16DHzTWZ1peceTmSV5TT3oExC0ZSKA==",
   "success": true,
-  "projectFilePath": "E:\\GIT\\Projeto_Nucleo\\Nucleo.Forms\\Nucleo.Forms.csproj",
+  "projectFilePath": "G:\\GIT\\Projeto_Nucleo\\Nucleo.Forms\\Nucleo.Forms.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\FAMILIA\\.nuget\\packages\\microsoft.netcore.platforms\\5.0.0\\microsoft.netcore.platforms.5.0.0.nupkg.sha512",
-    "C:\\Users\\FAMILIA\\.nuget\\packages\\microsoft.win32.registry\\5.0.0\\microsoft.win32.registry.5.0.0.nupkg.sha512",
-    "C:\\Users\\FAMILIA\\.nuget\\packages\\system.security.accesscontrol\\5.0.0\\system.security.accesscontrol.5.0.0.nupkg.sha512",
-    "C:\\Users\\FAMILIA\\.nuget\\packages\\system.security.principal.windows\\5.0.0\\system.security.principal.windows.5.0.0.nupkg.sha512"
+    "C:\\Users\\Kelvin Carvalho Sant\\.nuget\\packages\\microsoft.netcore.platforms\\5.0.0\\microsoft.netcore.platforms.5.0.0.nupkg.sha512",
+    "C:\\Users\\Kelvin Carvalho Sant\\.nuget\\packages\\microsoft.win32.registry\\5.0.0\\microsoft.win32.registry.5.0.0.nupkg.sha512",
+    "C:\\Users\\Kelvin Carvalho Sant\\.nuget\\packages\\system.security.accesscontrol\\5.0.0\\system.security.accesscontrol.5.0.0.nupkg.sha512",
+    "C:\\Users\\Kelvin Carvalho Sant\\.nuget\\packages\\system.security.principal.windows\\5.0.0\\system.security.principal.windows.5.0.0.nupkg.sha512"
   ],
   "logs": []
 }

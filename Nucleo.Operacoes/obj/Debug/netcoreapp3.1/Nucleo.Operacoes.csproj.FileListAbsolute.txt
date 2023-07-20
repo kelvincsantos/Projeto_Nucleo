@@ -21,3 +21,6 @@ E:\GIT\Projeto_Nucleo\Nucleo.Operacoes\obj\Debug\netcoreapp3.1\Nucleo.Operacoes.
 E:\GIT\Projeto_Nucleo\Nucleo.Operacoes\bin\Debug\netcoreapp3.1\Nucleo.Data.dll
 E:\GIT\Projeto_Nucleo\Nucleo.Operacoes\bin\Debug\netcoreapp3.1\Nucleo.Data.pdb
 E:\GIT\Projeto_Nucleo\Nucleo.Operacoes\obj\Debug\netcoreapp3.1\Nucleo.Operacoes.csproj.CopyComplete
+G:\GIT\Projeto_Nucleo\Nucleo.Operacoes\bin\Debug\netcoreapp3.1\Nucleo.Data.dll
+G:\GIT\Projeto_Nucleo\Nucleo.Operacoes\bin\Debug\netcoreapp3.1\Nucleo.Data.pdb
+G:\GIT\Projeto_Nucleo\Nucleo.Operacoes\obj\Debug\netcoreapp3.1\Nucleo.Operacoes.csproj.CopyComplete

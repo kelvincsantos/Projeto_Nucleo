@@ -19,12 +19,10 @@ G:\GIT\Projeto_Nucleo\Nucleo.View\bin\Debug\netcoreapp3.1\Nucleo.Data.pdb
 G:\GIT\Projeto_Nucleo\Nucleo.View\bin\Debug\netcoreapp3.1\Nucleo.Operacoes.pdb
 G:\GIT\Projeto_Nucleo\Nucleo.View\obj\Debug\netcoreapp3.1\Nucleo.View.csproj.AssemblyReference.cache
 G:\GIT\Projeto_Nucleo\Nucleo.View\obj\Debug\netcoreapp3.1\MainWindow.g.cs
-G:\GIT\Projeto_Nucleo\Nucleo.View\obj\Debug\netcoreapp3.1\Views\Login.g.cs
 G:\GIT\Projeto_Nucleo\Nucleo.View\obj\Debug\netcoreapp3.1\App.g.cs
 G:\GIT\Projeto_Nucleo\Nucleo.View\obj\Debug\netcoreapp3.1\Nucleo.View_MarkupCompile.cache
 G:\GIT\Projeto_Nucleo\Nucleo.View\obj\Debug\netcoreapp3.1\Nucleo.View_MarkupCompile.lref
 G:\GIT\Projeto_Nucleo\Nucleo.View\obj\Debug\netcoreapp3.1\MainWindow.baml
-G:\GIT\Projeto_Nucleo\Nucleo.View\obj\Debug\netcoreapp3.1\Views\Login.baml
 G:\GIT\Projeto_Nucleo\Nucleo.View\obj\Debug\netcoreapp3.1\Nucleo.View.g.resources
 G:\GIT\Projeto_Nucleo\Nucleo.View\obj\Debug\netcoreapp3.1\Nucleo.View.GeneratedMSBuildEditorConfig.editorconfig
 G:\GIT\Projeto_Nucleo\Nucleo.View\obj\Debug\netcoreapp3.1\Nucleo.View.AssemblyInfoInputs.cache
