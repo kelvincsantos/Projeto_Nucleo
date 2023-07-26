@@ -7,20 +7,20 @@ namespace Nucleo.Operacoes.BO
 {
     public class Logon
     {
-        public static bool EfetuarAcesso(string usuario, string senha)
+        public static Data.Usuario EfetuarAcesso(string usuario, string senha)
         {
             if (!ChecarLicensa())
-                return false;
+                return null;
 
             Data.Usuario user = ChecarUsuario(usuario);
 
             if (user == null)
-                return false;
+                return null;
 
             if(user.Senha != senha)
-                return false;
+                return null;
 
-            return true;
+            return user;
         }
 
 

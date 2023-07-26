@@ -10,8 +10,7 @@ namespace Nucleo.View.Views.Tela
         
         public void Acessar(string login, string senha)
         {
-            bool acessado = Operacoes.BO.Logon.EfetuarAcesso(login, senha);
-
+            Operacoes.Central.Login(login, senha);
         }
     }
 }

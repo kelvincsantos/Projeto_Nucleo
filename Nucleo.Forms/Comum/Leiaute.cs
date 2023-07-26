@@ -65,12 +65,12 @@ namespace Nucleo.Forms.Comum
                 else if (tamanho == Tamanhos.Medio)
                 {
                     e.Width = 820;
-                    e.Height = 640;
+                    e.Height = 420;
                 }
                 else if (tamanho == Tamanhos.Grande)
                 {
                     e.Width = 1080;
-                    e.Height = 920;
+                    e.Height = 720;
                 }
             }
 

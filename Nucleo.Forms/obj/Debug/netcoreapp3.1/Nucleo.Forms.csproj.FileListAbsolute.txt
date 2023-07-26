@@ -72,3 +72,7 @@ G:\GIT\Projeto_Nucleo\Nucleo.Forms\bin\Debug\netcoreapp3.1\Nucleo.Data.pdb
 G:\GIT\Projeto_Nucleo\Nucleo.Forms\bin\Debug\netcoreapp3.1\Nucleo.Operacoes.pdb
 G:\GIT\Projeto_Nucleo\Nucleo.Forms\obj\Debug\netcoreapp3.1\Nucleo.Forms.csproj.CopyComplete
 G:\GIT\Projeto_Nucleo\Nucleo.Forms\obj\Debug\netcoreapp3.1\Nucleo.Forms.genruntimeconfig.cache
+E:\GIT\Projeto_Nucleo\Nucleo.Forms\obj\Debug\netcoreapp3.1\Nucleo.Forms.Properties.Resources.resources
+E:\GIT\Projeto_Nucleo\Nucleo.Forms\obj\Debug\netcoreapp3.1\Nucleo.Forms.MenuPrincipal.resources
+E:\GIT\Projeto_Nucleo\Nucleo.Forms\obj\Debug\netcoreapp3.1\Nucleo.Forms.MenuPessoas.resources
+G:\GIT\Projeto_Nucleo\Nucleo.Forms\obj\Debug\netcoreapp3.1\Nucleo.Forms.MenuPessoas.resources

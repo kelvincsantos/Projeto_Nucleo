@@ -7,8 +7,10 @@ using System.Windows.Forms;
 
 namespace Nucleo.Forms
 {
-    static class Program
+    public static class Program
     {
+
+        public static Operacoes.Central Central;
         /// <summary>
         ///  The main entry point for the application.
         /// </summary>
@@ -18,11 +20,11 @@ namespace Nucleo.Forms
 
             bool createdNew = true;
 
-            using (Mutex mutex = new Mutex(true, "FrenteCaixaBoxPDV", out createdNew))
+            using (Mutex mutex = new Mutex(true, "Nucleo", out createdNew))
             {
                 if (createdNew)
                 {
-                    //Environment = new Core.Application.Environment();
+                    Central = new Operacoes.Central();
 
                     //Application.SetHighDpiMode(HighDpiMode.SystemAware);
                     Application.EnableVisualStyles();
@@ -31,8 +33,7 @@ namespace Nucleo.Forms
                     Application.ThreadException += new ThreadExceptionEventHandler(Application_ThreadException);
                     AppDomain.CurrentDomain.UnhandledException += new UnhandledExceptionEventHandler(CurrentDomain_UnhandledException);
 
-                    //Environment.Main = new Main();
-                    //Environment.Main.Run();
+                    Central.Iniciar();
                 }
                 else
                 {
@@ -40,10 +41,10 @@ namespace Nucleo.Forms
                 }
             }
 
-            //Application.SetHighDpiMode(HighDpiMode.SystemAware);
-            //Application.EnableVisualStyles();
-            //Application.SetCompatibleTextRenderingDefault(false);
-            //Application.Run(new MenuPrincipal());
+            Application.SetHighDpiMode(HighDpiMode.SystemAware);
+            Application.EnableVisualStyles();
+            Application.SetCompatibleTextRenderingDefault(false);
+            Application.Run(new MenuPrincipal());
         }
 
         /*
