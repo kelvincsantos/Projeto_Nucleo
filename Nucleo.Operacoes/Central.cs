@@ -7,15 +7,17 @@ namespace Nucleo.Operacoes
     public class Central
     {
 
-        public static DadosBasicos Dados { get; set; }
+        public static _Dados Dados { get; set; }
 
-        public partial class DadosBasicos
+        public static _Perifericos Perifericos { get; set; }
+
+        public partial class _Dados
         {
             public Nucleo.Data.Usuario UsuarioLogado { get; set; }
             public Nucleo.Data.Empresa Empresa { get; set; }
             public Nucleo.Data.Configuracao Configuracao { get; set; }
 
-            public DadosBasicos()
+            public _Dados()
             {
                 UsuarioLogado = new Data.Usuario();
                 Empresa = new Data.Empresa();
@@ -23,19 +25,24 @@ namespace Nucleo.Operacoes
             }
         }
 
+        public partial class _Perifericos
+        {
+
+        }
+
         public Central()
         {
-            Dados = new DadosBasicos();
+            Dados = new _Dados();
         }
 
         public bool Iniciar()
         {
-            
-
             EstruturarBancoDeDados();
 
             if (!Licensa())
                 return false;
+
+            Empresa();
 
             return true;
         }
@@ -47,9 +54,9 @@ namespace Nucleo.Operacoes
 
         public bool Login(string usuario, string senha)
         {
-           Sessao.UsuarioLogado = BO.Logon.EfetuarAcesso(usuario, senha);
+           Dados.UsuarioLogado = BO.Logon.EfetuarAcesso(usuario, senha);
 
-            return Sessao.UsuarioLogado != null;
+            return Dados.UsuarioLogado != null;
         }
 
         public void EstruturarBancoDeDados()
@@ -57,5 +64,9 @@ namespace Nucleo.Operacoes
 
         }
         
+        public void Empresa()
+        {
+
+        }
     }
 }
