@@ -8,17 +8,17 @@ namespace Nucleo.Operacoes.Aplicacao
     {
         public static Data.Usuario Usuario
         {
-            get => Central.Dados.UsuarioLogado;
+            get => Central.Principal.Dados.UsuarioLogado;
         }
 
         public static Data.Empresa Empresa
         {
-            get => Central.Dados.Empresa;
+            get => Central.Principal.Dados.Empresa;
         }
 
         public static Data.Configuracao Configuracao
         {
-            get => Central.Dados.Configuracao;
+            get => Central.Principal.Dados.Configuracao;
         }
     }
 }

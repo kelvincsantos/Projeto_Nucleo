@@ -6,16 +6,19 @@ namespace Nucleo.Operacoes
 {
     public class Central
     {
+        public static Central Principal { get; set; }
 
-        public static _Dados Dados { get; set; }
+        public _Dados Dados { get; set; }
 
-        public static _Perifericos Perifericos { get; set; }
+        public _Perifericos Perifericos { get; set; }
 
         public partial class _Dados
         {
             public Nucleo.Data.Usuario UsuarioLogado { get; set; }
             public Nucleo.Data.Empresa Empresa { get; set; }
             public Nucleo.Data.Configuracao Configuracao { get; set; }
+
+            public string Versao { get; set; }
 
             public _Dados()
             {
@@ -33,10 +36,13 @@ namespace Nucleo.Operacoes
         public Central()
         {
             Dados = new _Dados();
+            Perifericos = new _Perifericos();
         }
 
-        public bool Iniciar()
+        public bool Iniciar(Central e)
         {
+            Principal = e;
+
             EstruturarBancoDeDados();
 
             if (!Licensa())
@@ -52,9 +58,9 @@ namespace Nucleo.Operacoes
             return true;
         }
 
-        public bool Login(string usuario, string senha)
+        public bool Login(Data.Usuario e)
         {
-           Dados.UsuarioLogado = BO.Logon.EfetuarAcesso(usuario, senha);
+            Dados.UsuarioLogado = e;
 
             return Dados.UsuarioLogado != null;
         }
@@ -66,7 +72,16 @@ namespace Nucleo.Operacoes
         
         public void Empresa()
         {
-
+            Principal.Dados.Empresa = new Data.Empresa()
+            {
+                CNPJ = "12.123.123/0001-12",
+                NomeFantasia = "Empresa Teste LTDA",
+                RazaoSocial = "Empresa Teste Eirelli",
+            };
+        }
+        public void Versao(string versao)
+        {
+            Principal.Dados.Versao = versao;
         }
     }
 }

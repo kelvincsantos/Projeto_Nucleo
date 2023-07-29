@@ -17,5 +17,20 @@ namespace Nucleo.View.Views.Tela
 
         }
 
+
+        public string Empresa()
+        {
+            return string.Concat("Empresa: ", Operacoes.BO.MenuPrincipal.DadosEmpresa());
+        }
+
+        public string Usuario()
+        {
+            return string.Concat("Usuário logado: ", Operacoes.BO.MenuPrincipal.DadosEmpresa());
+        }
+
+        public string Versao()
+        {
+            return string.Concat("Versão do Sistema: ", Operacoes.BO.MenuPrincipal.DadosVersao());
+        }
     }
 }

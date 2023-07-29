@@ -1,5 +1,5 @@
 ﻿
-namespace Nucleo.Forms
+namespace Nucleo.Forms.Telas
 {
     partial class Login
     {

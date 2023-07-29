@@ -14,7 +14,7 @@ namespace Nucleo.Operacoes.BO
 
             Data.Usuario user = ChecarUsuario(usuario);
 
-            if (user == null)
+            if (user  == null)
                 return null;
 
             if(user.Senha != senha)

@@ -8,9 +8,12 @@ namespace Nucleo.Forms.Controller
 {
     public class Login
     {
-        private Forms.Login form;
+        private Forms.Telas.Login form;
         private View.Views.Tela.Login login;
-        public Login(Forms.Login e)
+
+        public Data.Usuario usuario;
+
+        public Login(Forms.Telas.Login e)
         {
             this.form = e;
             this.login = new View.Views.Tela.Login();
@@ -26,13 +29,19 @@ namespace Nucleo.Forms.Controller
 
         private void BtnCancelar_Click(object sender, EventArgs e)
         {
-            form.Close();
+            Sair();
             Application.Exit();
         }
 
         private void BtnLogin_Click(object sender, EventArgs e)
         {
-            login.Acessar(form.txtLogin.Text.Trim(), form.txtSenha.Text.Trim());
+            usuario = login.Acessar(form.txtLogin.Text.Trim(), form.txtSenha.Text.Trim());
+            Sair();
+        }
+
+        private void Sair()
+        {
+            form.Close();
         }
     }
 }

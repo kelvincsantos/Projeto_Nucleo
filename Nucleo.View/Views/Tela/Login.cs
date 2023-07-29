@@ -8,9 +8,9 @@ namespace Nucleo.View.Views.Tela
     public class Login
     {
         
-        public void Acessar(string login, string senha)
+        public Data.Usuario Acessar(string login, string senha)
         {
-            Operacoes.Central.Login(login, senha);
+             return Operacoes.BO.Logon.EfetuarAcesso(login, senha);
         }
     }
 }

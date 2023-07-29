@@ -33,7 +33,18 @@ namespace Nucleo.Forms
                     Application.ThreadException += new ThreadExceptionEventHandler(Application_ThreadException);
                     AppDomain.CurrentDomain.UnhandledException += new UnhandledExceptionEventHandler(CurrentDomain_UnhandledException);
 
-                    Central.Iniciar();
+                    if(Central.Iniciar(Central))
+                    {
+                        Telas.Login login = new Telas.Login();
+                        Comum.Leiaute.Tela.ExibirPequeno(login);
+                        
+                        if (!Central.Login(login.controller.usuario))
+                            Application.Exit();
+
+                        Central.Versao(Application.ProductVersion.ToString());
+
+                        Comum.Leiaute.Tela.ExibirMedio(new Telas.MenuPrincipal());
+                    }
                 }
                 else
                 {
@@ -41,10 +52,10 @@ namespace Nucleo.Forms
                 }
             }
 
-            Application.SetHighDpiMode(HighDpiMode.SystemAware);
-            Application.EnableVisualStyles();
-            Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new MenuPrincipal());
+            //Application.SetHighDpiMode(HighDpiMode.SystemAware);
+            //Application.EnableVisualStyles();
+            //Application.SetCompatibleTextRenderingDefault(false);
+            //Application.Run(new MenuPrincipal());
         }
 
         /*

@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Nucleo.Forms
+namespace Nucleo.Forms.Telas
 {
     public partial class Login : Form
     {

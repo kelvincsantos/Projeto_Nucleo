@@ -36,8 +36,6 @@ E:\GIT\Projeto_Nucleo\Nucleo.Forms\obj\Debug\netcoreapp3.1\Nucleo.Forms.pdb
 E:\GIT\Projeto_Nucleo\Nucleo.Forms\obj\Debug\netcoreapp3.1\Nucleo.Forms.genruntimeconfig.cache
 G:\GIT\Projeto_Nucleo\Nucleo.Forms\obj\Debug\netcoreapp3.1\Nucleo.Forms.csproj.AssemblyReference.cache
 G:\GIT\Projeto_Nucleo\Nucleo.Forms\obj\Debug\netcoreapp3.1\Nucleo.Forms.Properties.Resources.resources
-G:\GIT\Projeto_Nucleo\Nucleo.Forms\obj\Debug\netcoreapp3.1\Nucleo.Forms.Login.resources
-G:\GIT\Projeto_Nucleo\Nucleo.Forms\obj\Debug\netcoreapp3.1\Nucleo.Forms.MenuPrincipal.resources
 G:\GIT\Projeto_Nucleo\Nucleo.Forms\obj\Debug\netcoreapp3.1\Nucleo.Forms.csproj.GenerateResource.cache
 G:\GIT\Projeto_Nucleo\Nucleo.Forms\obj\Debug\netcoreapp3.1\Nucleo.Forms.GeneratedMSBuildEditorConfig.editorconfig
 G:\GIT\Projeto_Nucleo\Nucleo.Forms\obj\Debug\netcoreapp3.1\Nucleo.Forms.AssemblyInfoInputs.cache
@@ -76,3 +74,5 @@ E:\GIT\Projeto_Nucleo\Nucleo.Forms\obj\Debug\netcoreapp3.1\Nucleo.Forms.Properti
 E:\GIT\Projeto_Nucleo\Nucleo.Forms\obj\Debug\netcoreapp3.1\Nucleo.Forms.MenuPrincipal.resources
 E:\GIT\Projeto_Nucleo\Nucleo.Forms\obj\Debug\netcoreapp3.1\Nucleo.Forms.MenuPessoas.resources
 G:\GIT\Projeto_Nucleo\Nucleo.Forms\obj\Debug\netcoreapp3.1\Nucleo.Forms.MenuPessoas.resources
+G:\GIT\Projeto_Nucleo\Nucleo.Forms\obj\Debug\netcoreapp3.1\Nucleo.Forms.Telas.Login.resources
+G:\GIT\Projeto_Nucleo\Nucleo.Forms\obj\Debug\netcoreapp3.1\Nucleo.Forms.Telas.MenuPrincipal.resources

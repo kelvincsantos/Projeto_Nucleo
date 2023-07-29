@@ -74,6 +74,27 @@ namespace Nucleo.Forms.Comum
                 }
             }
 
+            public static void ExibirPequeno(System.Windows.Forms.Form e)
+            {
+                Carregar(e);
+                Tamanho(e, Tamanhos.Pequeno);
+                e.ShowDialog();
+            }
+
+            public static void ExibirMedio(System.Windows.Forms.Form e)
+            {
+                Carregar(e);
+                Tamanho(e, Tamanhos.Medio);
+                e.ShowDialog();
+            }
+
+            public static void ExibirGrande(System.Windows.Forms.Form e)
+            {
+                Carregar(e);
+                Tamanho(e, Tamanhos.Grande);
+                e.ShowDialog();
+            }
+
             public enum Tamanhos
             {
                 Pequeno = 1,

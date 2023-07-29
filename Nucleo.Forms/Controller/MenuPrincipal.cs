@@ -8,21 +8,32 @@ namespace Nucleo.Forms.Controller
 {
     public class MenuPrincipal
     {
-        private Forms.MenuPrincipal form;
-        private View.Views.Tela.MenuPrincipal menuPrincipal;
-        public MenuPrincipal(Forms.MenuPrincipal e)
+        private Telas.MenuPrincipal form;
+        private View.Views.Tela.MenuPrincipal view;
+        public MenuPrincipal(Telas.MenuPrincipal e)
         {
             this.form = e;
-            this.menuPrincipal = new View.Views.Tela.MenuPrincipal();
+            this.view = new View.Views.Tela.MenuPrincipal();
 
-            Forms.Comum.Leiaute.Tela.Carregar(form);
-            Forms.Comum.Leiaute.Tela.Tamanho(form, Comum.Leiaute.Tela.Tamanhos.Grande);
+            form.Load += Form_Load;
+        }
+
+        private void Form_Load(object sender, EventArgs e)
+        {
+            CarregarTopo();
         }
 
         private void BtnCancelar_Click(object sender, EventArgs e)
         {
             form.Close();
             Application.Exit();
+        }
+
+        private void CarregarTopo()
+        {
+            form.lblEmpresa.Text = view.Empresa();
+            form.lblUsuario.Text = view.Usuario();
+            form.lblVersao.Text = view.Versao();
         }
     }
 }
