@@ -29,133 +29,112 @@ namespace Nucleo.Forms
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MenuPessoas));
             this.LayoutGeral = new System.Windows.Forms.TableLayoutPanel();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.pnLogin = new System.Windows.Forms.Panel();
-            this.btnCancelar = new System.Windows.Forms.Button();
-            this.btnLogin = new System.Windows.Forms.Button();
-            this.txtSenha = new System.Windows.Forms.TextBox();
-            this.lblSenha = new System.Windows.Forms.Label();
-            this.txtLogin = new System.Windows.Forms.TextBox();
-            this.lblLogin = new System.Windows.Forms.Label();
+            this.btnVendedores = new Nucleo.Forms.Telas.Controls.Botao();
+            this.btnFuncionarios = new Nucleo.Forms.Telas.Controls.Botao();
+            this.btnClientes = new Nucleo.Forms.Telas.Controls.Botao();
+            this.btnUsuarios = new Nucleo.Forms.Telas.Controls.Botao();
             this.LayoutGeral.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            this.pnLogin.SuspendLayout();
             this.SuspendLayout();
             // 
             // LayoutGeral
             // 
-            this.LayoutGeral.ColumnCount = 3;
-            this.LayoutGeral.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 20F));
-            this.LayoutGeral.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 60F));
-            this.LayoutGeral.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 20F));
-            this.LayoutGeral.Controls.Add(this.pictureBox1, 1, 1);
-            this.LayoutGeral.Controls.Add(this.pnLogin, 1, 2);
+            this.LayoutGeral.ColumnCount = 9;
+            this.LayoutGeral.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 4.424779F));
+            this.LayoutGeral.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 19.46903F));
+            this.LayoutGeral.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 4.424779F));
+            this.LayoutGeral.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 19.46903F));
+            this.LayoutGeral.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 4.424779F));
+            this.LayoutGeral.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 19.46903F));
+            this.LayoutGeral.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 4.424779F));
+            this.LayoutGeral.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 19.46903F));
+            this.LayoutGeral.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 4.424779F));
+            this.LayoutGeral.Controls.Add(this.btnVendedores, 5, 1);
+            this.LayoutGeral.Controls.Add(this.btnFuncionarios, 7, 1);
+            this.LayoutGeral.Controls.Add(this.btnClientes, 1, 1);
+            this.LayoutGeral.Controls.Add(this.btnUsuarios, 3, 1);
             this.LayoutGeral.Dock = System.Windows.Forms.DockStyle.Fill;
             this.LayoutGeral.Location = new System.Drawing.Point(0, 0);
             this.LayoutGeral.Name = "LayoutGeral";
-            this.LayoutGeral.RowCount = 4;
-            this.LayoutGeral.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 10F));
-            this.LayoutGeral.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.LayoutGeral.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 30F));
-            this.LayoutGeral.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 10F));
+            this.LayoutGeral.RowCount = 9;
+            this.LayoutGeral.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 3.030303F));
+            this.LayoutGeral.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 21.21212F));
+            this.LayoutGeral.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 3.030303F));
+            this.LayoutGeral.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 21.21212F));
+            this.LayoutGeral.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 3.030303F));
+            this.LayoutGeral.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 21.21212F));
+            this.LayoutGeral.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 3.030303F));
+            this.LayoutGeral.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 21.21212F));
+            this.LayoutGeral.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 3.030303F));
             this.LayoutGeral.Size = new System.Drawing.Size(584, 362);
             this.LayoutGeral.TabIndex = 0;
             // 
-            // pictureBox1
+            // btnVendedores
             // 
-            this.pictureBox1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(119, 39);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(344, 175);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 0;
-            this.pictureBox1.TabStop = false;
+            this.btnVendedores.BackColor = System.Drawing.Color.DarkSlateGray;
+            this.btnVendedores.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.btnVendedores.FlatAppearance.BorderSize = 0;
+            this.btnVendedores.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnVendedores.ForeColor = System.Drawing.Color.Transparent;
+            this.btnVendedores.Location = new System.Drawing.Point(304, 13);
+            this.btnVendedores.Name = "btnVendedores";
+            this.btnVendedores.Size = new System.Drawing.Size(107, 70);
+            this.btnVendedores.TabIndex = 0;
+            this.btnVendedores.Text = "Vendedores";
+            this.btnVendedores.UseVisualStyleBackColor = false;
             // 
-            // pnLogin
+            // btnFuncionarios
             // 
-            this.pnLogin.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pnLogin.Controls.Add(this.btnCancelar);
-            this.pnLogin.Controls.Add(this.btnLogin);
-            this.pnLogin.Controls.Add(this.txtSenha);
-            this.pnLogin.Controls.Add(this.lblSenha);
-            this.pnLogin.Controls.Add(this.txtLogin);
-            this.pnLogin.Controls.Add(this.lblLogin);
-            this.pnLogin.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.pnLogin.Location = new System.Drawing.Point(119, 220);
-            this.pnLogin.Name = "pnLogin";
-            this.pnLogin.Size = new System.Drawing.Size(344, 102);
-            this.pnLogin.TabIndex = 1;
+            this.btnFuncionarios.BackColor = System.Drawing.Color.DarkSlateGray;
+            this.btnFuncionarios.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.btnFuncionarios.FlatAppearance.BorderSize = 0;
+            this.btnFuncionarios.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnFuncionarios.ForeColor = System.Drawing.Color.Transparent;
+            this.btnFuncionarios.Location = new System.Drawing.Point(442, 13);
+            this.btnFuncionarios.Name = "btnFuncionarios";
+            this.btnFuncionarios.Size = new System.Drawing.Size(107, 70);
+            this.btnFuncionarios.TabIndex = 1;
+            this.btnFuncionarios.Text = "Funcionários";
+            this.btnFuncionarios.UseVisualStyleBackColor = false;
             // 
-            // btnCancelar
+            // btnClientes
             // 
-            this.btnCancelar.Location = new System.Drawing.Point(224, 52);
-            this.btnCancelar.Name = "btnCancelar";
-            this.btnCancelar.Size = new System.Drawing.Size(75, 23);
-            this.btnCancelar.TabIndex = 5;
-            this.btnCancelar.Text = "Cancelar";
-            this.btnCancelar.UseVisualStyleBackColor = true;
+            this.btnClientes.BackColor = System.Drawing.Color.DarkSlateGray;
+            this.btnClientes.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.btnClientes.FlatAppearance.BorderSize = 0;
+            this.btnClientes.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnClientes.ForeColor = System.Drawing.Color.Transparent;
+            this.btnClientes.Location = new System.Drawing.Point(28, 13);
+            this.btnClientes.Name = "btnClientes";
+            this.btnClientes.Size = new System.Drawing.Size(107, 70);
+            this.btnClientes.TabIndex = 2;
+            this.btnClientes.Text = "Clientes";
+            this.btnClientes.UseVisualStyleBackColor = false;
             // 
-            // btnLogin
+            // btnUsuarios
             // 
-            this.btnLogin.Location = new System.Drawing.Point(224, 23);
-            this.btnLogin.Name = "btnLogin";
-            this.btnLogin.Size = new System.Drawing.Size(75, 23);
-            this.btnLogin.TabIndex = 4;
-            this.btnLogin.Text = "OK";
-            this.btnLogin.UseVisualStyleBackColor = true;
+            this.btnUsuarios.BackColor = System.Drawing.Color.DarkSlateGray;
+            this.btnUsuarios.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.btnUsuarios.FlatAppearance.BorderSize = 0;
+            this.btnUsuarios.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnUsuarios.ForeColor = System.Drawing.Color.Transparent;
+            this.btnUsuarios.Location = new System.Drawing.Point(166, 13);
+            this.btnUsuarios.Name = "btnUsuarios";
+            this.btnUsuarios.Size = new System.Drawing.Size(107, 70);
+            this.btnUsuarios.TabIndex = 3;
+            this.btnUsuarios.Text = "Usuários";
+            this.btnUsuarios.UseVisualStyleBackColor = false;
             // 
-            // txtSenha
-            // 
-            this.txtSenha.Location = new System.Drawing.Point(18, 68);
-            this.txtSenha.Name = "txtSenha";
-            this.txtSenha.PasswordChar = '*';
-            this.txtSenha.Size = new System.Drawing.Size(150, 23);
-            this.txtSenha.TabIndex = 3;
-            this.txtSenha.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.txtSenha.UseSystemPasswordChar = true;
-            // 
-            // lblSenha
-            // 
-            this.lblSenha.AutoSize = true;
-            this.lblSenha.Location = new System.Drawing.Point(18, 50);
-            this.lblSenha.Name = "lblSenha";
-            this.lblSenha.Size = new System.Drawing.Size(39, 15);
-            this.lblSenha.TabIndex = 2;
-            this.lblSenha.Text = "Senha";
-            // 
-            // txtLogin
-            // 
-            this.txtLogin.Location = new System.Drawing.Point(18, 24);
-            this.txtLogin.Name = "txtLogin";
-            this.txtLogin.Size = new System.Drawing.Size(150, 23);
-            this.txtLogin.TabIndex = 1;
-            this.txtLogin.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // lblLogin
-            // 
-            this.lblLogin.AutoSize = true;
-            this.lblLogin.Location = new System.Drawing.Point(18, 6);
-            this.lblLogin.Name = "lblLogin";
-            this.lblLogin.Size = new System.Drawing.Size(37, 15);
-            this.lblLogin.TabIndex = 0;
-            this.lblLogin.Text = "Login";
-            // 
-            // Login
+            // MenuPessoas
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(584, 362);
             this.Controls.Add(this.LayoutGeral);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
-            this.Name = "Login";
-            this.Text = "Login";
+            this.Name = "MenuPessoas";
+            this.Text = "Cadastro de Pessoas";
             this.LayoutGeral.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            this.pnLogin.ResumeLayout(false);
-            this.pnLogin.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -163,14 +142,10 @@ namespace Nucleo.Forms
         #endregion
 
         private System.Windows.Forms.TableLayoutPanel LayoutGeral;
-        private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.Panel pnLogin;
-        private System.Windows.Forms.Label lblSenha;
-        private System.Windows.Forms.Label lblLogin;
-        internal System.Windows.Forms.TextBox txtLogin;
-        internal System.Windows.Forms.Button btnCancelar;
-        internal System.Windows.Forms.Button btnLogin;
-        internal System.Windows.Forms.TextBox txtSenha;
+        private Telas.Controls.Botao btnVendedores;
+        private Telas.Controls.Botao btnFuncionarios;
+        private Telas.Controls.Botao btnClientes;
+        private Telas.Controls.Botao btnUsuarios;
     }
 }
 

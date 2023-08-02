@@ -21,5 +21,14 @@ namespace Nucleo.Operacoes.BO
             return string.Concat("Gerenciador Executivo - v", Central.Principal.Dados.Versao);
         }
 
+        public static List<string> CadastrosDisponiveis()
+        {
+            return new List<string>()
+            {
+                "Pessoas", 
+                "Produtos",
+            };
+        }
+
     }
 }

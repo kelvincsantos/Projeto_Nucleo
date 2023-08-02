@@ -32,5 +32,15 @@ namespace Nucleo.View.Views.Tela
         {
             return string.Concat("Versão do Sistema: ", Operacoes.BO.MenuPrincipal.DadosVersao());
         }
+
+        public List<string> CadastrosDisponiveis()
+        {
+            return Operacoes.BO.MenuPrincipal.CadastrosDisponiveis();
+        }
+
+        public void AbrirCadastro(string Modulo)
+        {
+
+        }
     }
 }

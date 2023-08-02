@@ -221,6 +221,7 @@ namespace Nucleo.Forms.Telas
             this.btnRelatorios1.TabIndex = 0;
             this.btnRelatorios1.Text = "btnRelatorios1";
             this.btnRelatorios1.UseVisualStyleBackColor = true;
+            this.btnRelatorios1.Visible = false;
             // 
             // btnRelatorios2
             // 
@@ -231,6 +232,7 @@ namespace Nucleo.Forms.Telas
             this.btnRelatorios2.TabIndex = 1;
             this.btnRelatorios2.Text = "btnRelatorios2";
             this.btnRelatorios2.UseVisualStyleBackColor = true;
+            this.btnRelatorios2.Visible = false;
             // 
             // btnRelatorios3
             // 
@@ -241,6 +243,7 @@ namespace Nucleo.Forms.Telas
             this.btnRelatorios3.TabIndex = 2;
             this.btnRelatorios3.Text = "btnRelatorios3";
             this.btnRelatorios3.UseVisualStyleBackColor = true;
+            this.btnRelatorios3.Visible = false;
             // 
             // btnRelatorios4
             // 
@@ -251,6 +254,7 @@ namespace Nucleo.Forms.Telas
             this.btnRelatorios4.TabIndex = 3;
             this.btnRelatorios4.Text = "btnRelatorios4";
             this.btnRelatorios4.UseVisualStyleBackColor = true;
+            this.btnRelatorios4.Visible = false;
             // 
             // btnRelatorios5
             // 
@@ -261,6 +265,7 @@ namespace Nucleo.Forms.Telas
             this.btnRelatorios5.TabIndex = 4;
             this.btnRelatorios5.Text = "btnRelatorios5";
             this.btnRelatorios5.UseVisualStyleBackColor = true;
+            this.btnRelatorios5.Visible = false;
             // 
             // btnRelatorios6
             // 
@@ -271,6 +276,7 @@ namespace Nucleo.Forms.Telas
             this.btnRelatorios6.TabIndex = 5;
             this.btnRelatorios6.Text = "btnRelatorios6";
             this.btnRelatorios6.UseVisualStyleBackColor = true;
+            this.btnRelatorios6.Visible = false;
             // 
             // btnRelatorios7
             // 
@@ -281,6 +287,7 @@ namespace Nucleo.Forms.Telas
             this.btnRelatorios7.TabIndex = 6;
             this.btnRelatorios7.Text = "btnRelatorios7";
             this.btnRelatorios7.UseVisualStyleBackColor = true;
+            this.btnRelatorios7.Visible = false;
             // 
             // btnRelatorios8
             // 
@@ -291,6 +298,7 @@ namespace Nucleo.Forms.Telas
             this.btnRelatorios8.TabIndex = 7;
             this.btnRelatorios8.Text = "btnRelatorios8";
             this.btnRelatorios8.UseVisualStyleBackColor = true;
+            this.btnRelatorios8.Visible = false;
             // 
             // panel2
             // 
@@ -346,6 +354,7 @@ namespace Nucleo.Forms.Telas
             this.btnOperacoes1.TabIndex = 0;
             this.btnOperacoes1.Text = "btnOperacoes1";
             this.btnOperacoes1.UseVisualStyleBackColor = true;
+            this.btnOperacoes1.Visible = false;
             // 
             // btnOperacoes2
             // 
@@ -356,6 +365,7 @@ namespace Nucleo.Forms.Telas
             this.btnOperacoes2.TabIndex = 1;
             this.btnOperacoes2.Text = "btnOperacoes2";
             this.btnOperacoes2.UseVisualStyleBackColor = true;
+            this.btnOperacoes2.Visible = false;
             // 
             // btnOperacoes3
             // 
@@ -366,6 +376,7 @@ namespace Nucleo.Forms.Telas
             this.btnOperacoes3.TabIndex = 2;
             this.btnOperacoes3.Text = "btnOperacoes3";
             this.btnOperacoes3.UseVisualStyleBackColor = true;
+            this.btnOperacoes3.Visible = false;
             // 
             // btnOperacoes4
             // 
@@ -376,6 +387,7 @@ namespace Nucleo.Forms.Telas
             this.btnOperacoes4.TabIndex = 3;
             this.btnOperacoes4.Text = "btnOperacoes4";
             this.btnOperacoes4.UseVisualStyleBackColor = true;
+            this.btnOperacoes4.Visible = false;
             // 
             // btnOperacoes5
             // 
@@ -386,6 +398,7 @@ namespace Nucleo.Forms.Telas
             this.btnOperacoes5.TabIndex = 4;
             this.btnOperacoes5.Text = "btnOperacoes5";
             this.btnOperacoes5.UseVisualStyleBackColor = true;
+            this.btnOperacoes5.Visible = false;
             // 
             // btnOperacoes6
             // 
@@ -396,6 +409,7 @@ namespace Nucleo.Forms.Telas
             this.btnOperacoes6.TabIndex = 5;
             this.btnOperacoes6.Text = "btnOperacoes6";
             this.btnOperacoes6.UseVisualStyleBackColor = true;
+            this.btnOperacoes6.Visible = false;
             // 
             // btnOperacoes7
             // 
@@ -406,6 +420,7 @@ namespace Nucleo.Forms.Telas
             this.btnOperacoes7.TabIndex = 6;
             this.btnOperacoes7.Text = "btnOperacoes7";
             this.btnOperacoes7.UseVisualStyleBackColor = true;
+            this.btnOperacoes7.Visible = false;
             // 
             // btnOperacoes8
             // 
@@ -416,6 +431,7 @@ namespace Nucleo.Forms.Telas
             this.btnOperacoes8.TabIndex = 7;
             this.btnOperacoes8.Text = "btnOperacoes8";
             this.btnOperacoes8.UseVisualStyleBackColor = true;
+            this.btnOperacoes8.Visible = false;
             // 
             // panel3
             // 
@@ -472,6 +488,7 @@ namespace Nucleo.Forms.Telas
             this.btnCadastro1.TabIndex = 0;
             this.btnCadastro1.Text = "btnCadastro1";
             this.btnCadastro1.UseVisualStyleBackColor = true;
+            this.btnCadastro1.Visible = false;
             // 
             // btnCadastro2
             // 
@@ -482,6 +499,7 @@ namespace Nucleo.Forms.Telas
             this.btnCadastro2.TabIndex = 1;
             this.btnCadastro2.Text = "tbnCadastro2";
             this.btnCadastro2.UseVisualStyleBackColor = true;
+            this.btnCadastro2.Visible = false;
             // 
             // btnCadastros3
             // 
@@ -492,6 +510,7 @@ namespace Nucleo.Forms.Telas
             this.btnCadastros3.TabIndex = 2;
             this.btnCadastros3.Text = "btnCadastro3";
             this.btnCadastros3.UseVisualStyleBackColor = true;
+            this.btnCadastros3.Visible = false;
             // 
             // btnCadastro4
             // 
@@ -502,6 +521,7 @@ namespace Nucleo.Forms.Telas
             this.btnCadastro4.TabIndex = 3;
             this.btnCadastro4.Text = "btnCadastro4";
             this.btnCadastro4.UseVisualStyleBackColor = true;
+            this.btnCadastro4.Visible = false;
             // 
             // btnCadastro5
             // 
@@ -512,6 +532,7 @@ namespace Nucleo.Forms.Telas
             this.btnCadastro5.TabIndex = 4;
             this.btnCadastro5.Text = "btnCadastro5";
             this.btnCadastro5.UseVisualStyleBackColor = true;
+            this.btnCadastro5.Visible = false;
             // 
             // btnCadastro6
             // 
@@ -522,6 +543,7 @@ namespace Nucleo.Forms.Telas
             this.btnCadastro6.TabIndex = 5;
             this.btnCadastro6.Text = "btnCadastro6";
             this.btnCadastro6.UseVisualStyleBackColor = true;
+            this.btnCadastro6.Visible = false;
             // 
             // btnCadastro7
             // 
@@ -532,6 +554,7 @@ namespace Nucleo.Forms.Telas
             this.btnCadastro7.TabIndex = 6;
             this.btnCadastro7.Text = "btnCadastro7";
             this.btnCadastro7.UseVisualStyleBackColor = true;
+            this.btnCadastro7.Visible = false;
             // 
             // button22
             // 
@@ -542,6 +565,7 @@ namespace Nucleo.Forms.Telas
             this.button22.TabIndex = 7;
             this.button22.Text = "btnCadastro8";
             this.button22.UseVisualStyleBackColor = true;
+            this.button22.Visible = false;
             // 
             // label1
             // 
@@ -610,6 +634,7 @@ namespace Nucleo.Forms.Telas
             this.btnConfig1.TabIndex = 0;
             this.btnConfig1.Text = "btnConfig1";
             this.btnConfig1.UseVisualStyleBackColor = true;
+            this.btnConfig1.Visible = false;
             // 
             // btnConfig2
             // 
@@ -620,6 +645,7 @@ namespace Nucleo.Forms.Telas
             this.btnConfig2.TabIndex = 1;
             this.btnConfig2.Text = "btnConfig2";
             this.btnConfig2.UseVisualStyleBackColor = true;
+            this.btnConfig2.Visible = false;
             // 
             // btnConfig3
             // 
@@ -630,6 +656,7 @@ namespace Nucleo.Forms.Telas
             this.btnConfig3.TabIndex = 2;
             this.btnConfig3.Text = "btnConfig3";
             this.btnConfig3.UseVisualStyleBackColor = true;
+            this.btnConfig3.Visible = false;
             // 
             // btnConfig4
             // 
@@ -640,6 +667,7 @@ namespace Nucleo.Forms.Telas
             this.btnConfig4.TabIndex = 3;
             this.btnConfig4.Text = "btnConfig4";
             this.btnConfig4.UseVisualStyleBackColor = true;
+            this.btnConfig4.Visible = false;
             // 
             // btnConfig5
             // 
@@ -650,6 +678,7 @@ namespace Nucleo.Forms.Telas
             this.btnConfig5.TabIndex = 4;
             this.btnConfig5.Text = "btnConfig5";
             this.btnConfig5.UseVisualStyleBackColor = true;
+            this.btnConfig5.Visible = false;
             // 
             // btnConfig6
             // 
@@ -660,6 +689,7 @@ namespace Nucleo.Forms.Telas
             this.btnConfig6.TabIndex = 5;
             this.btnConfig6.Text = "btnConfig6";
             this.btnConfig6.UseVisualStyleBackColor = true;
+            this.btnConfig6.Visible = false;
             // 
             // btnConfig7
             // 
@@ -670,6 +700,7 @@ namespace Nucleo.Forms.Telas
             this.btnConfig7.TabIndex = 6;
             this.btnConfig7.Text = "btnConfig7";
             this.btnConfig7.UseVisualStyleBackColor = true;
+            this.btnConfig7.Visible = false;
             // 
             // btnConfig8
             // 
@@ -680,6 +711,7 @@ namespace Nucleo.Forms.Telas
             this.btnConfig8.TabIndex = 7;
             this.btnConfig8.Text = "btnConfig8";
             this.btnConfig8.UseVisualStyleBackColor = true;
+            this.btnConfig8.Visible = false;
             // 
             // tablePanelBase
             // 
@@ -808,45 +840,13 @@ namespace Nucleo.Forms.Telas
         private System.Windows.Forms.Label lblOperacoes;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel1;
-        private System.Windows.Forms.Button btnRelatorios1;
-        private System.Windows.Forms.Button btnRelatorios2;
-        private System.Windows.Forms.Button btnRelatorios3;
-        private System.Windows.Forms.Button btnRelatorios4;
-        private System.Windows.Forms.Button btnRelatorios5;
-        private System.Windows.Forms.Button btnRelatorios6;
-        private System.Windows.Forms.Button btnRelatorios7;
-        private System.Windows.Forms.Button btnRelatorios8;
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel3;
-        private System.Windows.Forms.Button btnOperacoes1;
-        private System.Windows.Forms.Button btnOperacoes2;
-        private System.Windows.Forms.Button btnOperacoes3;
-        private System.Windows.Forms.Button btnOperacoes4;
-        private System.Windows.Forms.Button btnOperacoes5;
-        private System.Windows.Forms.Button btnOperacoes6;
-        private System.Windows.Forms.Button btnOperacoes7;
-        private System.Windows.Forms.Button btnOperacoes8;
         private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel2;
-        private System.Windows.Forms.Button btnCadastro1;
-        private System.Windows.Forms.Button btnCadastro2;
-        private System.Windows.Forms.Button btnCadastros3;
-        private System.Windows.Forms.Button btnCadastro4;
-        private System.Windows.Forms.Button btnCadastro5;
-        private System.Windows.Forms.Button btnCadastro6;
-        private System.Windows.Forms.Button btnCadastro7;
-        private System.Windows.Forms.Button button22;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Panel panel4;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel4;
-        private System.Windows.Forms.Button btnConfig1;
-        private System.Windows.Forms.Button btnConfig2;
-        private System.Windows.Forms.Button btnConfig3;
-        private System.Windows.Forms.Button btnConfig4;
-        private System.Windows.Forms.Button btnConfig5;
-        private System.Windows.Forms.Button btnConfig6;
-        private System.Windows.Forms.Button btnConfig7;
-        private System.Windows.Forms.Button btnConfig8;
         private System.Windows.Forms.TableLayoutPanel tablePanelBase;
         private System.Windows.Forms.Panel panel5;
         private System.Windows.Forms.Panel Topo;
@@ -855,6 +855,38 @@ namespace Nucleo.Forms.Telas
         internal System.Windows.Forms.Label lblEmpresa;
         internal System.Windows.Forms.Label lblUsuario;
         internal System.Windows.Forms.Label lblVersao;
+        internal System.Windows.Forms.Button btnRelatorios1;
+        internal System.Windows.Forms.Button btnRelatorios2;
+        internal System.Windows.Forms.Button btnRelatorios3;
+        internal System.Windows.Forms.Button btnRelatorios4;
+        internal System.Windows.Forms.Button btnRelatorios5;
+        internal System.Windows.Forms.Button btnRelatorios6;
+        internal System.Windows.Forms.Button btnRelatorios7;
+        internal System.Windows.Forms.Button btnRelatorios8;
+        internal System.Windows.Forms.Button btnOperacoes1;
+        internal System.Windows.Forms.Button btnOperacoes2;
+        internal System.Windows.Forms.Button btnOperacoes3;
+        internal System.Windows.Forms.Button btnOperacoes4;
+        internal System.Windows.Forms.Button btnOperacoes5;
+        internal System.Windows.Forms.Button btnOperacoes6;
+        internal System.Windows.Forms.Button btnOperacoes7;
+        internal System.Windows.Forms.Button btnOperacoes8;
+        internal System.Windows.Forms.Button btnCadastro1;
+        internal System.Windows.Forms.Button btnCadastro2;
+        internal System.Windows.Forms.Button btnCadastros3;
+        internal System.Windows.Forms.Button btnCadastro4;
+        internal System.Windows.Forms.Button btnCadastro5;
+        internal System.Windows.Forms.Button btnCadastro6;
+        internal System.Windows.Forms.Button btnCadastro7;
+        internal System.Windows.Forms.Button button22;
+        internal System.Windows.Forms.Button btnConfig1;
+        internal System.Windows.Forms.Button btnConfig2;
+        internal System.Windows.Forms.Button btnConfig3;
+        internal System.Windows.Forms.Button btnConfig4;
+        internal System.Windows.Forms.Button btnConfig5;
+        internal System.Windows.Forms.Button btnConfig6;
+        internal System.Windows.Forms.Button btnConfig7;
+        internal System.Windows.Forms.Button btnConfig8;
     }
 }
 
