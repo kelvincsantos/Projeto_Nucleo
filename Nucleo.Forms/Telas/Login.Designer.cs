@@ -33,12 +33,12 @@ namespace Nucleo.Forms.Telas
             this.LayoutGeral = new System.Windows.Forms.TableLayoutPanel();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pnLogin = new System.Windows.Forms.Panel();
-            this.btnCancelar = new System.Windows.Forms.Button();
-            this.btnLogin = new System.Windows.Forms.Button();
             this.txtSenha = new System.Windows.Forms.TextBox();
             this.lblSenha = new System.Windows.Forms.Label();
             this.txtLogin = new System.Windows.Forms.TextBox();
             this.lblLogin = new System.Windows.Forms.Label();
+            this.btnLogin = new Nucleo.Forms.Telas.Controls.Botao();
+            this.btnSair = new Nucleo.Forms.Telas.Controls.Botao();
             this.LayoutGeral.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.pnLogin.SuspendLayout();
@@ -77,7 +77,7 @@ namespace Nucleo.Forms.Telas
             // pnLogin
             // 
             this.pnLogin.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pnLogin.Controls.Add(this.btnCancelar);
+            this.pnLogin.Controls.Add(this.btnSair);
             this.pnLogin.Controls.Add(this.btnLogin);
             this.pnLogin.Controls.Add(this.txtSenha);
             this.pnLogin.Controls.Add(this.lblSenha);
@@ -88,24 +88,6 @@ namespace Nucleo.Forms.Telas
             this.pnLogin.Name = "pnLogin";
             this.pnLogin.Size = new System.Drawing.Size(344, 102);
             this.pnLogin.TabIndex = 1;
-            // 
-            // btnCancelar
-            // 
-            this.btnCancelar.Location = new System.Drawing.Point(224, 52);
-            this.btnCancelar.Name = "btnCancelar";
-            this.btnCancelar.Size = new System.Drawing.Size(75, 23);
-            this.btnCancelar.TabIndex = 5;
-            this.btnCancelar.Text = "Cancelar";
-            this.btnCancelar.UseVisualStyleBackColor = true;
-            // 
-            // btnLogin
-            // 
-            this.btnLogin.Location = new System.Drawing.Point(224, 23);
-            this.btnLogin.Name = "btnLogin";
-            this.btnLogin.Size = new System.Drawing.Size(75, 23);
-            this.btnLogin.TabIndex = 4;
-            this.btnLogin.Text = "OK";
-            this.btnLogin.UseVisualStyleBackColor = true;
             // 
             // txtSenha
             // 
@@ -143,6 +125,32 @@ namespace Nucleo.Forms.Telas
             this.lblLogin.TabIndex = 0;
             this.lblLogin.Text = "Login";
             // 
+            // btnLogin
+            // 
+            this.btnLogin.BackColor = System.Drawing.Color.DarkSlateGray;
+            this.btnLogin.FlatAppearance.BorderSize = 0;
+            this.btnLogin.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnLogin.ForeColor = System.Drawing.Color.Transparent;
+            this.btnLogin.Location = new System.Drawing.Point(223, 17);
+            this.btnLogin.Name = "btnLogin";
+            this.btnLogin.Size = new System.Drawing.Size(80, 30);
+            this.btnLogin.TabIndex = 6;
+            this.btnLogin.Text = "Login";
+            this.btnLogin.UseVisualStyleBackColor = false;
+            // 
+            // btnSair
+            // 
+            this.btnSair.BackColor = System.Drawing.Color.DarkSlateGray;
+            this.btnSair.FlatAppearance.BorderSize = 0;
+            this.btnSair.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnSair.ForeColor = System.Drawing.Color.Transparent;
+            this.btnSair.Location = new System.Drawing.Point(223, 53);
+            this.btnSair.Name = "btnSair";
+            this.btnSair.Size = new System.Drawing.Size(80, 30);
+            this.btnSair.TabIndex = 7;
+            this.btnSair.Text = "Sair";
+            this.btnSair.UseVisualStyleBackColor = false;
+            // 
             // Login
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
@@ -168,9 +176,9 @@ namespace Nucleo.Forms.Telas
         private System.Windows.Forms.Label lblSenha;
         private System.Windows.Forms.Label lblLogin;
         internal System.Windows.Forms.TextBox txtLogin;
-        internal System.Windows.Forms.Button btnCancelar;
-        internal System.Windows.Forms.Button btnLogin;
         internal System.Windows.Forms.TextBox txtSenha;
+        internal Controls.Botao btnLogin;
+        internal Controls.Botao btnSair;
     }
 }
 

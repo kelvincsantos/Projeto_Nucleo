@@ -24,11 +24,12 @@ namespace Nucleo.Forms.Controller
             this.form.txtSenha.KeyPress += Comum.Leiaute.TextBox.KeyPress;
 
             this.form.btnLogin.Click += BtnLogin_Click;
-            this.form.btnCancelar.Click += BtnCancelar_Click;
+            this.form.btnSair.Click += btnSair_Click;
         }
 
-        private void BtnCancelar_Click(object sender, EventArgs e)
+        private void btnSair_Click(object sender, EventArgs e)
         {
+            usuario = null;
             Sair();
             Application.Exit();
         }

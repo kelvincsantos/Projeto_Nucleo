@@ -35,15 +35,22 @@ namespace Nucleo.Forms
 
                     if(Central.Iniciar(Central))
                     {
+                        Reload:
                         Telas.Login login = new Telas.Login();
                         Comum.Leiaute.Tela.ExibirPequeno(login);
-                        
+
                         if (!Central.Login(login.controller.usuario))
+                        {
                             Application.Exit();
+                        }
+                            
 
                         Central.Versao(Application.ProductVersion.ToString());
 
-                        Comum.Leiaute.Tela.ExibirMedio(new Telas.MenuPrincipal());
+                        Comum.Leiaute.Tela.ExibirMedioMaximizado(new Telas.MenuPrincipal());
+
+                        if (login.controller.usuario != null)
+                            goto Reload;
                     }
                 }
                 else
@@ -51,22 +58,8 @@ namespace Nucleo.Forms
                     //State.Exit();
                 }
             }
-
-            //Application.SetHighDpiMode(HighDpiMode.SystemAware);
-            //Application.EnableVisualStyles();
-            //Application.SetCompatibleTextRenderingDefault(false);
-            //Application.Run(new MenuPrincipal());
         }
 
-        /*
-         [STAThread]
-        static void Main()
-        {
-            
-        }
-
-        
-         */
 
         static void Application_ThreadException(object sender, ThreadExceptionEventArgs e)
         {

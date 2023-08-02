@@ -77,11 +77,11 @@ namespace Nucleo.Forms.Telas
             this.tablePanelBase = new System.Windows.Forms.TableLayoutPanel();
             this.panel5 = new System.Windows.Forms.Panel();
             this.Topo = new System.Windows.Forms.Panel();
-            this.Base = new System.Windows.Forms.Panel();
             this.tableTopo = new System.Windows.Forms.TableLayoutPanel();
             this.lblEmpresa = new System.Windows.Forms.Label();
             this.lblUsuario = new System.Windows.Forms.Label();
             this.lblVersao = new System.Windows.Forms.Label();
+            this.Base = new System.Windows.Forms.Panel();
             this.LayoutGeral.SuspendLayout();
             this.panel1.SuspendLayout();
             this.tableLayoutPanel1.SuspendLayout();
@@ -131,7 +131,7 @@ namespace Nucleo.Forms.Telas
             // lblCadastros
             // 
             this.lblCadastros.AutoSize = true;
-            this.lblCadastros.BackColor = System.Drawing.Color.DarkBlue;
+            this.lblCadastros.BackColor = System.Drawing.Color.DarkSlateGray;
             this.lblCadastros.Dock = System.Windows.Forms.DockStyle.Fill;
             this.lblCadastros.ForeColor = System.Drawing.SystemColors.Control;
             this.lblCadastros.Location = new System.Drawing.Point(34, 0);
@@ -144,7 +144,7 @@ namespace Nucleo.Forms.Telas
             // lblRel
             // 
             this.lblRel.AutoSize = true;
-            this.lblRel.BackColor = System.Drawing.Color.DarkBlue;
+            this.lblRel.BackColor = System.Drawing.Color.DarkSlateGray;
             this.lblRel.Dock = System.Windows.Forms.DockStyle.Fill;
             this.lblRel.ForeColor = System.Drawing.SystemColors.Control;
             this.lblRel.Location = new System.Drawing.Point(406, 0);
@@ -157,7 +157,7 @@ namespace Nucleo.Forms.Telas
             // lblOperacoes
             // 
             this.lblOperacoes.AutoSize = true;
-            this.lblOperacoes.BackColor = System.Drawing.Color.DarkBlue;
+            this.lblOperacoes.BackColor = System.Drawing.Color.DarkSlateGray;
             this.lblOperacoes.Dock = System.Windows.Forms.DockStyle.Fill;
             this.lblOperacoes.ForeColor = System.Drawing.SystemColors.Control;
             this.lblOperacoes.Location = new System.Drawing.Point(220, 0);
@@ -546,7 +546,7 @@ namespace Nucleo.Forms.Telas
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.BackColor = System.Drawing.Color.DarkBlue;
+            this.label1.BackColor = System.Drawing.Color.DarkSlateGray;
             this.label1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.label1.ForeColor = System.Drawing.SystemColors.Control;
             this.label1.Location = new System.Drawing.Point(592, 0);
@@ -717,15 +717,6 @@ namespace Nucleo.Forms.Telas
             this.Topo.Size = new System.Drawing.Size(775, 37);
             this.Topo.TabIndex = 1;
             // 
-            // Base
-            // 
-            this.Base.BackColor = System.Drawing.SystemColors.ControlLight;
-            this.Base.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.Base.Location = new System.Drawing.Point(3, 394);
-            this.Base.Name = "Base";
-            this.Base.Size = new System.Drawing.Size(775, 39);
-            this.Base.TabIndex = 2;
-            // 
             // tableTopo
             // 
             this.tableTopo.ColumnCount = 2;
@@ -771,6 +762,15 @@ namespace Nucleo.Forms.Telas
             this.lblVersao.Size = new System.Drawing.Size(382, 19);
             this.lblVersao.TabIndex = 2;
             this.lblVersao.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            // 
+            // Base
+            // 
+            this.Base.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.Base.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.Base.Location = new System.Drawing.Point(3, 394);
+            this.Base.Name = "Base";
+            this.Base.Size = new System.Drawing.Size(775, 39);
+            this.Base.TabIndex = 2;
             // 
             // MenuPrincipal
             // 

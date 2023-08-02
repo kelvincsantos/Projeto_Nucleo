@@ -88,6 +88,12 @@ namespace Nucleo.Forms.Comum
                 e.ShowDialog();
             }
 
+            public static void ExibirMedioMaximizado(System.Windows.Forms.Form e)
+            {
+                e.WindowState = System.Windows.Forms.FormWindowState.Maximized;
+                ExibirMedio(e);
+            }
+
             public static void ExibirGrande(System.Windows.Forms.Form e)
             {
                 Carregar(e);
