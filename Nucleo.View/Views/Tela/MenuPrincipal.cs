@@ -12,6 +12,14 @@ namespace Nucleo.View.Views.Tela
         public List<Button> BotoesRelatorios { get; set; }
         public List<Button> BotoesConfiguracoes { get; set; }
 
+        //public Modulos Modulo { get; set; }
+
+        public enum Modulos
+        {
+            pessoas = 1,
+            produtos = 2
+        }
+
         public MenuPrincipal()
         {
 

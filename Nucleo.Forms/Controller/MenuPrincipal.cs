@@ -72,7 +72,7 @@ namespace Nucleo.Forms.Controller
 
         private void AbrirCadastro(string Modulo)
         {
-            if (Modulo.ToLower().Equals("pessoas"))
+            if (Modulo.ToLower().Equals(View.Views.Tela.MenuPrincipal.Modulos.pessoas.ToString()))
                 Comum.Leiaute.Tela.ExibirMedio(new Nucleo.Forms.MenuPessoas());
 
         }

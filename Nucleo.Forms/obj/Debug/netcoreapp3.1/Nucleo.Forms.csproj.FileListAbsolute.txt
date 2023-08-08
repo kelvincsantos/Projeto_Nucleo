@@ -76,3 +76,4 @@ E:\GIT\Projeto_Nucleo\Nucleo.Forms\obj\Debug\netcoreapp3.1\Nucleo.Forms.MenuPess
 G:\GIT\Projeto_Nucleo\Nucleo.Forms\obj\Debug\netcoreapp3.1\Nucleo.Forms.MenuPessoas.resources
 G:\GIT\Projeto_Nucleo\Nucleo.Forms\obj\Debug\netcoreapp3.1\Nucleo.Forms.Telas.Login.resources
 G:\GIT\Projeto_Nucleo\Nucleo.Forms\obj\Debug\netcoreapp3.1\Nucleo.Forms.Telas.MenuPrincipal.resources
+G:\GIT\Projeto_Nucleo\Nucleo.Forms\obj\Debug\netcoreapp3.1\Nucleo.Forms.Telas.Clientes.resources
