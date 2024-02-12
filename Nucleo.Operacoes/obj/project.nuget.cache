@@ -1,13 +1,34 @@
 {
   "version": 2,
-  "dgSpecHash": "xgMahd5WrjtEK30feX5bGlhMprlavuPET8VxBqmrkBYaW8TFrFz9NR7SP7ivf0n3rPu8BynQUVWMtloG8YqQAw==",
+  "dgSpecHash": "K7N8GsKxYK5ZdafXcofY49DMmgPXsvi8Nq04ckvwMUohLWN93OvPAk84P/FNff+d4Y9rrx16fzD4BtLhJUOC6A==",
   "success": true,
   "projectFilePath": "G:\\GIT\\Projeto_Nucleo\\Nucleo.Operacoes\\Nucleo.Operacoes.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Kelvin Carvalho Sant\\.nuget\\packages\\barcodelib\\3.0.3\\barcodelib.3.0.3.nupkg.sha512",
+    "C:\\Users\\Kelvin Carvalho Sant\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\7.0.0\\microsoft.bcl.asyncinterfaces.7.0.0.nupkg.sha512",
     "C:\\Users\\Kelvin Carvalho Sant\\.nuget\\packages\\microsoft.netcore.platforms\\5.0.0\\microsoft.netcore.platforms.5.0.0.nupkg.sha512",
     "C:\\Users\\Kelvin Carvalho Sant\\.nuget\\packages\\microsoft.win32.registry\\5.0.0\\microsoft.win32.registry.5.0.0.nupkg.sha512",
+    "C:\\Users\\Kelvin Carvalho Sant\\.nuget\\packages\\microsoft.win32.systemevents\\5.0.0\\microsoft.win32.systemevents.5.0.0.nupkg.sha512",
+    "C:\\Users\\Kelvin Carvalho Sant\\.nuget\\packages\\qrcoder\\1.4.3\\qrcoder.1.4.3.nupkg.sha512",
+    "C:\\Users\\Kelvin Carvalho Sant\\.nuget\\packages\\skiasharp\\2.88.6\\skiasharp.2.88.6.nupkg.sha512",
+    "C:\\Users\\Kelvin Carvalho Sant\\.nuget\\packages\\skiasharp.nativeassets.linux.nodependencies\\2.88.6\\skiasharp.nativeassets.linux.nodependencies.2.88.6.nupkg.sha512",
+    "C:\\Users\\Kelvin Carvalho Sant\\.nuget\\packages\\skiasharp.nativeassets.macos\\2.88.6\\skiasharp.nativeassets.macos.2.88.6.nupkg.sha512",
+    "C:\\Users\\Kelvin Carvalho Sant\\.nuget\\packages\\skiasharp.nativeassets.win32\\2.88.6\\skiasharp.nativeassets.win32.2.88.6.nupkg.sha512",
+    "C:\\Users\\Kelvin Carvalho Sant\\.nuget\\packages\\system.buffers\\4.5.1\\system.buffers.4.5.1.nupkg.sha512",
+    "C:\\Users\\Kelvin Carvalho Sant\\.nuget\\packages\\system.drawing.common\\5.0.3\\system.drawing.common.5.0.3.nupkg.sha512",
+    "C:\\Users\\Kelvin Carvalho Sant\\.nuget\\packages\\system.memory\\4.5.5\\system.memory.4.5.5.nupkg.sha512",
+    "C:\\Users\\Kelvin Carvalho Sant\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\Kelvin Carvalho Sant\\.nuget\\packages\\system.resources.extensions\\7.0.0\\system.resources.extensions.7.0.0.nupkg.sha512",
+    "C:\\Users\\Kelvin Carvalho Sant\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
     "C:\\Users\\Kelvin Carvalho Sant\\.nuget\\packages\\system.security.accesscontrol\\5.0.0\\system.security.accesscontrol.5.0.0.nupkg.sha512",
-    "C:\\Users\\Kelvin Carvalho Sant\\.nuget\\packages\\system.security.principal.windows\\5.0.0\\system.security.principal.windows.5.0.0.nupkg.sha512"
+    "C:\\Users\\Kelvin Carvalho Sant\\.nuget\\packages\\system.security.principal.windows\\5.0.0\\system.security.principal.windows.5.0.0.nupkg.sha512",
+    "C:\\Users\\Kelvin Carvalho Sant\\.nuget\\packages\\system.text.encoding.codepages\\5.0.0\\system.text.encoding.codepages.5.0.0.nupkg.sha512",
+    "C:\\Users\\Kelvin Carvalho Sant\\.nuget\\packages\\system.text.encodings.web\\7.0.0\\system.text.encodings.web.7.0.0.nupkg.sha512",
+    "C:\\Users\\Kelvin Carvalho Sant\\.nuget\\packages\\system.text.json\\7.0.3\\system.text.json.7.0.3.nupkg.sha512",
+    "C:\\Users\\Kelvin Carvalho Sant\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.4\\system.threading.tasks.extensions.4.5.4.nupkg.sha512",
+    "C:\\Users\\Kelvin Carvalho Sant\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.1.0\\microsoft.windowsdesktop.app.ref.3.1.0.nupkg.sha512",
+    "C:\\Users\\Kelvin Carvalho Sant\\.nuget\\packages\\microsoft.netcore.app.ref\\3.1.0\\microsoft.netcore.app.ref.3.1.0.nupkg.sha512",
+    "C:\\Users\\Kelvin Carvalho Sant\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512"
   ],
   "logs": []
 }

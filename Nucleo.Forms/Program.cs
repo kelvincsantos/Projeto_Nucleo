@@ -33,25 +33,28 @@ namespace Nucleo.Forms
                     Application.ThreadException += new ThreadExceptionEventHandler(Application_ThreadException);
                     AppDomain.CurrentDomain.UnhandledException += new UnhandledExceptionEventHandler(CurrentDomain_UnhandledException);
 
-                    if(Central.Iniciar(Central))
-                    {
-                        Reload:
-                        Telas.Login login = new Telas.Login();
-                        Comum.Leiaute.Tela.ExibirPequeno(login);
+                    Comum.Leiaute.Tela.ExibirMedio(new Telas.GerarEtiqueta());
+                    return;
 
-                        if (!Central.Login(login.controller.usuario))
-                        {
-                            Application.Exit();
-                        }
+                    //if (Central.Iniciar(Central))
+                    //{
+                    //    Reload:
+                    //    Telas.Login login = new Telas.Login();
+                    //    Comum.Leiaute.Tela.ExibirPequeno(login);
+
+                    //    if (!Central.Login(login.controller.usuario))
+                    //    {
+                    //        Application.Exit();
+                    //    }
                             
 
-                        Central.Versao(Application.ProductVersion.ToString());
+                    //    Central.Versao(Application.ProductVersion.ToString());
 
-                        Comum.Leiaute.Tela.ExibirMedioMaximizado(new Telas.MenuPrincipal());
+                    //    Comum.Leiaute.Tela.ExibirMedioMaximizado(new Telas.MenuPrincipal());
 
-                        if (login.controller.usuario != null)
-                            goto Reload;
-                    }
+                    //    if (login.controller.usuario != null)
+                    //        goto Reload;
+                    //}
                 }
                 else
                 {

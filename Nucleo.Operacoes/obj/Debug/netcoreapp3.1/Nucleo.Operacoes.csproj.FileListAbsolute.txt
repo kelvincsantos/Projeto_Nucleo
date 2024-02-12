@@ -24,3 +24,16 @@ E:\GIT\Projeto_Nucleo\Nucleo.Operacoes\obj\Debug\netcoreapp3.1\Nucleo.Operacoes.
 G:\GIT\Projeto_Nucleo\Nucleo.Operacoes\bin\Debug\netcoreapp3.1\Nucleo.Data.dll
 G:\GIT\Projeto_Nucleo\Nucleo.Operacoes\bin\Debug\netcoreapp3.1\Nucleo.Data.pdb
 G:\GIT\Projeto_Nucleo\Nucleo.Operacoes\obj\Debug\netcoreapp3.1\Nucleo.Operacoes.csproj.CopyComplete
+C:\Users\FAMILIA\Desktop\Projeto_Nucleo\Nucleo.Operacoes\obj\Debug\netcoreapp3.1\Nucleo.Operacoes.csproj.AssemblyReference.cache
+C:\Users\FAMILIA\Desktop\Projeto_Nucleo\Nucleo.Operacoes\obj\Debug\netcoreapp3.1\Nucleo.Operacoes.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\FAMILIA\Desktop\Projeto_Nucleo\Nucleo.Operacoes\obj\Debug\netcoreapp3.1\Nucleo.Operacoes.AssemblyInfoInputs.cache
+C:\Users\FAMILIA\Desktop\Projeto_Nucleo\Nucleo.Operacoes\obj\Debug\netcoreapp3.1\Nucleo.Operacoes.AssemblyInfo.cs
+C:\Users\FAMILIA\Desktop\Projeto_Nucleo\Nucleo.Operacoes\obj\Debug\netcoreapp3.1\Nucleo.Operacoes.csproj.CoreCompileInputs.cache
+C:\Users\FAMILIA\Desktop\Projeto_Nucleo\Nucleo.Operacoes\obj\Debug\netcoreapp3.1\Nucleo.Operacoes.dll
+C:\Users\FAMILIA\Desktop\Projeto_Nucleo\Nucleo.Operacoes\obj\Debug\netcoreapp3.1\Nucleo.Operacoes.pdb
+C:\Users\FAMILIA\Desktop\Projeto_Nucleo\Nucleo.Operacoes\bin\Debug\netcoreapp3.1\Nucleo.Operacoes.deps.json
+C:\Users\FAMILIA\Desktop\Projeto_Nucleo\Nucleo.Operacoes\bin\Debug\netcoreapp3.1\Nucleo.Operacoes.dll
+C:\Users\FAMILIA\Desktop\Projeto_Nucleo\Nucleo.Operacoes\bin\Debug\netcoreapp3.1\Nucleo.Operacoes.pdb
+C:\Users\FAMILIA\Desktop\Projeto_Nucleo\Nucleo.Operacoes\bin\Debug\netcoreapp3.1\Nucleo.Data.dll
+C:\Users\FAMILIA\Desktop\Projeto_Nucleo\Nucleo.Operacoes\bin\Debug\netcoreapp3.1\Nucleo.Data.pdb
+C:\Users\FAMILIA\Desktop\Projeto_Nucleo\Nucleo.Operacoes\obj\Debug\netcoreapp3.1\Nucleo.Operacoes.csproj.CopyComplete

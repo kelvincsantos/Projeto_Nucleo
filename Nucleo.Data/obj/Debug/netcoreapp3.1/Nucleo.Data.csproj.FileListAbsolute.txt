@@ -18,3 +18,13 @@ E:\GIT\Projeto_Nucleo\Nucleo.Data\obj\Debug\netcoreapp3.1\Nucleo.Data.AssemblyIn
 E:\GIT\Projeto_Nucleo\Nucleo.Data\obj\Debug\netcoreapp3.1\Nucleo.Data.csproj.CoreCompileInputs.cache
 E:\GIT\Projeto_Nucleo\Nucleo.Data\obj\Debug\netcoreapp3.1\Nucleo.Data.dll
 E:\GIT\Projeto_Nucleo\Nucleo.Data\obj\Debug\netcoreapp3.1\Nucleo.Data.pdb
+C:\Users\FAMILIA\Desktop\Projeto_Nucleo\Nucleo.Data\bin\Debug\netcoreapp3.1\Nucleo.Data.deps.json
+C:\Users\FAMILIA\Desktop\Projeto_Nucleo\Nucleo.Data\bin\Debug\netcoreapp3.1\Nucleo.Data.dll
+C:\Users\FAMILIA\Desktop\Projeto_Nucleo\Nucleo.Data\bin\Debug\netcoreapp3.1\Nucleo.Data.pdb
+C:\Users\FAMILIA\Desktop\Projeto_Nucleo\Nucleo.Data\obj\Debug\netcoreapp3.1\Nucleo.Data.csproj.AssemblyReference.cache
+C:\Users\FAMILIA\Desktop\Projeto_Nucleo\Nucleo.Data\obj\Debug\netcoreapp3.1\Nucleo.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\FAMILIA\Desktop\Projeto_Nucleo\Nucleo.Data\obj\Debug\netcoreapp3.1\Nucleo.Data.AssemblyInfoInputs.cache
+C:\Users\FAMILIA\Desktop\Projeto_Nucleo\Nucleo.Data\obj\Debug\netcoreapp3.1\Nucleo.Data.AssemblyInfo.cs
+C:\Users\FAMILIA\Desktop\Projeto_Nucleo\Nucleo.Data\obj\Debug\netcoreapp3.1\Nucleo.Data.csproj.CoreCompileInputs.cache
+C:\Users\FAMILIA\Desktop\Projeto_Nucleo\Nucleo.Data\obj\Debug\netcoreapp3.1\Nucleo.Data.dll
+C:\Users\FAMILIA\Desktop\Projeto_Nucleo\Nucleo.Data\obj\Debug\netcoreapp3.1\Nucleo.Data.pdb

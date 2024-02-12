@@ -24,3 +24,16 @@ E:\GIT\Projeto_Nucleo\Base\obj\Debug\netcoreapp3.1\Nucleo.Base.csproj.CoreCompil
 E:\GIT\Projeto_Nucleo\Base\obj\Debug\netcoreapp3.1\Nucleo.Base.csproj.CopyComplete
 E:\GIT\Projeto_Nucleo\Base\obj\Debug\netcoreapp3.1\Nucleo.Base.dll
 E:\GIT\Projeto_Nucleo\Base\obj\Debug\netcoreapp3.1\Nucleo.Base.pdb
+C:\Users\FAMILIA\Desktop\Projeto_Nucleo\Base\bin\Debug\netcoreapp3.1\Nucleo.Base.deps.json
+C:\Users\FAMILIA\Desktop\Projeto_Nucleo\Base\bin\Debug\netcoreapp3.1\Nucleo.Base.dll
+C:\Users\FAMILIA\Desktop\Projeto_Nucleo\Base\bin\Debug\netcoreapp3.1\Nucleo.Base.pdb
+C:\Users\FAMILIA\Desktop\Projeto_Nucleo\Base\bin\Debug\netcoreapp3.1\Nucleo.Data.dll
+C:\Users\FAMILIA\Desktop\Projeto_Nucleo\Base\bin\Debug\netcoreapp3.1\Nucleo.Data.pdb
+C:\Users\FAMILIA\Desktop\Projeto_Nucleo\Base\obj\Debug\netcoreapp3.1\Nucleo.Base.csproj.AssemblyReference.cache
+C:\Users\FAMILIA\Desktop\Projeto_Nucleo\Base\obj\Debug\netcoreapp3.1\Nucleo.Base.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\FAMILIA\Desktop\Projeto_Nucleo\Base\obj\Debug\netcoreapp3.1\Nucleo.Base.AssemblyInfoInputs.cache
+C:\Users\FAMILIA\Desktop\Projeto_Nucleo\Base\obj\Debug\netcoreapp3.1\Nucleo.Base.AssemblyInfo.cs
+C:\Users\FAMILIA\Desktop\Projeto_Nucleo\Base\obj\Debug\netcoreapp3.1\Nucleo.Base.csproj.CoreCompileInputs.cache
+C:\Users\FAMILIA\Desktop\Projeto_Nucleo\Base\obj\Debug\netcoreapp3.1\Nucleo.Base.csproj.CopyComplete
+C:\Users\FAMILIA\Desktop\Projeto_Nucleo\Base\obj\Debug\netcoreapp3.1\Nucleo.Base.dll
+C:\Users\FAMILIA\Desktop\Projeto_Nucleo\Base\obj\Debug\netcoreapp3.1\Nucleo.Base.pdb

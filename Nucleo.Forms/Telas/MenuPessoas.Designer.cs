@@ -142,10 +142,10 @@ namespace Nucleo.Forms
         #endregion
 
         private System.Windows.Forms.TableLayoutPanel LayoutGeral;
-        private Telas.Controls.Botao btnVendedores;
-        private Telas.Controls.Botao btnFuncionarios;
-        private Telas.Controls.Botao btnClientes;
-        private Telas.Controls.Botao btnUsuarios;
+        internal Telas.Controls.Botao btnVendedores;
+        internal Telas.Controls.Botao btnFuncionarios;
+        internal Telas.Controls.Botao btnClientes;
+        internal Telas.Controls.Botao btnUsuarios;
     }
 }
 

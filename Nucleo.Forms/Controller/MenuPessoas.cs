@@ -15,8 +15,21 @@ namespace Nucleo.Forms.Controller
             this.form = e;
             this.view = new View.Views.Tela.MenuPessoas();
 
-            Forms.Comum.Leiaute.Tela.Carregar(form);
+            form.btnClientes.Click += BtnClientes_Click;
 
+            Forms.Comum.Leiaute.Tela.Carregar(form);
         }
+
+        private void BtnClientes_Click(object sender, EventArgs e)
+        {
+            Comum.Leiaute.Tela.ExibirMedio(new Nucleo.Forms.Telas.Clientes());
+        }
+
+        private void Form_Load(object sender, EventArgs e)
+        {
+        }
+
+        
+       
     }
 }
