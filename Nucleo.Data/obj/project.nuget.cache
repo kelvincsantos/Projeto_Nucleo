@@ -1,12 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "qOKESLBeLTz99nPRdttNAU6wB2Hr3kkx2vdRMcIbQWOZhINri/Ryfywm4Af/lYhZ+IjvvsG7m4AIzQl27G4PAA==",
+  "dgSpecHash": "LqzpXhzPi8T38M71UvE2DdMgy3PJPbUY/YfwE1aqKMj0b/YVCDiGzAhxox3tExz4pMyjDWrNd6dnjJPwey1ePA==",
   "success": true,
   "projectFilePath": "G:\\GIT\\Projeto_Nucleo\\Nucleo.Data\\Nucleo.Data.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\Kelvin Carvalho Sant\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.1.0\\microsoft.windowsdesktop.app.ref.3.1.0.nupkg.sha512",
-    "C:\\Users\\Kelvin Carvalho Sant\\.nuget\\packages\\microsoft.netcore.app.ref\\3.1.0\\microsoft.netcore.app.ref.3.1.0.nupkg.sha512",
-    "C:\\Users\\Kelvin Carvalho Sant\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512"
-  ],
+  "expectedPackageFiles": [],
   "logs": []
 }

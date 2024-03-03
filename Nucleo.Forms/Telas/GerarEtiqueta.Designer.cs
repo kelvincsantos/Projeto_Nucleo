@@ -189,7 +189,6 @@ namespace Nucleo.Forms.Telas
             this.btnImprimirEtiqueta.TabIndex = 1;
             this.btnImprimirEtiqueta.Text = "Imprimir";
             this.btnImprimirEtiqueta.UseVisualStyleBackColor = true;
-            this.btnImprimirEtiqueta.Click += new System.EventHandler(this.btnImprimirEtiqueta_Click);
             // 
             // btnGerarQRCode
             // 
@@ -199,7 +198,6 @@ namespace Nucleo.Forms.Telas
             this.btnGerarQRCode.TabIndex = 0;
             this.btnGerarQRCode.Text = "Gerar";
             this.btnGerarQRCode.UseVisualStyleBackColor = true;
-            this.btnGerarQRCode.Click += new System.EventHandler(this.btnGerarQRCode_Click);
             // 
             // GerarEtiqueta
             // 
@@ -221,8 +219,8 @@ namespace Nucleo.Forms.Telas
         #endregion
 
         private System.Windows.Forms.TabControl tcClientes;
-        private System.Windows.Forms.Button btnImprimirEtiqueta;
-        private System.Windows.Forms.Button btnGerarQRCode;
+        internal System.Windows.Forms.Button btnImprimirEtiqueta;
+        internal System.Windows.Forms.Button btnGerarQRCode;
         internal System.Windows.Forms.TextBox txtDataCalibracao;
         private System.Windows.Forms.Label lblDataCalibracao;
         internal System.Windows.Forms.TabPage tpPesquisar;
@@ -235,6 +233,6 @@ namespace Nucleo.Forms.Telas
         internal System.Windows.Forms.TextBox txtDiretorioLaudo;
         private System.Windows.Forms.Label lblDiretorioLaudo;
         private System.Windows.Forms.Label lblPreVisualizacao;
-        private System.Windows.Forms.PictureBox pbPreVisualizacao;
+        internal System.Windows.Forms.PictureBox pbPreVisualizacao;
     }
 }

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "90ngwek7+bDF4XXkjQAz5OLipPmbvpx2WsDfEoFD0mKDc2BujJImeGX/QcaLv+1eAPMDtHxN+rg/5M8JNEf1Cw==",
+  "dgSpecHash": "QtJNcCUWfHFuOheMOQEt4zxLrAmU0cpIviH4zB0M0gHI1UGFis9FW1hCJUSzFgho2tqn3vatq3x0P3j9Ct71IA==",
   "success": true,
   "projectFilePath": "G:\\GIT\\Projeto_Nucleo\\Nucleo.Forms\\Nucleo.Forms.csproj",
   "expectedPackageFiles": [
@@ -102,11 +102,7 @@
     "C:\\Users\\Kelvin Carvalho Sant\\.nuget\\packages\\system.threading.timer\\4.3.0\\system.threading.timer.4.3.0.nupkg.sha512",
     "C:\\Users\\Kelvin Carvalho Sant\\.nuget\\packages\\system.xml.readerwriter\\4.3.0\\system.xml.readerwriter.4.3.0.nupkg.sha512",
     "C:\\Users\\Kelvin Carvalho Sant\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512",
-    "C:\\Users\\Kelvin Carvalho Sant\\.nuget\\packages\\xlparser\\1.5.2\\xlparser.1.5.2.nupkg.sha512",
-    "C:\\Users\\Kelvin Carvalho Sant\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.1.0\\microsoft.windowsdesktop.app.ref.3.1.0.nupkg.sha512",
-    "C:\\Users\\Kelvin Carvalho Sant\\.nuget\\packages\\microsoft.netcore.app.ref\\3.1.0\\microsoft.netcore.app.ref.3.1.0.nupkg.sha512",
-    "C:\\Users\\Kelvin Carvalho Sant\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512",
-    "C:\\Users\\Kelvin Carvalho Sant\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.32\\microsoft.netcore.app.host.win-x64.3.1.32.nupkg.sha512"
+    "C:\\Users\\Kelvin Carvalho Sant\\.nuget\\packages\\xlparser\\1.5.2\\xlparser.1.5.2.nupkg.sha512"
   ],
   "logs": []
 }

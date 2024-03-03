@@ -10,23 +10,13 @@ namespace Nucleo.Forms.Telas
 {
     public partial class GerarEtiqueta : Form
     {
+        public Controller.GerarEtiqueta controller;
+
         public GerarEtiqueta()
         {
             InitializeComponent();
-        }
 
-        private void btnGerarQRCode_Click(object sender, EventArgs e)
-        {
-            pbPreVisualizacao.Image = Nucleo.Operacoes.Aplicacao.CodigoBarras.GenerateQRCode(txtDiretorioLaudo.Text);
+            controller = new Controller.GerarEtiqueta(this);
         }
-
-        private void btnImprimirEtiqueta_Click(object sender, EventArgs e)
-        {
-            txtDataCalibracao.Text = string.Empty;
-            txtDiretorioLaudo.Text = string.Empty;
-            txtNroCertificacao.Text = string.Empty;
-        }
-
-        
     }
 }

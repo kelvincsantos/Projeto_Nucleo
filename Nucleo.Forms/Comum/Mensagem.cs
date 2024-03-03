@@ -19,22 +19,22 @@ namespace Nucleo.Foms.Comum
 
         public static void Alerta(string mensagem)
         {
-            MessageBox.Show(mensagem, "Aviso", MessageBoxButtons.OK, MessageBoxIcon.Hand);
+            MessageBox.Show(mensagem, "Alerta", MessageBoxButtons.OK, MessageBoxIcon.Hand);
         }
 
         public static void Validacao(string mensagem)
         {
-            MessageBox.Show(mensagem, "Aviso", MessageBoxButtons.OK, MessageBoxIcon.Hand);
+            MessageBox.Show(mensagem, "!", MessageBoxButtons.OK, MessageBoxIcon.Hand);
         }
 
-        public static DialogResult QuestaoSimNao(string mensagem)
+        public static bool QuestaoSimNao(string mensagem)
         {
-            return MessageBox.Show(mensagem, "Aviso", MessageBoxButtons.OK, MessageBoxIcon.Hand);
+            return MessageBox.Show(mensagem, "?", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes;
         }
 
-        public static DialogResult QuestaoOkCancelar(string mensagem)
+        public static bool QuestaoOkCancelar(string mensagem)
         {
-            return MessageBox.Show(mensagem, "Aviso", MessageBoxButtons.OK, MessageBoxIcon.Hand);
+            return MessageBox.Show(mensagem, "?", MessageBoxButtons.OKCancel, MessageBoxIcon.Question) == DialogResult.OK;
         }
     }
 }
