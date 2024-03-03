@@ -6,6 +6,7 @@ namespace Nucleo.Data
 {
     public class Etiqueta
     {
+        public string ID { get; set; }
         public DateTime? DataCalibracao { get; set; }
         public DateTime? ProximaCalibracao { get; set; }
         public string NumeroCertificado { get; set; }

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Nucleo.Operacoes")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e163ba9ccaee2666617bf20810210be0b0f6aacf")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0f27f8da5aca0d2cf2b7d62b91f469d6fc0e455c")]
 [assembly: System.Reflection.AssemblyProductAttribute("Nucleo.Operacoes")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Nucleo.Operacoes")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

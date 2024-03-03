@@ -3,7 +3,7 @@
   "WorkspaceRootPath": "G:\\GIT\\Projeto_Nucleo\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C4B95C74-8D48-413F-B99A-6AD28C3D3475}|Nucleo.Forms\\Nucleo.Forms.csproj|G:\\GIT\\Projeto_Nucleo\\nucleo.forms\\controller\\geraretiqueta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C4B95C74-8D48-413F-B99A-6AD28C3D3475}|Nucleo.Forms\\Nucleo.Forms.csproj|g:\\git\\projeto_nucleo\\nucleo.forms\\controller\\geraretiqueta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C4B95C74-8D48-413F-B99A-6AD28C3D3475}|Nucleo.Forms\\Nucleo.Forms.csproj|solutionrelative:nucleo.forms\\controller\\geraretiqueta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -11,11 +11,19 @@
       "RelativeMoniker": "D:0:0:{2F64675E-2807-4603-BD83-47B3F9AE42E0}|Nucleo.View\\Nucleo.View.csproj|solutionrelative:nucleo.view\\views\\tela\\geraretiqueta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{D32CEB4C-8E2F-4C89-AD5E-0CA0A2F1EEB4}|Nucleo.Data\\Nucleo.Data.csproj|g:\\git\\projeto_nucleo\\nucleo.data\\etiqueta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D32CEB4C-8E2F-4C89-AD5E-0CA0A2F1EEB4}|Nucleo.Data\\Nucleo.Data.csproj|solutionrelative:nucleo.data\\etiqueta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{C4B95C74-8D48-413F-B99A-6AD28C3D3475}|Nucleo.Forms\\Nucleo.Forms.csproj|G:\\GIT\\Projeto_Nucleo\\nucleo.forms\\telas\\geraretiqueta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C4B95C74-8D48-413F-B99A-6AD28C3D3475}|Nucleo.Forms\\Nucleo.Forms.csproj|solutionrelative:nucleo.forms\\telas\\geraretiqueta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C4B95C74-8D48-413F-B99A-6AD28C3D3475}|Nucleo.Forms\\Nucleo.Forms.csproj|g:\\git\\projeto_nucleo\\nucleo.forms\\telas\\geraretiqueta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{C4B95C74-8D48-413F-B99A-6AD28C3D3475}|Nucleo.Forms\\Nucleo.Forms.csproj|g:\\git\\projeto_nucleo\\nucleo.forms\\comum\\mensagem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C4B95C74-8D48-413F-B99A-6AD28C3D3475}|Nucleo.Forms\\Nucleo.Forms.csproj|solutionrelative:nucleo.forms\\comum\\mensagem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C4B95C74-8D48-413F-B99A-6AD28C3D3475}|Nucleo.Forms\\Nucleo.Forms.csproj|G:\\GIT\\Projeto_Nucleo\\nucleo.forms\\telas\\geraretiqueta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{C4B95C74-8D48-413F-B99A-6AD28C3D3475}|Nucleo.Forms\\Nucleo.Forms.csproj|solutionrelative:nucleo.forms\\telas\\geraretiqueta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
@@ -66,11 +74,37 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 4,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Etiqueta.cs",
+              "DocumentMoniker": "G:\\GIT\\Projeto_Nucleo\\Nucleo.Data\\Etiqueta.cs",
+              "RelativeDocumentMoniker": "Nucleo.Data\\Etiqueta.cs",
+              "ToolTip": "G:\\GIT\\Projeto_Nucleo\\Nucleo.Data\\Etiqueta.cs",
+              "RelativeToolTip": "Nucleo.Data\\Etiqueta.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-03T19:00:21.303Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Mensagem.cs",
+              "DocumentMoniker": "G:\\GIT\\Projeto_Nucleo\\Nucleo.Forms\\Comum\\Mensagem.cs",
+              "RelativeDocumentMoniker": "Nucleo.Forms\\Comum\\Mensagem.cs",
+              "ToolTip": "G:\\GIT\\Projeto_Nucleo\\Nucleo.Forms\\Comum\\Mensagem.cs",
+              "RelativeToolTip": "Nucleo.Forms\\Comum\\Mensagem.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAcwCcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-03T18:56:35.811Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -80,7 +114,7 @@
               "RelativeDocumentMoniker": "Nucleo.View\\Views\\Tela\\GerarEtiqueta.cs",
               "ToolTip": "G:\\GIT\\Projeto_Nucleo\\Nucleo.View\\Views\\Tela\\GerarEtiqueta.cs",
               "RelativeToolTip": "Nucleo.View\\Views\\Tela\\GerarEtiqueta.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAgAAAA",
+              "ViewState": "AQIAABkAAAAAAAAAAAArwCoAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-03T14:35:27.891Z",
               "EditorCaption": ""
@@ -93,14 +127,14 @@
               "RelativeDocumentMoniker": "Nucleo.Forms\\Controller\\GerarEtiqueta.cs",
               "ToolTip": "G:\\GIT\\Projeto_Nucleo\\Nucleo.Forms\\Controller\\GerarEtiqueta.cs",
               "RelativeToolTip": "Nucleo.Forms\\Controller\\GerarEtiqueta.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAkwBYAAAAMAAAA",
+              "ViewState": "AQIAACQAAAAAAAAAAAAAADEAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-03T14:33:07.551Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "MenuPessoas.cs",
               "DocumentMoniker": "G:\\GIT\\Projeto_Nucleo\\Nucleo.Forms\\Telas\\MenuPessoas.cs",
               "RelativeDocumentMoniker": "Nucleo.Forms\\Telas\\MenuPessoas.cs",
@@ -112,7 +146,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "Clientes.cs",
               "DocumentMoniker": "G:\\GIT\\Projeto_Nucleo\\Nucleo.Forms\\Telas\\Clientes.cs",
               "RelativeDocumentMoniker": "Nucleo.Forms\\Telas\\Clientes.cs",
@@ -124,7 +158,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "GerarEtiqueta.cs",
               "DocumentMoniker": "G:\\GIT\\Projeto_Nucleo\\Nucleo.Forms\\Telas\\GerarEtiqueta.cs",
               "RelativeDocumentMoniker": "Nucleo.Forms\\Telas\\GerarEtiqueta.cs",
@@ -137,7 +171,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "GerarEtiqueta.cs [Design]",
               "DocumentMoniker": "G:\\GIT\\Projeto_Nucleo\\Nucleo.Forms\\Telas\\GerarEtiqueta.cs",
               "RelativeDocumentMoniker": "Nucleo.Forms\\Telas\\GerarEtiqueta.cs",
@@ -149,7 +183,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 12,
               "Title": "Criptografia.cs",
               "DocumentMoniker": "G:\\GIT\\Projeto_Nucleo\\Base\\Seguranca\\Criptografia.cs",
               "RelativeDocumentMoniker": "Base\\Seguranca\\Criptografia.cs",
@@ -161,7 +195,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 13,
               "Title": "SQL.cs",
               "DocumentMoniker": "G:\\GIT\\Projeto_Nucleo\\Base\\Enumeradores\\SQL.cs",
               "RelativeDocumentMoniker": "Base\\Enumeradores\\SQL.cs",
@@ -173,7 +207,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 14,
               "Title": "Query.cs",
               "DocumentMoniker": "G:\\GIT\\Projeto_Nucleo\\Base\\SQL\\Query.cs",
               "RelativeDocumentMoniker": "Base\\SQL\\Query.cs",
@@ -185,7 +219,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "Excel.cs",
               "DocumentMoniker": "G:\\GIT\\Projeto_Nucleo\\Base\\Transporte\\Excel.cs",
               "RelativeDocumentMoniker": "Base\\Transporte\\Excel.cs",
@@ -197,7 +231,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 11,
               "Title": "Metodo.cs",
               "DocumentMoniker": "G:\\GIT\\Projeto_Nucleo\\Nucleo.API\\Aplicacao\\Metodo.cs",
               "RelativeDocumentMoniker": "Nucleo.API\\Aplicacao\\Metodo.cs",
@@ -209,7 +243,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 15,
               "Title": "Saida.cs",
               "DocumentMoniker": "G:\\GIT\\Projeto_Nucleo\\Nucleo.API\\Aplicacao\\Saida.cs",
               "RelativeDocumentMoniker": "Nucleo.API\\Aplicacao\\Saida.cs",
@@ -221,7 +255,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": "Entrada.cs",
               "DocumentMoniker": "G:\\GIT\\Projeto_Nucleo\\Nucleo.API\\Aplicacao\\Entrada.cs",
               "RelativeDocumentMoniker": "Nucleo.API\\Aplicacao\\Entrada.cs",
@@ -233,7 +267,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "Interface.cs",
               "DocumentMoniker": "G:\\GIT\\Projeto_Nucleo\\Nucleo.API\\Interface.cs",
               "RelativeDocumentMoniker": "Nucleo.API\\Interface.cs",

@@ -16,24 +16,30 @@ namespace Nucleo.View.Views.Tela
             return new List<Etiqueta>();
         }
 
-        public bool GerarArquivoPadrao()
+        public string GerarArquivoPadrao()
         {
-            string Arquivo = "C:\\ETQ Padrao\\LoteEtiquetas.csv";
+            try
+            {
+                string Arquivo = "C:\\ETQ Padrao\\LoteEtiquetas.csv";
 
+
+                if (!Directory.Exists("C:\\ETQ Padrao"))
+                    Directory.CreateDirectory("C:\\ETQ Padrao");
+
+                StreamWriter sw = new StreamWriter(Arquivo, false);
+
+                sw.WriteLine("NumeroIdentificacao;NumeroCertificado;DataCalibracao;ProximaCalibracao;DiretorioLaudo;");
+                sw.WriteLine("                   ;                 ;              ;                 ;              ;");
+
+                sw.Close();
+
+                return Arquivo;
+            }
+            catch (Exception)
+            {
+                return string.Empty;
+            }
             
-            MsgBox("O arquivo excel padrão será salvo em C:\BoxPDV Sistemas\Parceiros\ParceirosBOXPDV.csv.", MsgBoxStyle.Information, "Ok")
-            If Not IO.Directory.Exists("C:\BoxPDV Sistemas\Parceiros") Then
-                IO.Directory.CreateDirectory("C:\BoxPDV Sistemas\Parceiros")
-            End If
-
-            Dim sw As IO.StreamWriter = My.Computer.FileSystem.OpenTextFileWriter(vArquivo, False)
-
-            sw.WriteLine("Nome;NomeFantasia;CNPJ;InscEst;CPF;RG;CEP;Endereco;Numero;Complemento;Bairro;Cidade;UF;DDD;Telefone;EMail;CodVendedor;ComissaoVendedor;CondicaoPagamento;ValorCredito;Codigo;Perfil;")
-            sw.WriteLine("    ;            ;    ;       ;   ;      ;        ;      ;           ;      ;      ;  ;   ;        ;     ;           ;                ;")
-
-            sw.Close()
-
-            MsgBox("Exportação efetuada com sucesso.", MsgBoxStyle.Information, "Ok")
         }
     }
 }
