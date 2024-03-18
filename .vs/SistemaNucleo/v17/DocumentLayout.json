@@ -3,68 +3,12 @@
   "WorkspaceRootPath": "G:\\GIT\\Projeto_Nucleo\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C4B95C74-8D48-413F-B99A-6AD28C3D3475}|Nucleo.Forms\\Nucleo.Forms.csproj|g:\\git\\projeto_nucleo\\nucleo.forms\\controller\\geraretiqueta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C4B95C74-8D48-413F-B99A-6AD28C3D3475}|Nucleo.Forms\\Nucleo.Forms.csproj|solutionrelative:nucleo.forms\\controller\\geraretiqueta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2F64675E-2807-4603-BD83-47B3F9AE42E0}|Nucleo.View\\Nucleo.View.csproj|G:\\GIT\\Projeto_Nucleo\\nucleo.view\\views\\tela\\geraretiqueta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2F64675E-2807-4603-BD83-47B3F9AE42E0}|Nucleo.View\\Nucleo.View.csproj|solutionrelative:nucleo.view\\views\\tela\\geraretiqueta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D32CEB4C-8E2F-4C89-AD5E-0CA0A2F1EEB4}|Nucleo.Data\\Nucleo.Data.csproj|g:\\git\\projeto_nucleo\\nucleo.data\\etiqueta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D32CEB4C-8E2F-4C89-AD5E-0CA0A2F1EEB4}|Nucleo.Data\\Nucleo.Data.csproj|solutionrelative:nucleo.data\\etiqueta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C4B95C74-8D48-413F-B99A-6AD28C3D3475}|Nucleo.Forms\\Nucleo.Forms.csproj|G:\\GIT\\Projeto_Nucleo\\nucleo.forms\\telas\\geraretiqueta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C4B95C74-8D48-413F-B99A-6AD28C3D3475}|Nucleo.Forms\\Nucleo.Forms.csproj|solutionrelative:nucleo.forms\\telas\\geraretiqueta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{C4B95C74-8D48-413F-B99A-6AD28C3D3475}|Nucleo.Forms\\Nucleo.Forms.csproj|g:\\git\\projeto_nucleo\\nucleo.forms\\comum\\mensagem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C4B95C74-8D48-413F-B99A-6AD28C3D3475}|Nucleo.Forms\\Nucleo.Forms.csproj|solutionrelative:nucleo.forms\\comum\\mensagem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C4B95C74-8D48-413F-B99A-6AD28C3D3475}|Nucleo.Forms\\Nucleo.Forms.csproj|G:\\GIT\\Projeto_Nucleo\\nucleo.forms\\telas\\geraretiqueta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{C4B95C74-8D48-413F-B99A-6AD28C3D3475}|Nucleo.Forms\\Nucleo.Forms.csproj|solutionrelative:nucleo.forms\\telas\\geraretiqueta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C4B95C74-8D48-413F-B99A-6AD28C3D3475}|Nucleo.Forms\\Nucleo.Forms.csproj|G:\\GIT\\Projeto_Nucleo\\nucleo.forms\\telas\\menupessoas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C4B95C74-8D48-413F-B99A-6AD28C3D3475}|Nucleo.Forms\\Nucleo.Forms.csproj|solutionrelative:nucleo.forms\\telas\\menupessoas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C4B95C74-8D48-413F-B99A-6AD28C3D3475}|Nucleo.Forms\\Nucleo.Forms.csproj|G:\\GIT\\Projeto_Nucleo\\nucleo.forms\\telas\\clientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C4B95C74-8D48-413F-B99A-6AD28C3D3475}|Nucleo.Forms\\Nucleo.Forms.csproj|solutionrelative:nucleo.forms\\telas\\clientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CA00734C-D832-4A1B-8436-FB37B670A0EA}|Base\\Nucleo.Base.csproj|G:\\GIT\\Projeto_Nucleo\\base\\transporte\\excel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CA00734C-D832-4A1B-8436-FB37B670A0EA}|Base\\Nucleo.Base.csproj|solutionrelative:base\\transporte\\excel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{53FC4577-9394-4205-9466-84A8FA941164}|Nucleo.API\\Nucleo.API.csproj|G:\\GIT\\Projeto_Nucleo\\nucleo.api\\interface.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{53FC4577-9394-4205-9466-84A8FA941164}|Nucleo.API\\Nucleo.API.csproj|solutionrelative:nucleo.api\\interface.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{53FC4577-9394-4205-9466-84A8FA941164}|Nucleo.API\\Nucleo.API.csproj|G:\\GIT\\Projeto_Nucleo\\nucleo.api\\aplicacao\\entrada.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{53FC4577-9394-4205-9466-84A8FA941164}|Nucleo.API\\Nucleo.API.csproj|solutionrelative:nucleo.api\\aplicacao\\entrada.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{53FC4577-9394-4205-9466-84A8FA941164}|Nucleo.API\\Nucleo.API.csproj|G:\\GIT\\Projeto_Nucleo\\nucleo.api\\aplicacao\\metodo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{53FC4577-9394-4205-9466-84A8FA941164}|Nucleo.API\\Nucleo.API.csproj|solutionrelative:nucleo.api\\aplicacao\\metodo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CA00734C-D832-4A1B-8436-FB37B670A0EA}|Base\\Nucleo.Base.csproj|G:\\GIT\\Projeto_Nucleo\\base\\seguranca\\criptografia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CA00734C-D832-4A1B-8436-FB37B670A0EA}|Base\\Nucleo.Base.csproj|solutionrelative:base\\seguranca\\criptografia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CA00734C-D832-4A1B-8436-FB37B670A0EA}|Base\\Nucleo.Base.csproj|G:\\GIT\\Projeto_Nucleo\\base\\enumeradores\\sql.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CA00734C-D832-4A1B-8436-FB37B670A0EA}|Base\\Nucleo.Base.csproj|solutionrelative:base\\enumeradores\\sql.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CA00734C-D832-4A1B-8436-FB37B670A0EA}|Base\\Nucleo.Base.csproj|G:\\GIT\\Projeto_Nucleo\\base\\sql\\query.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CA00734C-D832-4A1B-8436-FB37B670A0EA}|Base\\Nucleo.Base.csproj|solutionrelative:base\\sql\\query.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{53FC4577-9394-4205-9466-84A8FA941164}|Nucleo.API\\Nucleo.API.csproj|G:\\GIT\\Projeto_Nucleo\\nucleo.api\\aplicacao\\saida.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{53FC4577-9394-4205-9466-84A8FA941164}|Nucleo.API\\Nucleo.API.csproj|solutionrelative:nucleo.api\\aplicacao\\saida.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C4B95C74-8D48-413F-B99A-6AD28C3D3475}|Nucleo.Forms\\Nucleo.Forms.csproj|g:\\git\\projeto_nucleo\\nucleo.forms\\nucleo.forms.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{C4B95C74-8D48-413F-B99A-6AD28C3D3475}|Nucleo.Forms\\Nucleo.Forms.csproj|solutionrelative:nucleo.forms\\nucleo.forms.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -74,19 +18,19 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Etiqueta.cs",
-              "DocumentMoniker": "G:\\GIT\\Projeto_Nucleo\\Nucleo.Data\\Etiqueta.cs",
-              "RelativeDocumentMoniker": "Nucleo.Data\\Etiqueta.cs",
-              "ToolTip": "G:\\GIT\\Projeto_Nucleo\\Nucleo.Data\\Etiqueta.cs",
-              "RelativeToolTip": "Nucleo.Data\\Etiqueta.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAYAAAA",
+              "DocumentIndex": 0,
+              "Title": "Mensagem.cs",
+              "DocumentMoniker": "G:\\GIT\\Projeto_Nucleo\\Nucleo.Forms\\Comum\\Mensagem.cs",
+              "RelativeDocumentMoniker": "Nucleo.Forms\\Comum\\Mensagem.cs",
+              "ToolTip": "G:\\GIT\\Projeto_Nucleo\\Nucleo.Forms\\Comum\\Mensagem.cs",
+              "RelativeToolTip": "Nucleo.Forms\\Comum\\Mensagem.cs",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAkwAUAAAAQAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-03T19:00:21.303Z",
+              "WhenOpened": "2024-03-16T19:58:55.007Z",
               "EditorCaption": ""
             },
             {
@@ -95,187 +39,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Mensagem.cs",
-              "DocumentMoniker": "G:\\GIT\\Projeto_Nucleo\\Nucleo.Forms\\Comum\\Mensagem.cs",
-              "RelativeDocumentMoniker": "Nucleo.Forms\\Comum\\Mensagem.cs",
-              "ToolTip": "G:\\GIT\\Projeto_Nucleo\\Nucleo.Forms\\Comum\\Mensagem.cs",
-              "RelativeToolTip": "Nucleo.Forms\\Comum\\Mensagem.cs",
-              "ViewState": "AQIAAAsAAAAAAAAAAAAcwCcAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-03T18:56:35.811Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "GerarEtiqueta.cs",
-              "DocumentMoniker": "G:\\GIT\\Projeto_Nucleo\\Nucleo.View\\Views\\Tela\\GerarEtiqueta.cs",
-              "RelativeDocumentMoniker": "Nucleo.View\\Views\\Tela\\GerarEtiqueta.cs",
-              "ToolTip": "G:\\GIT\\Projeto_Nucleo\\Nucleo.View\\Views\\Tela\\GerarEtiqueta.cs",
-              "RelativeToolTip": "Nucleo.View\\Views\\Tela\\GerarEtiqueta.cs",
-              "ViewState": "AQIAABkAAAAAAAAAAAArwCoAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-03T14:35:27.891Z",
+              "Title": "Nucleo.Forms",
+              "DocumentMoniker": "G:\\GIT\\Projeto_Nucleo\\Nucleo.Forms\\Nucleo.Forms.csproj",
+              "RelativeDocumentMoniker": "Nucleo.Forms\\Nucleo.Forms.csproj",
+              "ToolTip": "G:\\GIT\\Projeto_Nucleo\\Nucleo.Forms\\Nucleo.Forms.csproj",
+              "RelativeToolTip": "Nucleo.Forms\\Nucleo.Forms.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-03-16T18:55:53.295Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "GerarEtiqueta.cs",
-              "DocumentMoniker": "G:\\GIT\\Projeto_Nucleo\\Nucleo.Forms\\Controller\\GerarEtiqueta.cs",
-              "RelativeDocumentMoniker": "Nucleo.Forms\\Controller\\GerarEtiqueta.cs",
-              "ToolTip": "G:\\GIT\\Projeto_Nucleo\\Nucleo.Forms\\Controller\\GerarEtiqueta.cs",
-              "RelativeToolTip": "Nucleo.Forms\\Controller\\GerarEtiqueta.cs",
-              "ViewState": "AQIAACQAAAAAAAAAAAAAADEAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-03T14:33:07.551Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "MenuPessoas.cs",
-              "DocumentMoniker": "G:\\GIT\\Projeto_Nucleo\\Nucleo.Forms\\Telas\\MenuPessoas.cs",
-              "RelativeDocumentMoniker": "Nucleo.Forms\\Telas\\MenuPessoas.cs",
-              "ToolTip": "G:\\GIT\\Projeto_Nucleo\\Nucleo.Forms\\Telas\\MenuPessoas.cs",
-              "RelativeToolTip": "Nucleo.Forms\\Telas\\MenuPessoas.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAA6AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
-              "WhenOpened": "2024-03-03T14:32:46.539Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Clientes.cs",
-              "DocumentMoniker": "G:\\GIT\\Projeto_Nucleo\\Nucleo.Forms\\Telas\\Clientes.cs",
-              "RelativeDocumentMoniker": "Nucleo.Forms\\Telas\\Clientes.cs",
-              "ToolTip": "G:\\GIT\\Projeto_Nucleo\\Nucleo.Forms\\Telas\\Clientes.cs",
-              "RelativeToolTip": "Nucleo.Forms\\Telas\\Clientes.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
-              "WhenOpened": "2024-03-03T14:32:42.691Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "GerarEtiqueta.cs",
-              "DocumentMoniker": "G:\\GIT\\Projeto_Nucleo\\Nucleo.Forms\\Telas\\GerarEtiqueta.cs",
-              "RelativeDocumentMoniker": "Nucleo.Forms\\Telas\\GerarEtiqueta.cs",
-              "ToolTip": "G:\\GIT\\Projeto_Nucleo\\Nucleo.Forms\\Telas\\GerarEtiqueta.cs",
-              "RelativeToolTip": "Nucleo.Forms\\Telas\\GerarEtiqueta.cs",
-              "ViewState": "AQIAAAIAAAAAAAAAAAAkwBMAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-03T14:32:22.137Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "GerarEtiqueta.cs [Design]",
-              "DocumentMoniker": "G:\\GIT\\Projeto_Nucleo\\Nucleo.Forms\\Telas\\GerarEtiqueta.cs",
-              "RelativeDocumentMoniker": "Nucleo.Forms\\Telas\\GerarEtiqueta.cs",
-              "ToolTip": "G:\\GIT\\Projeto_Nucleo\\Nucleo.Forms\\Telas\\GerarEtiqueta.cs [Design]",
-              "RelativeToolTip": "Nucleo.Forms\\Telas\\GerarEtiqueta.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-03T14:31:07.041Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Criptografia.cs",
-              "DocumentMoniker": "G:\\GIT\\Projeto_Nucleo\\Base\\Seguranca\\Criptografia.cs",
-              "RelativeDocumentMoniker": "Base\\Seguranca\\Criptografia.cs",
-              "ToolTip": "G:\\GIT\\Projeto_Nucleo\\Base\\Seguranca\\Criptografia.cs",
-              "RelativeToolTip": "Base\\Seguranca\\Criptografia.cs",
-              "ViewState": "AQIAAFIAAAAAAAAAAAAUwG0AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-26T04:24:29.587Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "SQL.cs",
-              "DocumentMoniker": "G:\\GIT\\Projeto_Nucleo\\Base\\Enumeradores\\SQL.cs",
-              "RelativeDocumentMoniker": "Base\\Enumeradores\\SQL.cs",
-              "ToolTip": "G:\\GIT\\Projeto_Nucleo\\Base\\Enumeradores\\SQL.cs",
-              "RelativeToolTip": "Base\\Enumeradores\\SQL.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-26T04:24:27.969Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "Query.cs",
-              "DocumentMoniker": "G:\\GIT\\Projeto_Nucleo\\Base\\SQL\\Query.cs",
-              "RelativeDocumentMoniker": "Base\\SQL\\Query.cs",
-              "ToolTip": "G:\\GIT\\Projeto_Nucleo\\Base\\SQL\\Query.cs",
-              "RelativeToolTip": "Base\\SQL\\Query.cs",
-              "ViewState": "AQIAAB0AAAAAAAAAAAAkwDsAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-26T04:24:19.604Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Excel.cs",
-              "DocumentMoniker": "G:\\GIT\\Projeto_Nucleo\\Base\\Transporte\\Excel.cs",
-              "RelativeDocumentMoniker": "Base\\Transporte\\Excel.cs",
-              "ToolTip": "G:\\GIT\\Projeto_Nucleo\\Base\\Transporte\\Excel.cs",
-              "RelativeToolTip": "Base\\Transporte\\Excel.cs",
-              "ViewState": "AQIAABsAAAAAAAAAAAAiwDwAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-26T03:39:23.337Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Metodo.cs",
-              "DocumentMoniker": "G:\\GIT\\Projeto_Nucleo\\Nucleo.API\\Aplicacao\\Metodo.cs",
-              "RelativeDocumentMoniker": "Nucleo.API\\Aplicacao\\Metodo.cs",
-              "ToolTip": "G:\\GIT\\Projeto_Nucleo\\Nucleo.API\\Aplicacao\\Metodo.cs",
-              "RelativeToolTip": "Nucleo.API\\Aplicacao\\Metodo.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAWAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-12T22:43:37.086Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "Saida.cs",
-              "DocumentMoniker": "G:\\GIT\\Projeto_Nucleo\\Nucleo.API\\Aplicacao\\Saida.cs",
-              "RelativeDocumentMoniker": "Nucleo.API\\Aplicacao\\Saida.cs",
-              "ToolTip": "G:\\GIT\\Projeto_Nucleo\\Nucleo.API\\Aplicacao\\Saida.cs",
-              "RelativeToolTip": "Nucleo.API\\Aplicacao\\Saida.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAqwA8AAAAWAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-12T22:39:34.392Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Entrada.cs",
-              "DocumentMoniker": "G:\\GIT\\Projeto_Nucleo\\Nucleo.API\\Aplicacao\\Entrada.cs",
-              "RelativeDocumentMoniker": "Nucleo.API\\Aplicacao\\Entrada.cs",
-              "ToolTip": "G:\\GIT\\Projeto_Nucleo\\Nucleo.API\\Aplicacao\\Entrada.cs",
-              "RelativeToolTip": "Nucleo.API\\Aplicacao\\Entrada.cs",
-              "ViewState": "AQIAAA8AAAAAAAAAAADwvy0AAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-12T22:39:24.787Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Interface.cs",
-              "DocumentMoniker": "G:\\GIT\\Projeto_Nucleo\\Nucleo.API\\Interface.cs",
-              "RelativeDocumentMoniker": "Nucleo.API\\Interface.cs",
-              "ToolTip": "G:\\GIT\\Projeto_Nucleo\\Nucleo.API\\Interface.cs",
-              "RelativeToolTip": "Nucleo.API\\Interface.cs",
-              "ViewState": "AQIAAF4AAAAAAAAAAAAUwH4AAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-12T22:38:42.965Z"
             }
           ]
         }

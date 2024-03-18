@@ -1,12 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ZVgc0A1TEQoWHDnZYS86VbQZJlWYEm17cS1y3M3QdkErLcV11WWKnqeRyGXr0QCa9TnUKQkhbn3KFjqsHNN0GA==",
+  "dgSpecHash": "QmJt64OQ/F3Nbvjcf2m/og493GSNZ9KqNviZpe2Z4ip4vC9/2tq60ujc1wvDci2tcYP69evlkeGYgprblqlNGg==",
   "success": true,
   "projectFilePath": "G:\\GIT\\Projeto_Nucleo\\Nucleo.API\\Nucleo.API.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\Kelvin Carvalho Sant\\.nuget\\packages\\restsharp\\110.2.0\\restsharp.110.2.0.nupkg.sha512",
-    "C:\\Users\\Kelvin Carvalho Sant\\.nuget\\packages\\system.text.encodings.web\\7.0.0\\system.text.encodings.web.7.0.0.nupkg.sha512",
-    "C:\\Users\\Kelvin Carvalho Sant\\.nuget\\packages\\system.text.json\\7.0.2\\system.text.json.7.0.2.nupkg.sha512"
-  ],
+  "expectedPackageFiles": [],
   "logs": []
 }

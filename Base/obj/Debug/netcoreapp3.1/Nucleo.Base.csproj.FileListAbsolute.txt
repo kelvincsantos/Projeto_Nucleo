@@ -8,7 +8,6 @@ G:\GIT\Projeto_Nucleo\Base\obj\Debug\netcoreapp3.1\Nucleo.Base.GeneratedMSBuildE
 G:\GIT\Projeto_Nucleo\Base\obj\Debug\netcoreapp3.1\Nucleo.Base.AssemblyInfoInputs.cache
 G:\GIT\Projeto_Nucleo\Base\obj\Debug\netcoreapp3.1\Nucleo.Base.AssemblyInfo.cs
 G:\GIT\Projeto_Nucleo\Base\obj\Debug\netcoreapp3.1\Nucleo.Base.csproj.CoreCompileInputs.cache
-G:\GIT\Projeto_Nucleo\Base\obj\Debug\netcoreapp3.1\Nucleo.Base.csproj.CopyComplete
 G:\GIT\Projeto_Nucleo\Base\obj\Debug\netcoreapp3.1\Nucleo.Base.dll
 G:\GIT\Projeto_Nucleo\Base\obj\Debug\netcoreapp3.1\Nucleo.Base.pdb
 E:\GIT\Projeto_Nucleo\Base\bin\Debug\netcoreapp3.1\Nucleo.Base.deps.json
@@ -37,3 +36,5 @@ C:\Users\FAMILIA\Desktop\Projeto_Nucleo\Base\obj\Debug\netcoreapp3.1\Nucleo.Base
 C:\Users\FAMILIA\Desktop\Projeto_Nucleo\Base\obj\Debug\netcoreapp3.1\Nucleo.Base.csproj.CopyComplete
 C:\Users\FAMILIA\Desktop\Projeto_Nucleo\Base\obj\Debug\netcoreapp3.1\Nucleo.Base.dll
 C:\Users\FAMILIA\Desktop\Projeto_Nucleo\Base\obj\Debug\netcoreapp3.1\Nucleo.Base.pdb
+G:\GIT\Projeto_Nucleo\Base\obj\Debug\netcoreapp3.1\Nucleo.Base.sourcelink.json
+G:\GIT\Projeto_Nucleo\Base\obj\Debug\netcoreapp3.1\Nucleo.B.C2E55651.Up2Date

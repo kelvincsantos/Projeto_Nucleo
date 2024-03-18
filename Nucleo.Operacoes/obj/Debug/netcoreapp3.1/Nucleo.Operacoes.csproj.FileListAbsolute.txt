@@ -23,7 +23,6 @@ E:\GIT\Projeto_Nucleo\Nucleo.Operacoes\bin\Debug\netcoreapp3.1\Nucleo.Data.pdb
 E:\GIT\Projeto_Nucleo\Nucleo.Operacoes\obj\Debug\netcoreapp3.1\Nucleo.Operacoes.csproj.CopyComplete
 G:\GIT\Projeto_Nucleo\Nucleo.Operacoes\bin\Debug\netcoreapp3.1\Nucleo.Data.dll
 G:\GIT\Projeto_Nucleo\Nucleo.Operacoes\bin\Debug\netcoreapp3.1\Nucleo.Data.pdb
-G:\GIT\Projeto_Nucleo\Nucleo.Operacoes\obj\Debug\netcoreapp3.1\Nucleo.Operacoes.csproj.CopyComplete
 C:\Users\FAMILIA\Desktop\Projeto_Nucleo\Nucleo.Operacoes\obj\Debug\netcoreapp3.1\Nucleo.Operacoes.csproj.AssemblyReference.cache
 C:\Users\FAMILIA\Desktop\Projeto_Nucleo\Nucleo.Operacoes\obj\Debug\netcoreapp3.1\Nucleo.Operacoes.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\FAMILIA\Desktop\Projeto_Nucleo\Nucleo.Operacoes\obj\Debug\netcoreapp3.1\Nucleo.Operacoes.AssemblyInfoInputs.cache
@@ -37,3 +36,5 @@ C:\Users\FAMILIA\Desktop\Projeto_Nucleo\Nucleo.Operacoes\bin\Debug\netcoreapp3.1
 C:\Users\FAMILIA\Desktop\Projeto_Nucleo\Nucleo.Operacoes\bin\Debug\netcoreapp3.1\Nucleo.Data.dll
 C:\Users\FAMILIA\Desktop\Projeto_Nucleo\Nucleo.Operacoes\bin\Debug\netcoreapp3.1\Nucleo.Data.pdb
 C:\Users\FAMILIA\Desktop\Projeto_Nucleo\Nucleo.Operacoes\obj\Debug\netcoreapp3.1\Nucleo.Operacoes.csproj.CopyComplete
+G:\GIT\Projeto_Nucleo\Nucleo.Operacoes\obj\Debug\netcoreapp3.1\Nucleo.Operacoes.sourcelink.json
+G:\GIT\Projeto_Nucleo\Nucleo.Operacoes\obj\Debug\netcoreapp3.1\Nucleo.O.648480AE.Up2Date

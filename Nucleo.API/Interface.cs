@@ -2,7 +2,7 @@
 using System.Reflection;
 using System.Text.Json;
 using System.Text;
-using RestSharp;
+//using RestSharp;
 using Nucleo.API.Aplicacao;
 using System.Diagnostics.CodeAnalysis;
 
@@ -74,42 +74,39 @@ namespace Nucleo.API
             }
         }
 
-        public Saida Call_Rest(Entrada e)
-        {
-            try
-            {
-                string endPoint = e.EndPointComParametros();
+        //public Saida Call_Rest(Entrada e)
+        //{
+        //    try
+        //    {
+        //        string endPoint = e.EndPointComParametros();
 
-                RestClient rest = new RestClient(String.Concat(baseURL, endPoint));
-                RestRequest request = new RestRequest();
-                request.Method = (Method)e.Metodo;
+        //        RestClient rest = new RestClient(String.Concat(baseURL, endPoint));
+        //        RestRequest request = new RestRequest();
+        //        request.Method = (Method)e.Metodo;
 
-                if (e.Headers != null && e.Headers.Count > 0)
-                    foreach (KeyValuePair<string, string> item in e.Headers)
-                    {
-                        request.AddHeader(item.Key, item.Value);
-                    }
+        //        if (e.Headers != null && e.Headers.Count > 0)
+        //            foreach (KeyValuePair<string, string> item in e.Headers)
+        //            {
+        //                request.AddHeader(item.Key, item.Value);
+        //            }
 
 
-                if (e.Metodo == Metodo.POST)
-                    request.AddParameter("application/json", e.Conteudo, ParameterType.RequestBody);
+        //        if (e.Metodo == Metodo.POST)
+        //            request.AddParameter("application/json", e.Conteudo, ParameterType.RequestBody);
 
-                RestResponse response = rest.Execute(request);
+        //        RestResponse response = rest.Execute(request);
 
-                return new Saida()
-                {
-                    Conteudo = response.Content,
-                };
-            }
-            catch (Exception ex)
-            {
-                return TratarExcecao(ex, e);
-            }
+        //        return new Saida()
+        //        {
+        //            Conteudo = response.Content,
+        //        };
+        //    }
+        //    catch (Exception ex)
+        //    {
+        //        return TratarExcecao(ex, e);
+        //    }
             
-        }
-
-
-
+        //}
 
         private Saida TratarExcecao(Exception ex, Entrada e)
         {
