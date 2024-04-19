@@ -5,7 +5,7 @@ using System.IO;
 using System.Security.Cryptography;
 using System.Text;
 
-namespace Nucleo.Operacoes.Seguranca
+namespace Nucleo.Base.Seguranca
 {
     public class Criptografia
     {
