@@ -5,6 +5,12 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Seguranca\ChaveRegistro.cs\**" />
+    <EmbeddedResource Remove="Seguranca\ChaveRegistro.cs\**" />
+    <None Remove="Seguranca\ChaveRegistro.cs\**" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="ClosedXML" Version="0.102.2" />
     <PackageReference Include="FastMember" Version="1.5.0" />
     <PackageReference Include="Microsoft.Win32.Registry" Version="5.0.0" />

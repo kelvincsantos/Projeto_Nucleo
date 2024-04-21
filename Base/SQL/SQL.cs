@@ -6,6 +6,7 @@ using System.Data;
 using System.Data.SqlClient;
 using System.Linq;
 using System.Text;
+using static Nucleo.Base.SQL.SQL;
 
 namespace Nucleo.Base.SQL
 {
@@ -13,25 +14,67 @@ namespace Nucleo.Base.SQL
     {
         public Exception erro { get; set; }
 
-        private string ConnectionString;
+        private Conexao conexao;
         private SqlConnection conn;
         private SqlCommand cmd;
-        
-        public SQL(string servidor, string banco, string senha) 
+
+        public SQL(string servidor, string banco, string senha)
         {
-            ConnectionString = string.Concat("data source=", servidor, ";");
-
-            if (!string.IsNullOrWhiteSpace(banco))
+            try
             {
-                ConnectionString += string.Concat("initial catalog=", banco, ";");
-            }
-            ConnectionString = "user id=sa;password=" + senha + ";connection timeout=20";
+                conexao = new Conexao()
+                {
+                    Banco = "master",
+                    Endereco = servidor,
+                    Senha = senha,
+                };
 
-            conn = new SqlConnection(ConnectionString);
-            
+                conn = new SqlConnection(conexao.ConnectionString());
+
+                if (!ExisteBanco(banco))
+                {
+                    CriarBanco(banco);
+                    CriarTabelasFundamentais();
+                }
+
+                conexao.Banco = banco;
+
+                conn = new SqlConnection(conexao.ConnectionString());
+            }
+            catch (Exception ex)
+            {
+                erro = ex;
+            }
         }
 
-        public bool CriarBanco(string nomeBanco)
+        public SQL(SQL.Conexao con)
+        {
+            try
+            {
+                conexao = con;
+
+                string banco = con.Banco;
+                conexao.Banco = "master";
+
+                conn = new SqlConnection(conexao.ConnectionString());
+
+                if (!ExisteBanco(banco))
+                {
+                    CriarBanco(banco);
+
+                    conexao.Banco = banco;
+                    conn = new SqlConnection(conexao.ConnectionString());
+
+                    CriarTabelasFundamentais();
+                }
+            }
+            catch (Exception ex)
+            {
+                erro = ex;
+            }
+        }
+
+        private bool CriarBanco(string nomeBanco)
         {
             string local = Environment.CurrentDirectory;
             if (ExisteBanco(nomeBanco))
@@ -42,13 +85,13 @@ namespace Nucleo.Base.SQL
             string sql = "CREATE DATABASE " + nomeBanco + " ON PRIMARY"
                 + "(Name=" + nomeBanco + ", filename = '" + System.IO.Path.Combine(local, nomeBanco) + "_data.mdf', size=3,"
                 + "maxsize=5, filegrowth=10%)log on"
-                + "(name=" + nomeBanco+  "_log, filename='C:\\SQL_DB\\" + System.IO.Path.Combine(local, nomeBanco) + "_log.ldf',size=3,"
+                + "(name=" + nomeBanco + "_log, filename='" + System.IO.Path.Combine(local, nomeBanco) + "_log.ldf',size=3,"
                 + "maxsize=20,filegrowth=1)";
 
             return Executar(sql);
         }
 
-        public bool ExisteBanco(string nomeBanco)
+        private bool ExisteBanco(string nomeBanco)
         {
             string SQL = "SELECT name FROM master.sys.databases WHERE name = N'" + nomeBanco + "'";
 
@@ -60,7 +103,15 @@ namespace Nucleo.Base.SQL
             return r.HasRows;
         }
 
-        private bool Executar(string sql)
+        private void CriarTabelasFundamentais()
+        {
+            Tabelas tabelas = new Tabelas(this);
+
+            tabelas.CriarEtiquetas();
+            tabelas.CriarFilaImpressao();
+        }
+
+        public bool Executar(string sql)
         {
             try
             {
@@ -68,7 +119,7 @@ namespace Nucleo.Base.SQL
                     return false;
 
                 cmd = new SqlCommand(sql, conn);
-                cmd.BeginExecuteNonQuery();
+                cmd.ExecuteNonQuery();
             }
             catch (Exception ex)
             {
@@ -96,7 +147,7 @@ namespace Nucleo.Base.SQL
             }
             catch (Exception ex)
             {
-                erro = ex; 
+                erro = ex;
                 return null;
             }
 
@@ -118,32 +169,72 @@ namespace Nucleo.Base.SQL
                 erro = ex;
                 return false;
             }
-            
+
         }
 
+        //private static T ReaderToObject<T>(this SqlDataReader rd) where T : class, new()
+        //{
+        //    Type type = typeof(T);
+        //    var accessor = TypeAccessor.Create(type);
+        //    var members = accessor.GetMembers();
+        //    var t = new T();
 
+        //    for (int i = 0; i < rd.FieldCount; i++)
+        //    {
+        //        if (!rd.IsDBNull(i))
+        //        {
+        //            string fieldName = rd.GetName(i);
 
-        private static T ReaderToObject<T>(this SqlDataReader rd) where T : class, new()
+        //            if (members.Any(m => string.Equals(m.Name, fieldName, StringComparison.OrdinalIgnoreCase)))
+        //            {
+        //                accessor[t, fieldName] = rd.GetValue(i);
+        //            }
+        //        }
+        //    }
+
+        //    return t;
+        //}
+
+        public partial class Conexao
         {
-            Type type = typeof(T);
-            var accessor = TypeAccessor.Create(type);
-            var members = accessor.GetMembers();
-            var t = new T();
-
-            for (int i = 0; i < rd.FieldCount; i++)
+            public Conexao(string config)
             {
-                if (!rd.IsDBNull(i))
+                try
                 {
-                    string fieldName = rd.GetName(i);
+                    if (string.IsNullOrWhiteSpace(config))
+                        return;
 
-                    if (members.Any(m => string.Equals(m.Name, fieldName, StringComparison.OrdinalIgnoreCase)))
-                    {
-                        accessor[t, fieldName] = rd.GetValue(i);
-                    }
+                    this.Endereco = config.Split('|')[0];
+                    this.Banco = config.Split('|')[1];
+                    this.Senha = config.Split('|')[2];
+                }
+                catch (Exception)
+                {
+                    this.Endereco = string.Empty;
+                    this.Banco = string.Empty;
+                    this.Senha = string.Empty;
                 }
             }
 
-            return t;
+            public Conexao() { }
+
+            public string Endereco { get; set; }
+            public string Banco { get; set; }
+            public string Senha { get; set; }
+
+            public string ConnectionString()
+            {
+                string ConnectionString = string.Concat("data source=", Endereco, ";");
+
+                if (!string.IsNullOrWhiteSpace(Banco))
+                {
+                    ConnectionString += string.Concat("initial catalog=", Banco, ";");
+                }
+                ConnectionString += "user id=sa;password=" + Senha + ";connection timeout=20";
+
+
+                return ConnectionString;
+            }
         }
     }
 }
