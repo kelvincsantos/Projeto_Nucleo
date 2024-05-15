@@ -1,7 +1,7 @@
 {
   "version": 3,
   "targets": {
-    ".NETCoreApp,Version=v3.1": {
+    "net8.0": {
       "ClosedXML/0.102.2": {
         "type": "package",
         "dependencies": {
@@ -729,12 +729,12 @@
       "System.IO.Packaging/6.0.0": {
         "type": "package",
         "compile": {
-          "lib/netstandard2.0/System.IO.Packaging.dll": {
+          "lib/net6.0/System.IO.Packaging.dll": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/netstandard2.0/System.IO.Packaging.dll": {
+          "lib/net6.0/System.IO.Packaging.dll": {
             "related": ".xml"
           }
         },
@@ -1535,7 +1535,7 @@
       },
       "Nucleo.Data/1.0.0": {
         "type": "project",
-        "framework": ".NETCoreApp,Version=v3.1",
+        "framework": ".NETCoreApp,Version=v8.0",
         "compile": {
           "bin/placeholder/Nucleo.Data.dll": {}
         },
@@ -5219,7 +5219,7 @@
     }
   },
   "projectFileDependencyGroups": {
-    ".NETCoreApp,Version=v3.1": [
+    "net8.0": [
       "ClosedXML >= 0.102.2",
       "FastMember >= 1.5.0",
       "Microsoft.Win32.Registry >= 5.0.0",
@@ -5228,28 +5228,28 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Kelvin Carvalho Sant\\.nuget\\packages\\": {},
+    "C:\\Users\\kelvi\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "G:\\GIT\\Projeto_Nucleo\\Base\\Nucleo.Base.csproj",
+      "projectUniqueName": "C:\\GIT\\KELVIN\\Projeto_Nucleo\\Base\\Nucleo.Base.csproj",
       "projectName": "Nucleo.Base",
-      "projectPath": "G:\\GIT\\Projeto_Nucleo\\Base\\Nucleo.Base.csproj",
-      "packagesPath": "C:\\Users\\Kelvin Carvalho Sant\\.nuget\\packages\\",
-      "outputPath": "G:\\GIT\\Projeto_Nucleo\\Base\\obj\\",
+      "projectPath": "C:\\GIT\\KELVIN\\Projeto_Nucleo\\Base\\Nucleo.Base.csproj",
+      "packagesPath": "C:\\Users\\kelvi\\.nuget\\packages\\",
+      "outputPath": "C:\\GIT\\KELVIN\\Projeto_Nucleo\\Base\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Kelvin Carvalho Sant\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\kelvi\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
-        "netcoreapp3.1"
+        "net8.0"
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
@@ -5257,11 +5257,11 @@
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
-        "netcoreapp3.1": {
-          "targetAlias": "netcoreapp3.1",
+        "net8.0": {
+          "targetAlias": "net8.0",
           "projectReferences": {
-            "G:\\GIT\\Projeto_Nucleo\\Nucleo.Data\\Nucleo.Data.csproj": {
-              "projectPath": "G:\\GIT\\Projeto_Nucleo\\Nucleo.Data\\Nucleo.Data.csproj"
+            "C:\\GIT\\KELVIN\\Projeto_Nucleo\\Nucleo.Data\\Nucleo.Data.csproj": {
+              "projectPath": "C:\\GIT\\KELVIN\\Projeto_Nucleo\\Nucleo.Data\\Nucleo.Data.csproj"
             }
           }
         }
@@ -5278,8 +5278,8 @@
       }
     },
     "frameworks": {
-      "netcoreapp3.1": {
-        "targetAlias": "netcoreapp3.1",
+      "net8.0": {
+        "targetAlias": "net8.0",
         "dependencies": {
           "ClosedXML": {
             "target": "Package",
@@ -5314,7 +5314,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
