@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Nucleo.Base")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+73731d8aa82b6f7c24f7e5e116bebaac33352425")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4d32f0fcab6ed7eb0caa8cf76cd26c9f22af62c4")]
 [assembly: System.Reflection.AssemblyProductAttribute("Nucleo.Base")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Nucleo.Base")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

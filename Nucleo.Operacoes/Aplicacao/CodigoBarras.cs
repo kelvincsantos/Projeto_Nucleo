@@ -23,9 +23,9 @@ namespace Nucleo.Operacoes.Aplicacao
             {
                 using (var qrCodeData = qrGenerator.CreateQrCode(conteudo, eccLevel))
                 {
-                    using (var qrCode = new QRCode(qrCodeData))
+                    using (var qrCode = new PngByteQRCode(qrCodeData))
                     {
-                        return qrCode.GetGraphic(4, fgColor, bgColor, true);
+                        return  Nucleo.Base.Comum.Conversor.BytesToBitmap(qrCode.GetGraphic(4));
                     }
                 }
             }

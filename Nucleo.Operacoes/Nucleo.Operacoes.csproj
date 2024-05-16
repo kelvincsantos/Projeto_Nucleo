@@ -1,4 +1,4 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
+<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>net8.0</TargetFramework>
@@ -8,9 +8,11 @@
     <PackageReference Include="Microsoft.Win32.Registry" Version="5.0.0" />
 	  <PackageReference Include="BarcodeLib" Version="3.0.3" />
 	  <PackageReference Include="QRCoder" Version="1.4.3" />
+	  <PackageReference Include="System.Drawing.Common" Version="8.0.5" />
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\Base\Nucleo.Base.csproj" />
     <ProjectReference Include="..\Nucleo.Data\Nucleo.Data.csproj" />
   </ItemGroup>
 
