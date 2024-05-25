@@ -67,6 +67,11 @@ namespace Nucleo.Base.SQL
 
                     CriarTabelasFundamentais();
                 }
+                else
+                {
+                    conexao.Banco = banco;
+                    conn = new SqlConnection(conexao.ConnectionString());
+                }
             }
             catch (Exception ex)
             {
@@ -134,7 +139,7 @@ namespace Nucleo.Base.SQL
             return true;
         }
 
-        private SqlDataReader Ler(string sql)
+        public SqlDataReader Ler(string sql)
         {
             SqlDataReader reader = null;
             try
