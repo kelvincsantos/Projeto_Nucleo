@@ -1,4 +1,5 @@
-﻿using System;
+﻿using DocumentFormat.OpenXml.Office2010.Excel;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -21,5 +22,16 @@ namespace Nucleo.Operacoes.BO
             return DAO.Existe(ID);
         }
 
+        public Nucleo.Data.FilaImpressao BuscarPorEtiqueta(string ID) 
+        {
+            ADO.FilaImpressao DAO = new ADO.FilaImpressao(banco);
+            return DAO.BuscarPorEtiqueta(ID);
+        }
+
+        public bool Alterar(Data.FilaImpressao fila)
+        {
+            ADO.FilaImpressao DAO = new ADO.FilaImpressao(banco);
+            return DAO.Alterar(fila);
+        }
     }
 }

@@ -6,6 +6,8 @@ namespace Nucleo.Data
 {
     public class Configuracao
     {
-        public string pkEmpresa { get; set; }
+        public string IP_Impressora { get; set; }
+        public string Porta_Impressora { get; set; }
+
     }
 }

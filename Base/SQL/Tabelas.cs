@@ -42,5 +42,17 @@ namespace Nucleo.Base.SQL
 
             Banco.Executar(Query);
         }
+
+        public void CriarConfiguracao()
+        {
+            string Query = string.Empty;
+            Query += "	CREATE TABLE Configuracao(						\n";
+            Query += "		ID varchar(50) PRIMARY KEY NOT NULL,		\n";
+            Query += "		Campo varchar(200) NOT NULL,			    \n";
+            Query += "		Valor varchar(200) NOT NULL 				\n";
+            Query += "	)												\n";
+
+            Banco.Executar(Query);
+        }
     }
 }

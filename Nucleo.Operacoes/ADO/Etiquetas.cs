@@ -55,7 +55,7 @@ namespace Nucleo.Operacoes.ADO
                 Query += "	      ,[ProximaCalibracao] = CONVERT(DATE, '" + etiqueta.ProximaCalibracao + "', 103)						" + Environment.NewLine;
                 Query += "	      ,[NumeroCertificado] = '" + etiqueta.NumeroCertificado + "'				" + Environment.NewLine;
                 Query += "	      ,[DiretorioLaudo] = '" + etiqueta.DiretorioLaudo + "'					" + Environment.NewLine;
-                Query += "	      ,[NumeroIdentificacao] = '" +etiqueta.NumeroIdentificacao + "'			" + Environment.NewLine;
+                Query += "	      ,[NumeroIdentificacao] = '" + etiqueta.NumeroIdentificacao + "'			" + Environment.NewLine;
                 Query += "	 WHERE [ID] = '" + etiqueta.ID + "'											" + Environment.NewLine;
 
                 return banco.Executar(Query);
@@ -105,7 +105,14 @@ namespace Nucleo.Operacoes.ADO
 
             SqlDataReader reader = banco.Ler(Query);
 
-            List<Nucleo.Data.Etiqueta> lista = new List<Data.Etiqueta> ();
+            List<Nucleo.Data.Etiqueta> lista = new List<Data.Etiqueta>();
+
+            if (reader == null)
+                return lista;
+
+            if (!reader.HasRows)
+                return lista;
+
             while (reader.Read())
             {
                 Nucleo.Data.Etiqueta item = new Data.Etiqueta();

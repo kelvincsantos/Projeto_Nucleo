@@ -1,8 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data.SqlClient;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace Nucleo.Operacoes.ADO
 {
@@ -93,6 +95,28 @@ namespace Nucleo.Operacoes.ADO
             string Query = "SELECT * FROM FILAIMPRESSAO WHERE CODIGOETIQUETA = '" + ID + "'";
 
             return Banco.Ler(Query).HasRows;
+        }
+
+        public Nucleo.Data.FilaImpressao BuscarPorEtiqueta(string ID)
+        {
+            string Query = "SELECT ID, Criacao, Impressao, CodigoEtiqueta, Concluido, Erro FROM FILAIMPRESSAO WHERE CODIGOETIQUETA = '" + ID + "'";
+
+            SqlDataReader reader = Banco.Ler(Query);
+
+            Nucleo.Data.FilaImpressao item = new Nucleo.Data.FilaImpressao();
+            while (reader.Read())
+            {
+                item = new Nucleo.Data.FilaImpressao();
+
+                item.ID = reader.GetString(0);
+                item.Criacao = reader.GetDateTime(1);
+                item.Impressao = reader.GetValue(2) == DBNull.Value ? null : reader.GetDateTime(2);
+                item.CodigoEtiqueta = reader.GetString(3);
+                item.Concluido = reader.GetValue(4) == DBNull.Value ? false: reader.GetBoolean(4);
+                item.Erro = reader.GetString(5);
+            }
+
+            return item;
         }
     }
 }
