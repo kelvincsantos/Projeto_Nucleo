@@ -22,6 +22,7 @@ namespace Nucleo.Base.SQL
             Query += "		ProximaCalibracao Date NULL,					\n";
             Query += "		NumeroCertificado varchar(100) NOT NULL,		\n";
             Query += "		DiretorioLaudo varchar(500) NULL,				\n";
+            Query += "		OrdemServico varchar(50) NULL,  				\n";
             Query += "		NumeroIdentificacao varchar(100) NULL			\n";
             Query += "	)													\n";
 
@@ -50,6 +51,19 @@ namespace Nucleo.Base.SQL
             Query += "		ID varchar(50) PRIMARY KEY NOT NULL,		\n";
             Query += "		Campo varchar(200) NOT NULL,			    \n";
             Query += "		Valor varchar(200) NOT NULL 				\n";
+            Query += "	)												\n";
+
+            Banco.Executar(Query);
+        }
+
+        public void CriarOrdemServico()
+        {
+            string Query = string.Empty;
+            Query += "	CREATE TABLE OrdemServico(						\n";
+            Query += "		ID varchar(50) PRIMARY KEY NOT NULL,		\n";
+            Query += "		OS varchar(50) NOT NULL,			        \n";
+            Query += "		Criacao Datetime NULL,			            \n";
+            Query += "		Encerramento Datetime NULL 				    \n";
             Query += "	)												\n";
 
             Banco.Executar(Query);

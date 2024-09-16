@@ -12,6 +12,7 @@ namespace Nucleo.Data
         public string NumeroCertificado { get; set; }
         public string DiretorioLaudo { get; set; }
         public string NumeroIdentificacao { get; set; }
-
+        public string CodigoOrdemServico { get; set; }
+        public string OrdemServico { get; set; }
     }
 }

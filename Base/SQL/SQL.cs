@@ -115,6 +115,7 @@ namespace Nucleo.Base.SQL
             tabelas.CriarEtiquetas();
             tabelas.CriarFilaImpressao();
             tabelas.CriarConfiguracao();
+            tabelas.CriarOrdemServico();
         }
 
         public bool Executar(string sql)

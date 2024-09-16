@@ -1,0 +1,90 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\GIT\\KELVIN\\Projeto_Nucleo\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D32CEB4C-8E2F-4C89-AD5E-0CA0A2F1EEB4}|Nucleo.Data\\Nucleo.Data.csproj|c:\\git\\kelvin\\projeto_nucleo\\nucleo.data\\nucleo.data.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{D32CEB4C-8E2F-4C89-AD5E-0CA0A2F1EEB4}|Nucleo.Data\\Nucleo.Data.csproj|solutionrelative:nucleo.data\\nucleo.data.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D32CEB4C-8E2F-4C89-AD5E-0CA0A2F1EEB4}|Nucleo.Data\\Nucleo.Data.csproj|c:\\git\\kelvin\\projeto_nucleo\\nucleo.data\\struct\\colunadetalhedb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D32CEB4C-8E2F-4C89-AD5E-0CA0A2F1EEB4}|Nucleo.Data\\Nucleo.Data.csproj|solutionrelative:nucleo.data\\struct\\colunadetalhedb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C4B95C74-8D48-413F-B99A-6AD28C3D3475}|Nucleo.Forms\\Nucleo.Forms.csproj|c:\\git\\kelvin\\projeto_nucleo\\nucleo.forms\\comum\\mensagem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C4B95C74-8D48-413F-B99A-6AD28C3D3475}|Nucleo.Forms\\Nucleo.Forms.csproj|solutionrelative:nucleo.forms\\comum\\mensagem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C4B95C74-8D48-413F-B99A-6AD28C3D3475}|Nucleo.Forms\\Nucleo.Forms.csproj|c:\\git\\kelvin\\projeto_nucleo\\nucleo.forms\\nucleo.forms.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{C4B95C74-8D48-413F-B99A-6AD28C3D3475}|Nucleo.Forms\\Nucleo.Forms.csproj|solutionrelative:nucleo.forms\\nucleo.forms.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Nucleo.Data",
+              "DocumentMoniker": "C:\\GIT\\KELVIN\\Projeto_Nucleo\\Nucleo.Data\\Nucleo.Data.csproj",
+              "RelativeDocumentMoniker": "Nucleo.Data\\Nucleo.Data.csproj",
+              "ToolTip": "C:\\GIT\\KELVIN\\Projeto_Nucleo\\Nucleo.Data\\Nucleo.Data.csproj",
+              "RelativeToolTip": "Nucleo.Data\\Nucleo.Data.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-08-30T19:00:17.713Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ColunaDetalheDB.cs",
+              "DocumentMoniker": "C:\\GIT\\KELVIN\\Projeto_Nucleo\\Nucleo.Data\\Struct\\ColunaDetalheDB.cs",
+              "RelativeDocumentMoniker": "Nucleo.Data\\Struct\\ColunaDetalheDB.cs",
+              "ToolTip": "C:\\GIT\\KELVIN\\Projeto_Nucleo\\Nucleo.Data\\Struct\\ColunaDetalheDB.cs",
+              "RelativeToolTip": "Nucleo.Data\\Struct\\ColunaDetalheDB.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAswBMAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-26T14:48:05.345Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Mensagem.cs",
+              "DocumentMoniker": "C:\\GIT\\KELVIN\\Projeto_Nucleo\\Nucleo.Forms\\Comum\\Mensagem.cs",
+              "RelativeDocumentMoniker": "Nucleo.Forms\\Comum\\Mensagem.cs",
+              "ToolTip": "C:\\GIT\\KELVIN\\Projeto_Nucleo\\Nucleo.Forms\\Comum\\Mensagem.cs",
+              "RelativeToolTip": "Nucleo.Forms\\Comum\\Mensagem.cs",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAkwAUAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-16T19:58:55.007Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Nucleo.Forms",
+              "DocumentMoniker": "C:\\GIT\\KELVIN\\Projeto_Nucleo\\Nucleo.Forms\\Nucleo.Forms.csproj",
+              "RelativeDocumentMoniker": "Nucleo.Forms\\Nucleo.Forms.csproj",
+              "ToolTip": "C:\\GIT\\KELVIN\\Projeto_Nucleo\\Nucleo.Forms\\Nucleo.Forms.csproj",
+              "RelativeToolTip": "Nucleo.Forms\\Nucleo.Forms.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-03-16T18:55:53.295Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

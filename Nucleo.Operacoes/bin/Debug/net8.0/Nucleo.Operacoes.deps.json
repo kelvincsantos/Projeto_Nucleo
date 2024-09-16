@@ -987,12 +987,18 @@
           "System.Drawing.Common": "8.0.5"
         },
         "runtime": {
-          "Nucleo.Base.dll": {}
+          "Nucleo.Base.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       },
       "Nucleo.Data/1.0.0": {
         "runtime": {
-          "Nucleo.Data.dll": {}
+          "Nucleo.Data.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       }
     }

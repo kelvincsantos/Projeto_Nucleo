@@ -28,6 +28,7 @@ namespace Nucleo.Operacoes.ADO
                 Query += "		           ,[ProximaCalibracao]										" + Environment.NewLine;
                 Query += "		           ,[NumeroCertificado]										" + Environment.NewLine;
                 Query += "		           ,[DiretorioLaudo]										" + Environment.NewLine;
+                Query += "		           ,[OrdemServico]										" + Environment.NewLine;
                 Query += "		           ,[NumeroIdentificacao])									" + Environment.NewLine;
                 Query += "		     VALUES															" + Environment.NewLine;
                 Query += "		           ('" + etiqueta.ID + "'										" + Environment.NewLine;
@@ -35,6 +36,7 @@ namespace Nucleo.Operacoes.ADO
                 Query += "		           ,CONVERT(DATE, '" + etiqueta.ProximaCalibracao + "', 103)	" + Environment.NewLine;
                 Query += "		           ,'" + etiqueta.NumeroCertificado + "'					" + Environment.NewLine;
                 Query += "		           ,'" + etiqueta.DiretorioLaudo + "'						" + Environment.NewLine;
+                Query += "		           ,'" + etiqueta.CodigoOrdemServico + "'						" + Environment.NewLine;
                 Query += "		           ,'" + etiqueta.NumeroIdentificacao + "')					" + Environment.NewLine;
 
                 return banco.Executar(Query);
@@ -56,6 +58,7 @@ namespace Nucleo.Operacoes.ADO
                 Query += "	      ,[NumeroCertificado] = '" + etiqueta.NumeroCertificado + "'				" + Environment.NewLine;
                 Query += "	      ,[DiretorioLaudo] = '" + etiqueta.DiretorioLaudo + "'					" + Environment.NewLine;
                 Query += "	      ,[NumeroIdentificacao] = '" + etiqueta.NumeroIdentificacao + "'			" + Environment.NewLine;
+                Query += "	      ,[OrdemServico] = '" + etiqueta.CodigoOrdemServico + "'			" + Environment.NewLine;
                 Query += "	 WHERE [ID] = '" + etiqueta.ID + "'											" + Environment.NewLine;
 
                 return banco.Executar(Query);
@@ -98,9 +101,12 @@ namespace Nucleo.Operacoes.ADO
             Query += "			,		e.NumeroCertificado					" + Environment.NewLine;
             Query += "			,		e.DiretorioLaudo					" + Environment.NewLine;
             Query += "			,		e.NumeroIdentificacao				" + Environment.NewLine;
+            Query += "			,		OS.OS               				" + Environment.NewLine;
             Query += "		from		Etiquetas		as e				" + Environment.NewLine;
             Query += "		 left join	FilaImpressao	as f				" + Environment.NewLine;
             Query += "			on		e.ID = f.CodigoEtiqueta				" + Environment.NewLine;
+            Query += "		 left join	OrdemServico	as OS				" + Environment.NewLine;
+            Query += "			on		OS.ID = e.OrdemServico      		" + Environment.NewLine;
             Query += "		where		Concluido is null or Concluido = 0	" + Environment.NewLine;
 
             SqlDataReader reader = banco.Ler(Query);
@@ -123,6 +129,50 @@ namespace Nucleo.Operacoes.ADO
                 item.NumeroCertificado = reader.GetString(3);
                 item.DiretorioLaudo = reader.GetString(4);
                 item.NumeroIdentificacao = reader.GetString(5);
+                item.OrdemServico = reader.GetString(6);
+
+                lista.Add(item);
+            }
+
+            return lista;
+        }
+
+        public List<Nucleo.Data.Etiqueta> BuscarPorOS(string IdOrdemServico)
+        {
+            string Query = "";
+            Query += "		select		e.ID								" + Environment.NewLine;
+            Query += "			,		e.DataCalibracao					" + Environment.NewLine;
+            Query += "			,		e.ProximaCalibracao					" + Environment.NewLine;
+            Query += "			,		e.NumeroCertificado					" + Environment.NewLine;
+            Query += "			,		e.DiretorioLaudo					" + Environment.NewLine;
+            Query += "			,		e.NumeroIdentificacao				" + Environment.NewLine;
+            Query += "			,		OS.OS               				" + Environment.NewLine;
+            Query += "		from		Etiquetas		as e				" + Environment.NewLine;
+            Query += "		 left join	OrdemServico	as OS				" + Environment.NewLine;
+            Query += "			on		OS.ID = e.OrdemServico		        " + Environment.NewLine;
+            Query += "		where		e.OrdemServico = '" + IdOrdemServico +  "'" + Environment.NewLine;
+
+            SqlDataReader reader = banco.Ler(Query);
+
+            List<Nucleo.Data.Etiqueta> lista = new List<Data.Etiqueta>();
+
+            if (reader == null)
+                return lista;
+
+            if (!reader.HasRows)
+                return lista;
+
+            while (reader.Read())
+            {
+                Nucleo.Data.Etiqueta item = new Data.Etiqueta();
+
+                item.ID = reader.GetString(0);
+                item.DataCalibracao = reader.GetDateTime(1);
+                item.ProximaCalibracao = reader.GetDateTime(2);
+                item.NumeroCertificado = reader.GetString(3);
+                item.DiretorioLaudo = reader.GetString(4);
+                item.NumeroIdentificacao = reader.GetString(5);
+                item.OrdemServico = reader.GetString(6);
 
                 lista.Add(item);
             }
