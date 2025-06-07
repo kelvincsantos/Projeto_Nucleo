@@ -22,3 +22,6 @@ API/Nucleo.API.Core/bin/Debug/net7.0/Nucleo.API.deps.json
 /API/Nucleo.API/obj
 /Base/bin
 /Base/bin
+/Base/obj
+/Base/obj
+/Base/obj/Debug
