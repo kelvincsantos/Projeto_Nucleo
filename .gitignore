@@ -12,3 +12,12 @@ Nucleo.View/obj/Debug/netcoreapp3.1/Nucleo.View.assets.cache
 /Nucleo.Forms/obj
 /Nucleo.Data/obj
 /.vs
+API/Nucleo.API.Core/bin/Debug/net8.0/Nucleo.API.Core.pdb
+API/Nucleo.API.Core/bin/Debug/net8.0/Nucleo.API.Core.dll
+API/Nucleo.API.Core/bin/Debug/net8.0/Nucleo.API.Core.deps.json
+API/Nucleo.API.Core/bin/Debug/net7.0/Nucleo.API.pdb
+API/Nucleo.API.Core/bin/Debug/net7.0/Nucleo.API.dll
+API/Nucleo.API.Core/bin/Debug/net7.0/Nucleo.API.deps.json
+/API/Nucleo.API.Core/obj
+/API/Nucleo.API/obj
+/Base/bin
