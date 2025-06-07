@@ -51,11 +51,14 @@ namespace Nucleo.Base.SQL
         {
             try
             {
+
                 conexao = con;
 
                 string banco = con.Banco;
-                conexao.Banco = "master";
 
+                if (!con.ConexaoAzure)
+                    conexao.Banco = "master";
+                
                 conn = new SqlConnection(conexao.ConnectionString());
 
                 if (!ExisteBanco(banco))
@@ -65,7 +68,8 @@ namespace Nucleo.Base.SQL
                     conexao.Banco = banco;
                     conn = new SqlConnection(conexao.ConnectionString());
 
-                    CriarTabelasFundamentais();
+                    //if (!con.ConexaoAzure)
+                    //    CriarTabelasFundamentais();
                 }
                 else
                 {
@@ -98,7 +102,7 @@ namespace Nucleo.Base.SQL
 
         private bool ExisteBanco(string nomeBanco)
         {
-            string SQL = "SELECT name FROM master.sys.databases WHERE name = N'" + nomeBanco + "'";
+            string SQL = "SELECT name FROM sys.databases WHERE name = N'" + nomeBanco + "'";
 
             SqlDataReader r = Ler(SQL);
 
@@ -179,6 +183,21 @@ namespace Nucleo.Base.SQL
 
         }
 
+        public void AbrirTransacao()
+        {
+            throw new NotImplementedException();
+        }
+
+        public void ConfirmarTransacao()
+        {
+            throw new NotImplementedException();
+        }
+
+        public void ReverterTransacao()
+        {
+            throw new NotImplementedException();
+        }
+
         //private static T ReaderToObject<T>(this SqlDataReader rd) where T : class, new()
         //{
         //    Type type = typeof(T);
@@ -204,7 +223,7 @@ namespace Nucleo.Base.SQL
 
         public partial class Conexao
         {
-            public Conexao(string config)
+            public Conexao(string config, bool Azure = false)
             {
                 try
                 {
@@ -214,6 +233,15 @@ namespace Nucleo.Base.SQL
                     this.Endereco = config.Split('|')[0];
                     this.Banco = config.Split('|')[1];
                     this.Senha = config.Split('|')[2];
+
+                    try
+                    {
+                        this.User = (config.Split('|').Length >= 3) ? config.Split('|')[3] : string.Empty;
+                    }
+                    catch (Exception)
+                    {
+                        this.User = string.Empty;
+                    }
                 }
                 catch (Exception)
                 {
@@ -221,24 +249,50 @@ namespace Nucleo.Base.SQL
                     this.Banco = string.Empty;
                     this.Senha = string.Empty;
                 }
+
+                if (string.IsNullOrWhiteSpace(this.User))
+                    this.User = "sa";
+
+                this.ConexaoAzure = Azure;
             }
 
             public Conexao() { }
 
             public string Endereco { get; set; }
             public string Banco { get; set; }
+            public string User { get; set; }
             public string Senha { get; set; }
+            public bool ConexaoAzure { get; set; } = false;
 
             public string ConnectionString()
             {
+                if (ConexaoAzure)
+                    return ConnectionStringAzure();
+
                 string ConnectionString = string.Concat("data source=", Endereco, ";");
 
                 if (!string.IsNullOrWhiteSpace(Banco))
                 {
                     ConnectionString += string.Concat("initial catalog=", Banco, ";");
                 }
-                ConnectionString += "user id=sa;password=" + Senha + ";connection timeout=20";
+                ConnectionString += "user id=" + User + ";password=" + Senha + ";connection timeout=20";
 
+
+                return ConnectionString;
+            }
+
+            //EX: Server=tcp:pessoal.database.windows.net,1433;Initial Catalog=ControleContas;Persist Security Info=False;User ID=kelvincsantos;Password={your_password};MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;
+            public string ConnectionStringAzure()
+            {
+                string ConnectionString = string.Concat("server=", Endereco, ";");
+
+                if (!string.IsNullOrWhiteSpace(Banco))
+                {
+                    ConnectionString += string.Concat("initial catalog=", Banco, ";");
+                }
+                ConnectionString += "persist security Info=False;user id=" + User + ";password=" + Senha + ";MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;connection timeout=30";
+
+                ConexaoAzure = true;
 
                 return ConnectionString;
             }
