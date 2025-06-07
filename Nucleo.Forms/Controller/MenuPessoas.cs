@@ -2,18 +2,17 @@
 using System.Collections.Generic;
 using System.Text;
 using System.Windows.Forms;
-using Nucleo.View.Views;
 
 namespace Nucleo.Forms.Controller
 {
     public class MenuPessoas
     {
         private Forms.MenuPessoas form;
-        private View.Views.Tela.MenuPessoas view;
+        //private View.Views.Tela.MenuPessoas view;
         public MenuPessoas(Forms.MenuPessoas e)
         {
             this.form = e;
-            this.view = new View.Views.Tela.MenuPessoas();
+            //this.view = new View.Views.Tela.MenuPessoas();
 
             form.btnClientes.Click += BtnClientes_Click;
 

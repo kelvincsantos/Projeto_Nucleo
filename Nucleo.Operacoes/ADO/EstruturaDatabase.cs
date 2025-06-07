@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Nucleo.Data.Struct;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -16,5 +17,30 @@ namespace Nucleo.Operacoes.ADO
         }
 
         public EstruturaDatabase() { }
+
+        internal List<TabelaDB> BuscarTabelasNovas()
+        {
+            throw new NotImplementedException();
+        }
+
+        internal List<RestricaoDB.FK> BuscarChavesPorTabela(TabelaDB tabela)
+        {
+            throw new NotImplementedException();
+        }
+
+        internal List<TabelaDB> BuscarTabelasAlteradas()
+        {
+            throw new NotImplementedException();
+        }
+
+        internal List<RestricaoDB.FK> BuscarChavesAlteradas()
+        {
+            throw new NotImplementedException();
+        }
+
+        internal List<RestricaoDB.Indices> BuscarIndicesNovos()
+        {
+            throw new NotImplementedException();
+        }
     }
 }
