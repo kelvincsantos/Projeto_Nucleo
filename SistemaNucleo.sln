@@ -13,7 +13,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Nucleo.Forms", "Nucleo.Form
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Nucleo.API.Core", "API\Nucleo.API.Core\Nucleo.API.Core.csproj", "{726A6E2C-15F1-4DD7-98E7-7108C4229653}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nucleo.API", "API\Nucleo.API\Nucleo.API.csproj", "{04FB3E47-7EDC-4056-8383-A91C859A3552}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Nucleo.API", "API\Nucleo.API\Nucleo.API.csproj", "{04FB3E47-7EDC-4056-8383-A91C859A3552}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nucleo.Service", "Nucleo.Service\Nucleo.Service.csproj", "{1962B223-1681-4B83-A279-007CF381C51E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{04FB3E47-7EDC-4056-8383-A91C859A3552}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{04FB3E47-7EDC-4056-8383-A91C859A3552}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{04FB3E47-7EDC-4056-8383-A91C859A3552}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1962B223-1681-4B83-A279-007CF381C51E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1962B223-1681-4B83-A279-007CF381C51E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1962B223-1681-4B83-A279-007CF381C51E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1962B223-1681-4B83-A279-007CF381C51E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
