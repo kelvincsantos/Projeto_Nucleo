@@ -1,0 +1,169 @@
+@page "/login"
+@using System.ComponentModel.DataAnnotations
+
+&lt;!DOCTYPE html&gt;
+&lt;html lang="pt-br"&gt;
+&lt;head&gt;
+    &lt;meta charset="utf-8" /&gt;
+    &lt;meta name="viewport" content="width=device-width, initial-scale=1.0" /&gt;
+    &lt;title&gt;Login - Sistema&lt;/title&gt;
+    &lt;link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous"&gt;
+    &lt;link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css" rel="stylesheet"&gt;
+    &lt;style&gt;
+        :root {
+            --primary-color: #4e73df;
+            --secondary-color: #f8f9fc;
+            --accent-color: #2e59d9;
+            --text-color: #5a5c69;
+        }
+        
+        body {
+            background-color: var(--secondary-color);
+            height: 100vh;
+            display: flex;
+            align-items: center;
+        }
+        
+        .login-container {
+            width: 100%;
+            max-width: 400px;
+            margin: 0 auto;
+            padding: 2rem;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 0.15rem 1.75rem 0 rgba(58, 59, 69, 0.15);
+        }
+        
+        .logo-container {
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+        
+        .logo {
+            width: 120px;
+            height: 120px;
+            background-color: var(--primary-color);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto 1rem;
+            color: white;
+            font-size: 2.5rem;
+        }
+        
+        .form-control:focus {
+            border-color: var(--primary-color);
+            box-shadow: 0 0 0 0.25rem rgba(78, 115, 223, 0.25);
+        }
+        
+        .btn-primary {
+            background-color: var(--primary-color);
+            border-color: var(--primary-color);
+        }
+        
+        .btn-primary:hover {
+            background-color: var(--accent-color);
+            border-color: var(--accent-color);
+        }
+        
+        .forgot-password {
+            color: var(--text-color);
+            text-decoration: none;
+            display: block;
+            text-align: right;
+            margin-top: 0.5rem;
+        }
+        
+        .forgot-password:hover {
+            color: var(--primary-color);
+            text-decoration: underline;
+        }
+        
+        .input-group-text {
+            background-color: white;
+        }
+        
+        .validation-message {
+            color: #e74a3b;
+            font-size: 0.875rem;
+        }
+    &lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    &lt;div class="container"&gt;
+        &lt;div class="login-container"&gt;
+            &lt;div class="logo-container"&gt;
+                &lt;div class="logo"&gt;
+                    &lt;i class="bi bi-shield-lock"&gt;&lt;/i&gt;
+                &lt;/div&gt;
+                &lt;h1 class="h4 text-gray-900 mb-4"&gt;Bem-vindo de volta!&lt;/h1&gt;
+            &lt;/div&gt;
+            
+            &lt;EditForm Model="@LoginModel" OnValidSubmit="HandleValidSubmit"&gt;
+                &lt;DataAnnotationsValidator /&gt;
+                &lt;ValidationSummary class="alert alert-danger" /&gt;
+                
+                &lt;div class="mb-3"&gt;
+                    &lt;label for="email" class="form-label"&gt;Email&lt;/label&gt;
+                    &lt;div class="input-group"&gt;
+                        &lt;span class="input-group-text"&gt;&lt;i class="bi bi-envelope"&gt;&lt;/i&gt;&lt;/span&gt;
+                        &lt;InputText @bind-Value="LoginModel.Email" class="form-control" id="email" placeholder="Digite seu email" /&gt;
+                    &lt;/div&gt;
+                    &lt;ValidationMessage For="@(() =&gt; LoginModel.Email)" class="validation-message" /&gt;
+                &lt;/div&gt;
+                
+                &lt;div class="mb-3"&gt;
+                    &lt;label for="password" class="form-label"&gt;Senha&lt;/label&gt;
+                    &lt;div class="input-group"&gt;
+                        &lt;span class="input-group-text"&gt;&lt;i class="bi bi-lock"&gt;&lt;/i&gt;&lt;/span&gt;
+                        &lt;InputText @bind-Value="LoginModel.Password" type="password" class="form-control" id="password" placeholder="Digite sua senha" /&gt;
+                    &lt;/div&gt;
+                    &lt;ValidationMessage For="@(() =&gt; LoginModel.Password)" class="validation-message" /&gt;
+                    &lt;a href="/forgot-password" class="forgot-password"&gt;Esqueceu sua senha?&lt;/a&gt;
+                &lt;/div&gt;
+                
+                &lt;div class="mb-3 form-check"&gt;
+                    &lt;InputCheckbox @bind-Value="LoginModel.RememberMe" class="form-check-input" id="rememberMe" /&gt;
+                    &lt;label class="form-check-label" for="rememberMe"&gt;Lembrar de mim&lt;/label&gt;
+                &lt;/div&gt;
+                
+                &lt;button type="submit" class="btn btn-primary w-100 py-2 mb-3"&gt;
+                    &lt;i class="bi bi-box-arrow-in-right me-2"&gt;&lt;/i&gt; Entrar
+                &lt;/button&gt;
+                
+                &lt;div class="text-center"&gt;
+                    &lt;span class="text-muted"&gt;Não tem uma conta? &lt;/span&gt;
+                    &lt;a href="/register" class="text-decoration-none"&gt;Criar conta&lt;/a&gt;
+                &lt;/div&gt;
+            &lt;/EditForm&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    
+    @code {
+        private LoginModel LoginModel { get; set; } = new LoginModel();
+        
+        private void HandleValidSubmit()
+        {
+            // Lógica de autenticação aqui
+            Console.WriteLine("Login submitted successfully");
+            // navigationManager.NavigateTo("/dashboard");
+        }
+        
+        public class LoginModel
+        {
+            [Required(ErrorMessage = "Email é obrigatório")]
+            [EmailAddress(ErrorMessage = "Formato de email inválido")]
+            public string Email { get; set; }
+            
+            [Required(ErrorMessage = "Senha é obrigatória")]
+            [MinLength(6, ErrorMessage = "Senha deve ter pelo menos 6 caracteres")]
+            public string Password { get; set; }
+            
+            public bool RememberMe { get; set; }
+        }
+    }
+&lt;/body&gt;
+&lt;/html&gt;
+
+```
