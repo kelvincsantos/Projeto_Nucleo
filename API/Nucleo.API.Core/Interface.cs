@@ -52,6 +52,7 @@ namespace Nucleo.API.Core
                 {   
                     return new Saida()
                     {
+                        sucesso = true,
                         Conteudo = result,
                     };
                 }
@@ -59,6 +60,7 @@ namespace Nucleo.API.Core
                 {
                     return new Saida()
                     {
+                        sucesso = false,
                         Conteudo = result,
                         Erro = new Saida._Erro()
                         {

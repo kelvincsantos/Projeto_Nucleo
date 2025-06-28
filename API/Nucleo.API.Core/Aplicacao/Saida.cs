@@ -13,8 +13,9 @@ namespace Nucleo.API.Core.Aplicacao
             this.Conteudo = string.Empty;
             this.Erro = new _Erro();
         }
+        public bool sucesso { get; set; }
         public string? Conteudo { get; set; }
-        public _Erro Erro { get; set; }
+        public _Erro? Erro { get; set; }
 
         public partial class _Erro
         {

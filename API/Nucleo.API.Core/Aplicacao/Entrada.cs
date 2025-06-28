@@ -31,13 +31,13 @@ namespace Nucleo.API.Core.Aplicacao
             {
                 string param = string.Empty;
 
-                //foreach (KeyValuePair<string, string> item in e.Parametros)
-                //{
-                //    if (string.IsNullOrWhiteSpace(param))
-                //        param = "&";
+                foreach (KeyValuePair<string, string> item in Parametros)
+                {
+                    if (string.IsNullOrWhiteSpace(param))
+                        param = "&";
 
-                //    param += string.Concat(param, item.Key, "=", item.Value);
-                //}
+                    param += string.Concat(param, item.Key, "=", item.Value);
+                }
 
                 endPoint = string.Concat(endPoint, param);
             }
