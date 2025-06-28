@@ -1,20 +1,21 @@
 @page "/login"
 @using System.ComponentModel.DataAnnotations
+@using Microsoft.AspNetCore.Components.Forms
 
-&lt;!DOCTYPE html&gt;
-&lt;html lang="pt-br"&gt;
-&lt;head&gt;
-    &lt;meta charset="utf-8" /&gt;
-    &lt;meta name="viewport" content="width=device-width, initial-scale=1.0" /&gt;
-    &lt;title&gt;Login - Sistema&lt;/title&gt;
-    &lt;link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous"&gt;
-    &lt;link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css" rel="stylesheet"&gt;
-    &lt;style&gt;
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login - Sistema</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css" rel="stylesheet">
+    <style>
         :root {
-            --primary-color: #4e73df;
-            --secondary-color: #f8f9fc;
-            --accent-color: #2e59d9;
-            --text-color: #5a5c69;
+            primary-color: #4e73df;
+            secondary-color: #f8f9fc;
+            accent-color: #2e59d9;
+            text-color: #5a5c69;
         }
         
         body {
@@ -88,60 +89,60 @@
             color: #e74a3b;
             font-size: 0.875rem;
         }
-    &lt;/style&gt;
-&lt;/head&gt;
-&lt;body&gt;
-    &lt;div class="container"&gt;
-        &lt;div class="login-container"&gt;
-            &lt;div class="logo-container"&gt;
-                &lt;div class="logo"&gt;
-                    &lt;i class="bi bi-shield-lock"&gt;&lt;/i&gt;
-                &lt;/div&gt;
-                &lt;h1 class="h4 text-gray-900 mb-4"&gt;Bem-vindo de volta!&lt;/h1&gt;
-            &lt;/div&gt;
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="login-container">
+            <div class="logo-container">
+                <div class="logo">
+                    <i class="bi bi-shield-lock"></i>
+                </div>
+                <h1 class="h4 text-gray-900 mb-4">Bem-vindo de volta!</h1>
+            </div>
             
-            &lt;EditForm Model="@LoginModel" OnValidSubmit="HandleValidSubmit"&gt;
-                &lt;DataAnnotationsValidator /&gt;
-                &lt;ValidationSummary class="alert alert-danger" /&gt;
+            <EditForm Model="@loginModel" OnValidSubmit="HandleValidSubmit">
+                <DataAnnotationsValidator />
+                <ValidationSummary class="alert alert-danger" />
                 
-                &lt;div class="mb-3"&gt;
-                    &lt;label for="email" class="form-label"&gt;Email&lt;/label&gt;
-                    &lt;div class="input-group"&gt;
-                        &lt;span class="input-group-text"&gt;&lt;i class="bi bi-envelope"&gt;&lt;/i&gt;&lt;/span&gt;
-                        &lt;InputText @bind-Value="LoginModel.Email" class="form-control" id="email" placeholder="Digite seu email" /&gt;
-                    &lt;/div&gt;
-                    &lt;ValidationMessage For="@(() =&gt; LoginModel.Email)" class="validation-message" /&gt;
-                &lt;/div&gt;
+                <div class="mb-3">
+                    <label for="email" class="form-label">Email</label>
+                    <div class="input-group">
+                        <span class="input-group-text"><i class="bi bi-envelope"></i></span>
+                        <InputText @bind-Value="loginModel.Email" class="form-control" id="email" placeholder="Digite seu email" />
+                    </div>
+                    <ValidationMessage For="@(() => loginModel.Email)" class="validation-message" />
+                </div>
                 
-                &lt;div class="mb-3"&gt;
-                    &lt;label for="password" class="form-label"&gt;Senha&lt;/label&gt;
-                    &lt;div class="input-group"&gt;
-                        &lt;span class="input-group-text"&gt;&lt;i class="bi bi-lock"&gt;&lt;/i&gt;&lt;/span&gt;
-                        &lt;InputText @bind-Value="LoginModel.Password" type="password" class="form-control" id="password" placeholder="Digite sua senha" /&gt;
-                    &lt;/div&gt;
-                    &lt;ValidationMessage For="@(() =&gt; LoginModel.Password)" class="validation-message" /&gt;
-                    &lt;a href="/forgot-password" class="forgot-password"&gt;Esqueceu sua senha?&lt;/a&gt;
-                &lt;/div&gt;
+                <div class="mb-3">
+                    <label for="password" class="form-label">Senha</label>
+                    <div class="input-group">
+                        <span class="input-group-text"><i class="bi bi-lock"></i></span>
+                        <InputText @bind-Value="loginModel.Password" type="password" class="form-control" id="password" placeholder="Digite sua senha" />
+                    </div>
+                    <ValidationMessage For="@(() => loginModel.Password)" class="validation-message" />
+                    <a href="/forgot-password" class="forgot-password">Esqueceu sua senha?</a>
+                </div>
                 
-                &lt;div class="mb-3 form-check"&gt;
-                    &lt;InputCheckbox @bind-Value="LoginModel.RememberMe" class="form-check-input" id="rememberMe" /&gt;
-                    &lt;label class="form-check-label" for="rememberMe"&gt;Lembrar de mim&lt;/label&gt;
-                &lt;/div&gt;
+                <div class="mb-3 form-check">
+                    <InputCheckbox @bind-Value="loginModel.RememberMe" class="form-check-input" id="rememberMe" />
+                    <label class="form-check-label" for="rememberMe">Lembrar de mim</label>
+                </div>
                 
-                &lt;button type="submit" class="btn btn-primary w-100 py-2 mb-3"&gt;
-                    &lt;i class="bi bi-box-arrow-in-right me-2"&gt;&lt;/i&gt; Entrar
-                &lt;/button&gt;
+                <button type="submit" class="btn btn-primary w-100 py-2 mb-3">
+                    <i class="bi bi-box-arrow-in-right me-2"></i> Entrar
+                </button>
                 
-                &lt;div class="text-center"&gt;
-                    &lt;span class="text-muted"&gt;Não tem uma conta? &lt;/span&gt;
-                    &lt;a href="/register" class="text-decoration-none"&gt;Criar conta&lt;/a&gt;
-                &lt;/div&gt;
-            &lt;/EditForm&gt;
-        &lt;/div&gt;
-    &lt;/div&gt;
+                <div class="text-center">
+                    <span class="text-muted">Não tem uma conta? </span>
+                    <a href="/register" class="text-decoration-none">Criar conta</a>
+                </div>
+            </EditForm>
+        </div>
+    </div>
     
     @code {
-        private LoginModel LoginModel { get; set; } = new LoginModel();
+        public LoginModel loginModel { get; set; } = new LoginModel();
         
         private void HandleValidSubmit()
         {
@@ -163,7 +164,7 @@
             public bool RememberMe { get; set; }
         }
     }
-&lt;/body&gt;
-&lt;/html&gt;
+</body>
+</html>
 
 ```
