@@ -36,3 +36,5 @@ API/Nucleo.API.Core/bin/Debug/net7.0/Nucleo.API.deps.json
 /Nucleo.Operacoes/bin
 /SistemaNucleo.Telas/obj
 /SistemaNucleo.Telas/bin
+/API/Nucleo.API.Core/bin
+/.vs/SistemaNucleo/FileContentIndex
