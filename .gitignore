@@ -31,3 +31,8 @@ API/Nucleo.API.Core/bin/Debug/net7.0/Nucleo.API.deps.json
 /Nucleo.Operacoes/obj
 /Nucleo.App/obj
 /Base/obj
+/Nucleo.App/bin
+/Nucleo.Service/bin
+/Nucleo.Operacoes/bin
+/SistemaNucleo.Telas/obj
+/SistemaNucleo.Telas/bin

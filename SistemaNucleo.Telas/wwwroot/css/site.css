@@ -1,0 +1,140 @@
+html {
+  font-size: 14px;
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.login-box {
+    background-color: #1c1c1c; /* Fundo cinza escuro */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    width: 100%;
+    max-width: 500px;
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-control {
+    background-color: #333; /* Fundo dos campos */
+    color: #fff; /* Texto dos campos */
+    border: 1px solid #555; /* Borda cinza */
+    border-radius: 5px;
+    padding: 10px;
+    width: 100%;
+}
+
+    .form-control:focus {
+        outline: none;
+        border-color: #777; /* Borda ao focar */
+    }
+
+.btn-primary {
+    background-color: #555; /* Botão cinza */
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 5px;
+}
+
+    .btn-primary:hover {
+        background-color: #777; /* Botão ao passar o mouse */
+    }
+
+/* Estilos gerais */
+body {
+    background-color: #000; /* Fundo preto */
+    color: #fff; /* Texto branco */
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh; /* Altura mínima para ocupar toda a tela */
+    margin: 0;
+}
+
+
+header {
+    background-color: #1c1c1c; /* Fundo cinza escuro */
+    border-bottom: 1px solid #333; /* Linha de separação */
+    width: 100%;
+    padding: 10px 0; /* Espaçamento interno */
+}
+
+.navbar-brand, .nav-link {
+    color: #fff !important; /* Texto branco */
+}
+
+    .navbar-brand:hover, .nav-link:hover {
+        color: #ccc !important; /* Texto ao passar o mouse */
+    }
+
+main {
+    flex: 1; /* Faz o conteúdo ocupar o espaço restante */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+footer {
+    background-color: #1c1c1c; /* Fundo cinza escuro */
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+    border-top: 1px solid #333; /* Linha de separação */
+    width: 100%;
+}
+
+
+
+.navbar {
+    background-color: #1c1c1c; /* Fundo cinza escuro */
+    border-bottom: 1px solid #333; /* Linha de separação */
+    width: 100%;
+}
+
+.navbar-brand, .nav-link {
+    color: #fff !important; /* Texto branco */
+}
+
+.navbar-brand:hover, .nav-link:hover {
+    color: #ccc !important; /* Texto ao passar o mouse */
+}
+
+.container {
+    margin-top: 20px;
+}
+
+/* Responsividade */
+@media (max-width: 1296px) {
+    header, footer {
+        padding: 10px 0; /* Reduz o espaçamento em telas menores */
+    }
+}
+   

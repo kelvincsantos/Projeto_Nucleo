@@ -1,0 +1,52 @@
+﻿<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Sistema Nucleo</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/site.css" />
+
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <div class="container-fluid"><a class="navbar-brand" href="/">Nucleo System</a></div>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="/">Início</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/Sobre">Cadastro</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/Sobre">Operação</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/Sobre">Relatórios</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/Contato">Configuração</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/Sobre">Sobre</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/Contato">Contato</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main role="main">
+        @RenderBody()
+    </main>
+    <footer>
+        <p>&copy; 2025 - seusistema.com</p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
