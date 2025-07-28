@@ -1,10 +1,59 @@
 ﻿@page
 @model IndexModel
 @{
-    ViewData["Title"] = "Home page";
+    ViewData["Title"] = "Painel Principal";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+<div class="container mt-5">
+    <h2 class="text-center mb-4">Painel de Navegação</h2>
+    <div class="row justify-content-center">
+        <!-- Botão para Início -->
+        <div class="col-6 col-md-3 mb-3">
+            <a href="/" class="btn btn-secondary btn-block d-flex align-items-center justify-content-center">
+                <i class="bi bi-house-door me-2"></i> Início
+            </a>
+        </div>
+
+        <!-- Botão para Cadastro -->
+        <div class="col-6 col-md-3 mb-3">
+            <a href="/Cadastro" class="btn btn-secondary btn-block d-flex align-items-center justify-content-center">
+                <i class="bi bi-info-circle me-2"></i> Cadastro
+            </a>
+        </div>
+
+        <!-- Botão para Operação -->
+        <div class="col-6 col-md-3 mb-3">
+            <a href="/Operacao" class="btn btn-secondary btn-block d-flex align-items-center justify-content-center">
+                <i class="bi bi-info-circle me-2"></i> Operação
+            </a>
+        </div>
+
+        <!-- Botão para Relatórios -->
+        <div class="col-6 col-md-3 mb-3">
+            <a href="/Relatorio" class="btn btn-secondary btn-block d-flex align-items-center justify-content-center">
+                <i class="bi bi-envelope me-2"></i> Relatórios
+            </a>
+        </div>
+
+        <!-- Botão para Configuração -->
+        <div class="col-6 col-md-3 mb-3">
+            <a href="/Configuracao" class="btn btn-secondary btn-block d-flex align-items-center justify-content-center">
+                <i class="bi bi-house-door me-2"></i> Configuração
+            </a>
+        </div>
+
+        <!-- Botão para Sobre -->
+        <div class="col-6 col-md-3 mb-3">
+            <a href="/Sobre" class="btn btn-secondary btn-block d-flex align-items-center justify-content-center">
+                <i class="bi bi-info-circle me-2"></i> Sobre
+            </a>
+        </div>
+
+        <!-- Botão para Contato -->
+        <div class="col-6 col-md-3 mb-3">
+            <a href="/Contato" class="btn btn-success btn-block d-flex align-items-center justify-content-center">
+                <i class="bi bi-envelope me-2"></i> Contato
+            </a>
+        </div>
+    </div>
 </div>
