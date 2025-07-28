@@ -16,225 +16,225 @@ namespace Nucleo.API.Comum
 {
     public class Arquivos
     {
-        private const string Diretorio = "Config";
+        //        private const string Diretorio = "Config";
 
-        private const string Banco = "CodeDB.conf";
-        private const string Assinatura = "Asign.conf";
+        //        private const string Banco = "CodeDB.conf";
+        //        private const string Assinatura = "Asign.conf";
 
-        private readonly string dirBanco = IO.Path.Combine(Diretorio, Banco);
-        private readonly string dirAssinatura = IO.Path.Combine(Diretorio, Assinatura);
+        //        private readonly string dirBanco = IO.Path.Combine(Diretorio, Banco);
+        //        private readonly string dirAssinatura = IO.Path.Combine(Diretorio, Assinatura);
 
-        private Nucleo.Base.Seguranca.Criptografia Criptografia;
+        //        private Nucleo.Base.Seguranca.Criptografia Criptografia;
 
-        public Arquivos()
-        {
-            Criptografia = new();
-            if (!Directory.Exists(Diretorio))
-                Directory.CreateDirectory(Diretorio);
-        }
+        //        public Arquivos()
+        //        {
+        //            Criptografia = new();
+        //            if (!Directory.Exists(Diretorio))
+        //                Directory.CreateDirectory(Diretorio);
+        //        }
 
-        
-        public bool GravarBanco(string dados)
-        {
-            string s = Criptografia.Codificar(dados);
 
-            return Gravar(dirBanco, s);
-        }
-        public string LerBanco()
-        {
-            return Criptografia.Decodificar(Ler(dirBanco));
-        }
-        public bool GravarAssinatura(string assinatura)
-        {
-            return Gravar(dirAssinatura, Criptografia.Codificar(assinatura));
-        }
-        public void DeletarAssinatura()
-        {
-            Deletar(dirAssinatura);
-        }
+        //        public bool GravarBanco(string dados)
+        //        {
+        //            string s = Criptografia.Codificar(dados);
 
-        public string LerAssinatura()
-        {
-            return Criptografia.Decodificar(Ler(dirAssinatura));
-        }
+        //            return Gravar(dirBanco, s);
+        //        }
+        //        public string LerBanco()
+        //        {
+        //            return Criptografia.Decodificar(Ler(dirBanco));
+        //        }
+        //        public bool GravarAssinatura(string assinatura)
+        //        {
+        //            return Gravar(dirAssinatura, Criptografia.Codificar(assinatura));
+        //        }
+        //        public void DeletarAssinatura()
+        //        {
+        //            Deletar(dirAssinatura);
+        //        }
 
-        private string Ler(string arquivo, bool mensagem = false)
-        {
-            try
-            {
-                if (!File.Exists(arquivo))
-                {
-                    if (mensagem)
-                        Mensagem.Log(string.Concat("Arquivo inexistente: ", arquivo));
+        //        public string LerAssinatura()
+        //        {
+        //            return Criptografia.Decodificar(Ler(dirAssinatura));
+        //        }
 
-                    return string.Empty;
-                }
+        //        private string Ler(string arquivo, bool mensagem = false)
+        //        {
+        //            try
+        //            {
+        //                if (!File.Exists(arquivo))
+        //                {
+        //                    if (mensagem)
+        //                        Mensagem.Log(string.Concat("Arquivo inexistente: ", arquivo));
 
-                string conteudo = File.ReadAllText(arquivo);
+        //                    return string.Empty;
+        //                }
 
-                if (string.IsNullOrWhiteSpace(conteudo))
-                {
-                    if (mensagem)
-                        Mensagem.Log(string.Concat("Arquivo vazio: ", arquivo));
+        //                string conteudo = File.ReadAllText(arquivo);
 
-                    return string.Empty;
-                }
+        //                if (string.IsNullOrWhiteSpace(conteudo))
+        //                {
+        //                    if (mensagem)
+        //                        Mensagem.Log(string.Concat("Arquivo vazio: ", arquivo));
 
-                return conteudo;
-            }
-            catch (Exception ex)
-            {
-                Mensagem.Log(string.Concat("Erro ao ler arquivo: ", arquivo), ex);
-                return string.Empty;
-            }
-        }
+        //                    return string.Empty;
+        //                }
 
-        public static string Ler(IArquivo arquivo, bool mensagem = false)
-        {
-            try
-            {
-                if (!File.Exists(arquivo.Diretorio()))
-                {
-                    if (mensagem)
-                        Mensagem.Log(string.Concat("Arquivo inexistente: ", arquivo));
+        //                return conteudo;
+        //            }
+        //            catch (Exception ex)
+        //            {
+        //                Mensagem.Log(string.Concat("Erro ao ler arquivo: ", arquivo), ex);
+        //                return string.Empty;
+        //            }
+        //        }
 
-                    return string.Empty;
-                }
+        //        public static string Ler(IArquivo arquivo, bool mensagem = false)
+        //        {
+        //            try
+        //            {
+        //                if (!File.Exists(arquivo.Diretorio()))
+        //                {
+        //                    if (mensagem)
+        //                        Mensagem.Log(string.Concat("Arquivo inexistente: ", arquivo));
 
-                string conteudo = File.ReadAllText(arquivo.Diretorio());
+        //                    return string.Empty;
+        //                }
 
-                if (string.IsNullOrWhiteSpace(conteudo))
-                {
-                    if (mensagem)
-                        Mensagem.Log(string.Concat("Arquivo vazio: ", arquivo));
+        //                string conteudo = File.ReadAllText(arquivo.Diretorio());
 
-                    return string.Empty;
-                }
+        //                if (string.IsNullOrWhiteSpace(conteudo))
+        //                {
+        //                    if (mensagem)
+        //                        Mensagem.Log(string.Concat("Arquivo vazio: ", arquivo));
 
-                return conteudo;
-            }
-            catch (Exception ex)
-            {
-                Mensagem.Log(string.Concat("Erro ao ler arquivo: ", arquivo), ex);
-                return string.Empty;
-            }
-        }
+        //                    return string.Empty;
+        //                }
 
-        private List<string>? LerLinhas(string arquivo)
-        {
-            try
-            {
-                if (!File.Exists(arquivo))
-                    return null;
+        //                return conteudo;
+        //            }
+        //            catch (Exception ex)
+        //            {
+        //                Mensagem.Log(string.Concat("Erro ao ler arquivo: ", arquivo), ex);
+        //                return string.Empty;
+        //            }
+        //        }
 
-                return File.ReadAllLines(arquivo).ToList();
-            }
-            catch (Exception ex)
-            {
-                Mensagem.Log(string.Concat("Erro ao ler arquivo: ", arquivo), ex);
-                return null;
-            }
-        }
+        //        private List<string>? LerLinhas(string arquivo)
+        //        {
+        //            try
+        //            {
+        //                if (!File.Exists(arquivo))
+        //                    return null;
 
-        public static List<string>? LerLinhas(IArquivo arquivo)
-        {
-            try
-            {
-                if (!File.Exists(arquivo.Diretorio()))
-                    return null;
+        //                return File.ReadAllLines(arquivo).ToList();
+        //            }
+        //            catch (Exception ex)
+        //            {
+        //                Mensagem.Log(string.Concat("Erro ao ler arquivo: ", arquivo), ex);
+        //                return null;
+        //            }
+        //        }
 
-                return File.ReadAllLines(arquivo.Diretorio()).ToList();
-            }
-            catch (Exception ex)
-            {
-                Mensagem.Log(string.Concat("Erro ao ler arquivo: ", arquivo), ex);
-                return null;
-            }
-        }
+        //        public static List<string>? LerLinhas(IArquivo arquivo)
+        //        {
+        //            try
+        //            {
+        //                if (!File.Exists(arquivo.Diretorio()))
+        //                    return null;
 
-        public static bool Gravar(IArquivo arquivo, string conteudoNovo)
-        {
-            try
-            {
-                if (File.Exists(arquivo.Diretorio()))
-                    File.Delete(arquivo.Diretorio());
+        //                return File.ReadAllLines(arquivo.Diretorio()).ToList();
+        //            }
+        //            catch (Exception ex)
+        //            {
+        //                Mensagem.Log(string.Concat("Erro ao ler arquivo: ", arquivo), ex);
+        //                return null;
+        //            }
+        //        }
 
-                if (string.IsNullOrWhiteSpace(conteudoNovo))
-                    return true;
+        //        public static bool Gravar(IArquivo arquivo, string conteudoNovo)
+        //        {
+        //            try
+        //            {
+        //                if (File.Exists(arquivo.Diretorio()))
+        //                    File.Delete(arquivo.Diretorio());
 
-                using (StreamWriter escritor = new StreamWriter(arquivo.Diretorio()))
-                {
-                    escritor.Write(conteudoNovo);
-                }
+        //                if (string.IsNullOrWhiteSpace(conteudoNovo))
+        //                    return true;
 
-                return true;
-            }
-            catch (Exception ex)
-            {
-                Mensagem.Log(string.Concat("Erro ao ler arquivo: ", arquivo), ex);
-                return false;
-            }
-        }
+        //                using (StreamWriter escritor = new StreamWriter(arquivo.Diretorio()))
+        //                {
+        //                    escritor.Write(conteudoNovo);
+        //                }
 
-        private bool Gravar(string arquivo, string conteudo)
-        {
-            try
-            {
-                if (File.Exists(arquivo))
-                    File.Delete(arquivo);
+        //                return true;
+        //            }
+        //            catch (Exception ex)
+        //            {
+        //                Mensagem.Log(string.Concat("Erro ao ler arquivo: ", arquivo), ex);
+        //                return false;
+        //            }
+        //        }
 
-                if (string.IsNullOrWhiteSpace(conteudo))
-                    return true;
+        //        private bool Gravar(string arquivo, string conteudo)
+        //        {
+        //            try
+        //            {
+        //                if (File.Exists(arquivo))
+        //                    File.Delete(arquivo);
 
-                using (StreamWriter escritor = new StreamWriter(arquivo))
-                {
-                    escritor.Write(conteudo);
-                }
+        //                if (string.IsNullOrWhiteSpace(conteudo))
+        //                    return true;
 
-                return true;
-            }
-            catch (Exception ex)
-            {
-                Mensagem.Log(string.Concat("Erro ao ler arquivo: ", arquivo), ex);
-                return false;
-            }
-        }
+        //                using (StreamWriter escritor = new StreamWriter(arquivo))
+        //                {
+        //                    escritor.Write(conteudo);
+        //                }
 
-        private bool Gravar(string arquivo, List<string> conteudo)
-        {
-            try
-            {
-                Deletar(arquivo);
+        //                return true;
+        //            }
+        //            catch (Exception ex)
+        //            {
+        //                Mensagem.Log(string.Concat("Erro ao ler arquivo: ", arquivo), ex);
+        //                return false;
+        //            }
+        //        }
 
-                if (conteudo == null)
-                    return true;
+        //        private bool Gravar(string arquivo, List<string> conteudo)
+        //        {
+        //            try
+        //            {
+        //                Deletar(arquivo);
 
-                using (StreamWriter escritor = new StreamWriter(arquivo))
-                {
-                    foreach (string item in conteudo)
-                    {
-                        escritor.WriteLine(item);
-                    }
-                }
+        //                if (conteudo == null)
+        //                    return true;
 
-                return true;
-            }
-            catch (Exception ex)
-            {
-                Mensagem.Log(string.Concat("Erro ao ler arquivo: ", arquivo), ex);
-                return false;
-            }
-        }
+        //                using (StreamWriter escritor = new StreamWriter(arquivo))
+        //                {
+        //                    foreach (string item in conteudo)
+        //                    {
+        //                        escritor.WriteLine(item);
+        //                    }
+        //                }
 
-        private void Deletar(string arquivo)
-        {
-            if (File.Exists(arquivo))
-                File.Delete(arquivo);
-        }
+        //                return true;
+        //            }
+        //            catch (Exception ex)
+        //            {
+        //                Mensagem.Log(string.Concat("Erro ao ler arquivo: ", arquivo), ex);
+        //                return false;
+        //            }
+        //        }
 
-        public static string PegarNomeArquivo(string Diretorio)
-        {
-            return Diretorio.Split('\\').Last();
-        }
+        //        private void Deletar(string arquivo)
+        //        {
+        //            if (File.Exists(arquivo))
+        //                File.Delete(arquivo);
+        //        }
+
+        //        public static string PegarNomeArquivo(string Diretorio)
+        //        {
+        //            return Diretorio.Split('\\').Last();
+        //        }
     }
 }

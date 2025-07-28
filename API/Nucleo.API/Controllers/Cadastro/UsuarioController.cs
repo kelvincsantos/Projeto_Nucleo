@@ -19,7 +19,7 @@ namespace Nucleo.API.Controllers.Cadastro
         [HttpGet(Name = "GetUsuario")]
         public HttpResponseMessage Get()
         {
-            List<Data.Usuario> usuarios = new ADO.Usuario().BuscarTodos();
+            List<Data.Usuario> usuarios= new List<Data.Usuario>();// = new ADO.Usuario().BuscarTodos();
 
             string json = new Base.Comum.Conversor.Json<List<Data.Usuario>>().Serializar(usuarios);
              

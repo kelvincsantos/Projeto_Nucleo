@@ -33,7 +33,7 @@ namespace Nucleo.Forms
                     Application.ThreadException += new ThreadExceptionEventHandler(Application_ThreadException);
                     AppDomain.CurrentDomain.UnhandledException += new UnhandledExceptionEventHandler(CurrentDomain_UnhandledException);
 
-                    Comum.Leiaute.Tela.ExibirMedio(new Telas.GerarEtiqueta());
+                    //Comum.Leiaute.Tela.ExibirMedio(new Telas.GerarEtiqueta());
                     return;
 
                     //if (Central.Iniciar(Central))
