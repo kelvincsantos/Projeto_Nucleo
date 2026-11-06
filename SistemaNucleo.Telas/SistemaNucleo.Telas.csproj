@@ -7,4 +7,9 @@
     <SignAssembly>False</SignAssembly>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Nucleo.Data\Nucleo.Data.csproj" />
+    <ProjectReference Include="..\Nucleo.Service\Nucleo.Service.csproj" />
+  </ItemGroup>
+
 </Project>

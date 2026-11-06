@@ -1,0 +1,22 @@
+﻿@page
+@model SistemaNucleo.Telas.Pages.Cadastro.ClientePage.CadastrarModel
+@{
+}
+
+<h2>Cadastrar Cliente</h2>
+
+<form method="post">
+    <div>
+        <label>Nome:</label>
+        <input asp-for="Cliente.Nome" />
+    </div>
+    <div>
+        <label>Telefone:</label>
+        <input asp-for="Cliente.Telefone" />
+    </div>
+    <div>
+        <label>Endereço:</label>
+        <input asp-for="Cliente.Enderecos.FirstOrDefault(x => x.Principal == true).EnderecoCompleto()" />
+    </div>
+    <button type="submit">Salvar</button>
+</form>

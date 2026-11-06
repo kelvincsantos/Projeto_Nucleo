@@ -1,0 +1,12 @@
+C:\GIT\KELVIN\Projeto_Nucleo\Nucleo.API.Negocio\bin\Debug\net8.0\Nucleo.API.Negocio.deps.json
+C:\GIT\KELVIN\Projeto_Nucleo\Nucleo.API.Negocio\bin\Debug\net8.0\Nucleo.API.Negocio.dll
+C:\GIT\KELVIN\Projeto_Nucleo\Nucleo.API.Negocio\bin\Debug\net8.0\Nucleo.API.Negocio.pdb
+C:\GIT\KELVIN\Projeto_Nucleo\Nucleo.API.Negocio\obj\Debug\net8.0\Nucleo.API.Negocio.GeneratedMSBuildEditorConfig.editorconfig
+C:\GIT\KELVIN\Projeto_Nucleo\Nucleo.API.Negocio\obj\Debug\net8.0\Nucleo.API.Negocio.AssemblyInfoInputs.cache
+C:\GIT\KELVIN\Projeto_Nucleo\Nucleo.API.Negocio\obj\Debug\net8.0\Nucleo.API.Negocio.AssemblyInfo.cs
+C:\GIT\KELVIN\Projeto_Nucleo\Nucleo.API.Negocio\obj\Debug\net8.0\Nucleo.API.Negocio.csproj.CoreCompileInputs.cache
+C:\GIT\KELVIN\Projeto_Nucleo\Nucleo.API.Negocio\obj\Debug\net8.0\Nucleo.API.Negocio.sourcelink.json
+C:\GIT\KELVIN\Projeto_Nucleo\Nucleo.API.Negocio\obj\Debug\net8.0\Nucleo.API.Negocio.dll
+C:\GIT\KELVIN\Projeto_Nucleo\Nucleo.API.Negocio\obj\Debug\net8.0\refint\Nucleo.API.Negocio.dll
+C:\GIT\KELVIN\Projeto_Nucleo\Nucleo.API.Negocio\obj\Debug\net8.0\Nucleo.API.Negocio.pdb
+C:\GIT\KELVIN\Projeto_Nucleo\Nucleo.API.Negocio\obj\Debug\net8.0\ref\Nucleo.API.Negocio.dll

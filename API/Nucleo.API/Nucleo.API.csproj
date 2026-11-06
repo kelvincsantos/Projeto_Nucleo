@@ -16,6 +16,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\..\Base\Nucleo.Base.csproj" />
+    <ProjectReference Include="..\..\Nucleo.API.Negocio\Nucleo.API.Negocio.csproj" />
     <ProjectReference Include="..\..\Nucleo.Data\Nucleo.Data.csproj" />
     <ProjectReference Include="..\..\Nucleo.Operacoes\Nucleo.Operacoes.csproj" />
   </ItemGroup>
